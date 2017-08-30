@@ -1,0 +1,273 @@
+11:28:06.100 [main] INFO  com.lombardrisk.testCase.EditionManage - setup test before starting feature id editionmanage, scenario id editionmanage
+11:28:06.105 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+11:28:06.112 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+11:28:06.488 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+11:28:06.895 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+11:28:06.901 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+11:28:06.907 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+11:28:09.293 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 1bafb578cd6f1e5c0066613f244a249c
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir17396_505}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+11:28:09.293 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+11:28:10.719 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+11:28:11.863 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+11:28:12.739 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+11:28:12.772 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+11:28:12.814 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+11:28:12.848 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+11:28:12.888 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+11:28:20.438 [main] INFO  com.lombardrisk.testCase.EditionManage - Get user format
+11:28:20.600 [main] INFO  com.lombardrisk.testCase.EditionManage - Expected language is:en_GB
+11:28:20.604 [main] INFO  com.lombardrisk.testCase.EditionManage - ====Verify DORMANT edition is READ-ONLY,case[4051]====
+11:28:20.724 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+11:28:20.725 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve
+11:28:20.876 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text US1 FED Reserve on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+11:28:33.724 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=2999
+11:28:33.915 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2999 on groupLocaltor (lp.Group) WebElement by id (formFilter:selectGroup) @ ListPage (lp) page
+11:28:40.149 [main] INFO  com.lombardrisk.pages.ListPage - Set form=All
+11:28:41.653 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+11:28:44.653 [main] INFO  com.lombardrisk.pages.ListPage - Begin create new form[FRY10 v1]
+11:28:45.174 [main] INFO  com.lombardrisk.pages.ListPage - click create new button
+11:28:45.174 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+11:28:45.776 [main] INFO  com.lombardrisk.pages.ListPage - click create new form
+11:28:45.776 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+11:28:48.886 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=2999
+11:28:48.886 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2999 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+11:28:49.501 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=01/06/2016
+11:28:49.501 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+11:28:49.550 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 01/06/2016 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+11:28:49.613 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+11:28:49.630 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Jun on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+11:28:50.023 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2016 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+11:28:50.380 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=1]]/td[a=1]/a) @ AbstractPage (ap) page
+11:28:50.965 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=FRY10 v1
+11:28:50.965 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY10 v1 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+11:28:51.052 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+11:28:52.052 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cloneCheckCheckboxLocator (fcp.copyData) WebCheckBox by xpath (//*[@id='createForm:cloneCheck']/div[2]) @ FormInstanceCreatePage (fcp) page
+11:28:52.119 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+11:28:53.119 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 01/06/2016 on cloneDateLocator (fcp.copyDate) WebElement by id (createForm:selectCloneDate) @ FormInstanceCreatePage (fcp) page
+11:28:53.174 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+11:28:54.292 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+11:29:08.004 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+11:29:10.004 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+11:29:17.224 [main] INFO  com.lombardrisk.pages.ListPage - Open edition manage
+11:29:17.747 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking editionMag (lp.editionMag) WebElement by id (formInstanceListForm:formInstanceListTable:2:edition) @ ListPage (lp) page
+11:29:19.491 [main] INFO  com.lombardrisk.pages.EditionManagePage - Close edition manager page
+11:29:19.491 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeEdition (edm.closeEdition) WebElement by xpath (//*[@id='formInstanceEditionManagerDialog']/div[1]/a/span) @ EditionManagePage (edm) page
+11:29:25.673 [main] INFO  com.lombardrisk.pages.EditionManagePage - First dormant edition is:17/08/2017 20:22:56#79
+11:29:25.673 [main] INFO  com.lombardrisk.pages.ListPage - Open edition manage
+11:29:26.189 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking editionMag (lp.editionMag) WebElement by id (formInstanceListForm:formInstanceListTable:2:edition) @ ListPage (lp) page
+11:29:27.848 [main] INFO  com.lombardrisk.pages.EditionManagePage - Find the edition!
+11:29:27.848 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking link (edm.formLink) Link by id (formInstanceEditionManagerForm:formInstanceEditionManagerTable:1:selectButton) @ EditionManagePage (edm) page
+11:29:39.311 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adjustmentButton (fp.adjustment) WebElement by id (formHeader:adjust_button) @ FormInstancePage (fp) page
+11:29:39.898 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adjustmentButton (fp.adjustment) WebElement by id (formHeader:adjust_button) @ FormInstancePage (fp) page
+11:29:40.498 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='REPORTNAME']) @ FormInstancePage (fp) page
+11:29:40.561 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 300 milliseconds
+11:29:52.761 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToFileBtn (fp.expToFile) WebButton by id (formHeader:exportToFile_button) @ FormInstancePage (fp) page
+11:32:19.890 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToFileBtn (fp.expToFile) WebButton by id (formHeader:exportToFile_button) @ FormInstancePage (fp) page
+11:32:30.904 [main] INFO  com.lombardrisk.testCase.EditionManage - Case[4051] is failed
+11:32:37.283 [main] ERROR com.lombardrisk.testCase.EditionManage - test4051
+org.junit.ComparisonFailure: [Export to file button is disabled] expected:<[fals]e> but was:<[tru]e>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_91]
+	at com.lombardrisk.testCase.EditionManage.test4051(EditionManage.java:448) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+11:32:37.284 [main] INFO  com.lombardrisk.testCase.EditionManage - tearDown after method
+11:32:37.284 [main] INFO  com.lombardrisk.testCase.EditionManage - teardown test after finishing feature id editionmanage, scenario id editionmanage
+11:32:37.284 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+11:32:37.284 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+11:32:39.596 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+11:33:48.373 [main] INFO  com.lombardrisk.testCase.EditionManage - setup test before starting feature id editionmanage, scenario id editionmanage
+11:33:48.378 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+11:33:48.390 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+11:33:48.785 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+11:33:49.161 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+11:33:49.166 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+11:33:49.171 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+11:33:51.519 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 3621f1df639e52f881b839a1eaafd5be
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir17336_4723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+11:33:51.520 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+11:33:54.734 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+11:33:55.889 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+11:33:56.844 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+11:33:56.892 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+11:33:56.937 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+11:33:56.974 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+11:33:57.016 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+11:34:06.341 [main] INFO  com.lombardrisk.testCase.EditionManage - Get user format
+11:34:06.466 [main] INFO  com.lombardrisk.testCase.EditionManage - Expected language is:en_GB
+11:34:06.468 [main] INFO  com.lombardrisk.testCase.EditionManage - ====Verify DORMANT edition is READ-ONLY,case[4051]====
+11:34:06.505 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+11:34:06.505 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve
+11:34:06.644 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=2999
+11:34:06.910 [main] INFO  com.lombardrisk.pages.ListPage - Set form=All
+11:34:08.380 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+11:34:11.380 [main] INFO  com.lombardrisk.pages.ListPage - Begin create new form[FRY10 v1]
+11:34:11.898 [main] INFO  com.lombardrisk.pages.ListPage - click create new button
+11:34:11.898 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+11:34:12.490 [main] INFO  com.lombardrisk.pages.ListPage - click create new form
+11:34:12.490 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+11:34:15.594 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=2999
+11:34:15.595 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2999 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+11:34:16.211 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=01/06/2016
+11:34:16.211 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+11:34:16.265 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 01/06/2016 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+11:34:16.332 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+11:34:16.350 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Jun on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+11:34:16.708 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2016 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+11:34:17.073 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=1]]/td[a=1]/a) @ AbstractPage (ap) page
+11:34:17.661 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=FRY10 v1
+11:34:17.661 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY10 v1 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+11:34:17.742 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+11:34:18.743 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cloneCheckCheckboxLocator (fcp.copyData) WebCheckBox by xpath (//*[@id='createForm:cloneCheck']/div[2]) @ FormInstanceCreatePage (fcp) page
+11:34:18.815 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+11:34:19.815 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 01/06/2016 on cloneDateLocator (fcp.copyDate) WebElement by id (createForm:selectCloneDate) @ FormInstanceCreatePage (fcp) page
+11:34:19.875 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+11:34:20.985 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+11:34:34.164 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+11:34:36.165 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+11:34:43.131 [main] INFO  com.lombardrisk.pages.ListPage - Open edition manage
+11:34:43.654 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking editionMag (lp.editionMag) WebElement by id (formInstanceListForm:formInstanceListTable:2:edition) @ ListPage (lp) page
+11:34:45.438 [main] INFO  com.lombardrisk.pages.EditionManagePage - Close edition manager page
+11:34:45.438 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeEdition (edm.closeEdition) WebElement by xpath (//*[@id='formInstanceEditionManagerDialog']/div[1]/a/span) @ EditionManagePage (edm) page
+11:34:52.133 [main] INFO  com.lombardrisk.pages.EditionManagePage - First dormant edition is:null
+11:34:52.135 [main] ERROR com.lombardrisk.testCase.EditionManage - null
+java.lang.NullPointerException: null
+	at com.lombardrisk.testCase.EditionManage.test4051(EditionManage.java:431) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+11:34:52.136 [main] INFO  com.lombardrisk.testCase.EditionManage - Case[4051] is failed
+11:34:52.650 [main] INFO  com.lombardrisk.testCase.EditionManage - tearDown after method
+11:34:52.650 [main] INFO  com.lombardrisk.testCase.EditionManage - teardown test after finishing feature id editionmanage, scenario id editionmanage
+11:34:52.650 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+11:34:52.650 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+11:34:54.962 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+13:41:19.571 [main] INFO  com.lombardrisk.testCase.EditionManage - setup test before starting feature id editionmanage, scenario id editionmanage
+13:41:19.576 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+13:41:19.584 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+13:41:19.968 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+13:41:20.395 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+13:41:20.400 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+13:41:20.406 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+13:41:22.827 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 70332661f56e7ffa05209e1f4fc25855
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir16036_16952}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+13:41:22.828 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+13:41:24.663 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+13:41:25.807 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+13:41:26.874 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+13:41:26.907 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+13:41:26.946 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+13:41:26.980 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+13:41:27.020 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+13:41:36.369 [main] INFO  com.lombardrisk.testCase.EditionManage - Get user format
+13:41:36.510 [main] INFO  com.lombardrisk.testCase.EditionManage - Expected language is:en_GB
+13:41:36.512 [main] INFO  com.lombardrisk.testCase.EditionManage - ====Verify DORMANT edition is READ-ONLY,case[4051]====
+13:41:36.549 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+13:41:36.549 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve
+13:41:36.696 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=2999
+13:41:36.959 [main] INFO  com.lombardrisk.pages.ListPage - Set form=All
+13:41:38.466 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+13:41:41.466 [main] INFO  com.lombardrisk.pages.ListPage - Begin create new form[FRY10 v1]
+13:41:41.985 [main] INFO  com.lombardrisk.pages.ListPage - click create new button
+13:41:41.985 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+13:41:42.581 [main] INFO  com.lombardrisk.pages.ListPage - click create new form
+13:41:42.581 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+13:41:45.687 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=2999
+13:41:45.687 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2999 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+13:41:46.297 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=01/06/2016
+13:41:46.297 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+13:41:46.345 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 01/06/2016 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+13:41:46.422 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+13:41:46.441 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Jun on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+13:41:46.809 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2016 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+13:41:47.172 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=1]]/td[a=1]/a) @ AbstractPage (ap) page
+13:41:47.761 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=FRY10 v1
+13:41:47.761 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY10 v1 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+13:41:47.846 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+13:41:48.846 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cloneCheckCheckboxLocator (fcp.copyData) WebCheckBox by xpath (//*[@id='createForm:cloneCheck']/div[2]) @ FormInstanceCreatePage (fcp) page
+13:41:48.913 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+13:41:49.913 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 01/06/2016 on cloneDateLocator (fcp.copyDate) WebElement by id (createForm:selectCloneDate) @ FormInstanceCreatePage (fcp) page
+13:41:49.969 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+13:41:51.088 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+13:42:04.302 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+13:42:06.302 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+13:42:13.305 [main] INFO  com.lombardrisk.pages.ListPage - Open edition manage
+13:42:13.830 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking editionMag (lp.editionMag) WebElement by id (formInstanceListForm:formInstanceListTable:2:edition) @ ListPage (lp) page
+13:42:15.580 [main] INFO  com.lombardrisk.pages.EditionManagePage - Close edition manager page
+13:42:15.580 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeEdition (edm.closeEdition) WebElement by xpath (//*[@id='formInstanceEditionManagerDialog']/div[1]/a/span) @ EditionManagePage (edm) page
+13:42:21.785 [main] INFO  com.lombardrisk.pages.EditionManagePage - First dormant edition is:18/08/2017 11:34:22#81
+13:42:21.785 [main] INFO  com.lombardrisk.pages.ListPage - Open edition manage
+13:42:22.303 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking editionMag (lp.editionMag) WebElement by id (formInstanceListForm:formInstanceListTable:2:edition) @ ListPage (lp) page
+13:42:23.976 [main] INFO  com.lombardrisk.pages.EditionManagePage - Find the edition!
+13:42:23.976 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking link (edm.formLink) Link by id (formInstanceEditionManagerForm:formInstanceEditionManagerTable:1:selectButton) @ EditionManagePage (edm) page
+13:42:35.506 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adjustmentButton (fp.adjustment) WebElement by id (formHeader:adjust_button) @ FormInstancePage (fp) page
+13:42:36.086 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adjustmentButton (fp.adjustment) WebElement by id (formHeader:adjust_button) @ FormInstancePage (fp) page
+13:42:36.680 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='REPORTNAME']) @ FormInstancePage (fp) page
+13:42:36.742 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 300 milliseconds
+13:42:47.208 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToFileBtn (fp.expToFile) WebButton by id (formHeader:exportToFile_button) @ FormInstancePage (fp) page
+13:42:47.975 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToFileBtn (fp.expToFile) WebButton by id (formHeader:exportToFile_button) @ FormInstancePage (fp) page
+13:43:34.123 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking workflowBtn (fp.wfBtn) WebButton by id (formHeader:workflow_button) @ FormInstancePage (fp) page
+13:43:39.470 [main] INFO  com.lombardrisk.testCase.EditionManage - Case[4051] is passed
+13:43:48.194 [main] INFO  com.lombardrisk.testCase.EditionManage - tearDown after method
+13:43:48.194 [main] INFO  com.lombardrisk.testCase.EditionManage - teardown test after finishing feature id editionmanage, scenario id editionmanage
+13:43:48.195 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+13:43:48.195 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+13:43:50.504 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver

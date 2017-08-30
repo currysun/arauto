@@ -1,0 +1,42 @@
+﻿2017-08-11T04:34:02+0800	---------------Start----------------
+2017-08-11T04:34:02+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/ef8df2a3044f4a71ba326fa71f394624.xlsx
+2017-08-11T04:34:02+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170810\RowLimit\CheckCellValue\VAL_FRY14ASUMMv5.xlsx
+2017-08-11T04:34:02+0800	Verify row:2
+2017-08-11T04:34:02+0800	Validation1 validation  result is:Pass
+2017-08-11T04:34:02+0800	Verify row:3
+2017-08-11T04:34:02+0800	Validation1 validation  result is:Pass
+2017-08-11T04:34:02+0800	Verify row:4
+2017-08-11T04:34:02+0800	Validation2 validation  result is:Fail
+2017-08-11T04:34:02+0800	Verify row:5
+2017-08-11T04:34:02+0800	Validation2 validation  result is:Fail
+2017-08-11T04:34:02+0800	Verify row:6
+2017-08-11T04:34:02+0800	Validation2 validation  result is:Pass
+2017-08-11T04:34:02+0800	Verify row:7
+2017-08-11T04:34:02+0800	Validation2 validation  result is:Pass
+2017-08-11T04:34:02+0800	Verify row:8
+2017-08-11T04:34:02+0800	Validation2 validation  result is:Pass
+2017-08-11T04:34:02+0800	Verify row:9
+2017-08-11T04:34:02+0800	Validation2 validation  result is:Pass
+2017-08-11T04:34:02+0800	Verify row:10
+2017-08-11T04:34:02+0800	Validation2 validation  result is:Fail
+2017-08-11T04:34:02+0800	Verify row:11
+2017-08-11T04:34:02+0800	Validation2 validation  result is:Fail
+2017-08-11T04:34:02+0800	Complate....
+2017-08-11T04:34:02+0800	---------------End----------------
+2017-08-11T04:56:22+0800	---------------Start----------------
+2017-08-11T04:56:22+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/4e02150255ea45409d650cb76a2aaafc.xlsx
+2017-08-11T04:56:22+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170810\Threshold\CheckCellValue\VAL_FRY14ASUMMv4.xlsx
+2017-08-11T04:56:22+0800	Verify row:2
+2017-08-11T04:56:22+0800	Validation1 validation  result is:Fail
+2017-08-11T04:56:22+0800	Verify row:3
+2017-08-11T04:56:22+0800	Validation1 validation  result is:Fail
+2017-08-11T04:56:22+0800	Verify row:4
+2017-08-11T04:56:22+0800	Validation2 validation  result is:Fail
+2017-08-11T04:56:22+0800	Verify row:5
+2017-08-11T04:56:22+0800	Validation2 validation  result is:Fail
+2017-08-11T04:56:22+0800	Verify row:6
+2017-08-11T04:56:22+0800	Validation2 validation  result is:Pass
+2017-08-11T04:56:22+0800	Verify row:7
+2017-08-11T04:56:22+0800	Validation2 validation  result is:Pass
+2017-08-11T04:56:22+0800	Complate....
+2017-08-11T04:56:22+0800	---------------End----------------

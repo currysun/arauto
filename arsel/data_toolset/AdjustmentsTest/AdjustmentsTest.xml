@@ -1,0 +1,101 @@
+<AdjustmentsTest>
+    <C6511>
+        <regulator>Monetary Authority of Singapore</regulator>
+        <entity>0011</entity>
+        <returnName>AMR2011W v1</returnName>
+        <formCode>AMR2011W</formCode>
+        <version>1</version>
+        <referenceDate>30/10/2012</referenceDate>
+        <filters>STBITEM,Is NULL, #STBDrillRef,=,57</filters>
+        <fileName>drilldown-rejections-data-6511.csv</fileName>
+    </C6511>
+
+    <C6540>
+        <regulator>Monetary Authority of Singapore</regulator>
+        <entity>0011</entity>
+        <returnName>AMR2011W v1</returnName>
+        <formCode>AMR2011W</formCode>
+        <version>1</version>
+        <referenceDate>30/10/2012</referenceDate>
+        <filters>STBIMPDATE,=,15/07/2015</filters>
+        <fileName>drilldown-rejections-data-6540-1.csv</fileName>
+        <filters2>STBIMPDATE,Between,14/07/2015,16/07/2015</filters2>
+        <fileName2>drilldown-rejections-data-6540-2.csv</fileName2>
+    </C6540>
+
+    <C6515>
+        <regulator>Monetary Authority of Singapore</regulator>
+        <entity>0011</entity>
+        <returnName>AMR2011W v1</returnName>
+        <formCode>AMR2011W</formCode>
+        <version>1</version>
+        <referenceDate>30/10/2012</referenceDate>
+        <pageName>Page 2</pageName>
+        <cellName>AMR2BWP2R7C1</cellName>
+        <fileName>drilldown-allocation-data-6515.csv</fileName>
+    </C6515>
+
+    <C6539>
+        <regulator>Monetary Authority of Singapore</regulator>
+        <entity>0011</entity>
+        <returnName>AMR2011W v1</returnName>
+        <formCode>AMR2011W</formCode>
+        <version>1</version>
+        <referenceDate>30/10/2012</referenceDate>
+        <filters>STBITEM,Contain,13C2</filters>
+        <fileName>drilldown-allocation-data-6539-1.csv</fileName>
+        <filters2>STBITEM,Not Contain,13C2</filters2>
+        <fileName2>drilldown-allocation-data-6539-2.csv</fileName2>
+        <filters3>STBITEM,Is NULL</filters3>
+        <fileName3>drilldown-allocation-data-6539-3.csv</fileName3>
+        <filters4>STBITEM,Is Not NULL</filters4>
+        <fileName4>drilldown-allocation-data-6539-4.csv</fileName4>
+    </C6539>
+
+    <C6538>
+        <regulator>Monetary Authority of Singapore</regulator>
+        <entity>0011</entity>
+        <returnName>AMR2011W v1</returnName>
+        <formCode>AMR2011W</formCode>
+        <version>1</version>
+        <referenceDate>30/10/2012</referenceDate>
+        <fileName>drilldown-allocation-data-6538-1.csv</fileName>
+        <fileName2>drilldown-allocation-data-6538-2.csv</fileName2>
+        <fileName3>drilldown-allocation-data-6538-3.csv</fileName3>
+        <fileName4>drilldown-allocation-data-6538-4.csv</fileName4>
+        <fileName5>drilldown-allocation-data-6538-5.csv</fileName5>
+    </C6538>
+
+    <C6513>
+        <regulator>Hong Kong Monetary Authority</regulator>
+        <entity>0015</entity>
+        <returnName>KM v0</returnName>
+        <formCode>KM</formCode>
+        <version>0</version>
+        <referenceDate>30/12/2016</referenceDate>
+        <pageName>KM Part 3</pageName>
+        <CellName>ExtDBGrid155KMP3AC33</CellName>
+        <Filter>S_Amount,=,895000</Filter>
+        <fileName>drilldown-allocation-data-6513.csv</fileName>
+    </C6513>
+
+    <C6787>
+        <regulator>Monetary Authority of Singapore</regulator>
+        <entity>0011</entity>
+        <returnName>AMR2011W v1</returnName>
+        <formCode>AMR2011W</formCode>
+        <version>1</version>
+        <referenceDate>30/10/2012</referenceDate>
+        <fileName>drilldown-rejections-data-6787.csv</fileName>
+    </C6787>
+
+    <C6825>
+        <regulator>Hong Kong Monetary Authority</regulator>
+        <entity>0007</entity>
+        <returnName>S v0</returnName>
+        <formCode>S</formCode>
+        <version>0</version>
+        <referenceDate>31/12/2013</referenceDate>
+        <value>Round(SP5C24T) (1952472) is not equal to Round(PP3C3@P) (618434)</value>
+    </C6825>
+</AdjustmentsTest>

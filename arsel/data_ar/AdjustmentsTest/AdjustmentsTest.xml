@@ -1,0 +1,121 @@
+<AdjustmentsTest>
+    <C6767>
+        <regulator>US1 FED Reserve</regulator>
+        <entity>0001</entity>
+        <returnName>FRY9C v5</returnName>
+        <referenceDate>31/10/2016</referenceDate>
+        <format>MM/DD/YYYY HH:mm:ss</format>
+        <color>red#green#yellow#blue</color>
+        <count>1049#2136#0#479</count>
+    </C6767>
+
+    <C4006>
+        <regulator>US1 FED Reserve SP0</regulator>
+        <entity>0001</entity>
+        <returnName>FRY9C v1</returnName>
+        <referenceDate>30/09/2014</referenceDate>
+        <formCode>FRY9C</formCode>
+        <version>1</version>
+        <pageName>Sch HI (1 of 4)</pageName>
+        <instanceId>414</instanceId>
+        <cellName>BHCKB488</cellName>
+        <cellValue>1000</cellValue>
+    </C4006>
+
+    <C4437>
+        <regulator>US1 FED Reserve SP0</regulator>
+        <entity>0001</entity>
+        <returnName>FRY9C v1</returnName>
+        <referenceDate>30/09/2014</referenceDate>
+        <formCode>FRY9C</formCode>
+        <version>1</version>
+        <pageName>Sch HI (1 of 4)</pageName>
+        <instanceId>100</instanceId>
+        <cellName>BHCK4020</cellName>
+        <cellValue>5000</cellValue>
+        <type>preserve</type>
+    </C4437>
+
+    <C4438>
+        <regulator>US1 FED Reserve SP0</regulator>
+        <entity>0001</entity>
+        <returnName>FRY9C v1</returnName>
+        <referenceDate>30/09/2014</referenceDate>
+        <formCode>FRY9C</formCode>
+        <version>1</version>
+        <pageName>Sch HI (1 of 4)</pageName>
+        <instanceId>100</instanceId>
+        <cellName>BHCK4020</cellName>
+        <cellValue>5000</cellValue>
+        <type>discard</type>
+    </C4438>
+
+    <C4459>
+        <regulator>US1 FED Reserve SP0</regulator>
+        <entity>0001</entity>
+        <returnName>FRY9C v1</returnName>
+        <referenceDate>30/09/2014</referenceDate>
+        <formCode>FRY9C</formCode>
+        <version>1</version>
+        <pageName>Sch HI (1 of 4)</pageName>
+        <instanceId>100</instanceId>
+        <cellName>BHCK4020</cellName>
+        <cellValue>5000</cellValue>
+    </C4459>
+
+    <C4439>
+        <regulator>US1 FED Reserve SP0</regulator>
+        <entity>0001</entity>
+        <returnName>FRY14ASUMM v1</returnName>
+        <referenceDate>30/09/2014</referenceDate>
+        <formCode>FRY14ASUMM</formCode>
+        <version>1</version>
+        <pageName>PPNR Metrics 6 of 6</pageName>
+        <instanceId>413</instanceId>
+        <cellName>ExtDBGrid4453FEDFRY14ASUMP091R1500C0030</cellName>
+        <cellValue>20000</cellValue>
+        <type>preserve</type>
+        <ActualValue>20,000.00</ActualValue>
+    </C4439>
+
+
+    <C4440>
+        <Regulator>US1 FED Reserve SP0</Regulator>
+        <Entity>0001</Entity>
+        <Form>FRY14ASUMM v1</Form>
+        <ReferenceDate>30/09/2014</ReferenceDate>
+        <PageName>PPNR Metrics 6 of 6</PageName>
+        <InstanceId>413</InstanceId>
+        <CellName>ExtDBGrid4453FEDFRY14ASUMP091R1500C0030</CellName>
+        <cellValue>20000</cellValue>
+        <Type>Discard</Type>
+        <ExpectedValue1>81.69</ExpectedValue1>
+        <ExpectedValue2>81686.9</ExpectedValue2>
+    </C4440>
+
+    <C4461>
+        <Regulator>US1 FED Reserve SP0</Regulator>
+        <Entity>0001</Entity>
+        <Form>FRY14ASUMM v1</Form>
+        <ReferenceDate>30/09/2014</ReferenceDate>
+        <PageName>PPNR Metrics 6 of 6</PageName>
+        <InstanceId>413</InstanceId>
+        <CellName>ExtDBGrid4453FEDFRY14ASUMP091R1500C0030</CellName>
+        <CellValue>20000</CellValue>
+        <ExpectedValue1>81.69</ExpectedValue1>
+        <ExpectedValue2>81686.9</ExpectedValue2>
+    </C4461>
+
+
+    <C6951>
+        <Regulator>US1 FED Reserve SP0</Regulator>
+        <Entity>0001</Entity>
+        <Form>FRY14ASUMM v1</Form>
+        <ReferenceDate>30/09/2014</ReferenceDate>
+        <PageName>PPNR Metrics 6 of 6</PageName>
+        <InstanceId>100</InstanceId>
+        <CellName>ExtDBGrid4457FEDFRY14ASUMP091R1500C0060</CellName>
+        <CellValue>805000</CellValue>
+
+    </C6951>
+</AdjustmentsTest>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CheckSum>
+    <C6803>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExpectSource>MV_DSFR20P1#MV_DSFR20P2#MV_DSFR20P3#MV_DSFR20P4#MV_DSFR20P5</ExpectSource>
+	</C6803>
+
+	<C6804>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<SQL1>update MV_DSFR20_DSP2 SET S_A_1='T'||substr(S_A_1,0) WHERE DS_ID=1</SQL1>
+		<SQL2>update MV_DSFR20_DSP2 SET S_A_1='T'+RTRIM(S_A_1) WHERE DS_ID=1"</SQL2>
+	</C6804>
+
+	<C6806>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<ViewName>MV_DSFR20P2</ViewName>
+		<TableName>MV_DSFR20_DSP2</TableName>
+	</C6806>
+
+	<C6805>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<SQL1>update MV_DSFR20_DSP3 set N_RUN_SKEY=N_RUN_SKEY+1</SQL1>
+		<SQL2>update MV_DSFR20_DSP2 set S_N_4_1=S_N_4_1+100 WHERE DS_ID=1</SQL2>
+	</C6805>
+
+	<C6807>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<SQL1>update MV_DSFR20_DSP4 SET S_A_1='T'+RTRIM(S_A_1) WHERE DS_ID=1</SQL1>
+		<SQL2>update MV_DSFR20_DSP4 SET S_A_1='T'||substr(S_A_1,0) WHERE DS_ID=1</SQL2>
+	</C6807>
+
+	<C6809>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<ViewName>MV_DSFR20P4</ViewName>
+		<TableName>MV_DSFR20_DSP4</TableName>
+	</C6809>
+
+
+	<C6808>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<SQL1>update MV_DSFR20_DSP5 set N_RUN_SKEY=N_RUN_SKEY+1</SQL1>
+		<SQL2>update MV_DSFR20_DSP4 set S_N_4_1=S_N_4_1+100 WHERE DS_ID=1</SQL2>
+	</C6808>
+
+	<C6810>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<SQL1>update MV_DSFR20_DSP2 set N_RUN_SKEY=N_RUN_SKEY+1</SQL1>
+		<SQL2>update MV_DSFR20_DSP2 set S_N_4_1=S_N_4_1+100 WHERE DS_ID=1</SQL2>
+	</C6810>
+
+	<C6811>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<SQL1>update MV_DSFR20_DSP4 set N_RUN_SKEY=N_RUN_SKEY+1</SQL1>
+		<SQL2>update MV_DSFR20_DSP4 set S_N_4_1=S_N_4_1+100 WHERE DS_ID=1</SQL2>
+	</C6811>
+
+	<C6812>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<SQL1>update MV_DSFR20_DSP3 set N_RUN_SKEY=N_RUN_SKEY+1</SQL1>
+		<SQL2>update MV_DSFR20_DSP2 set S_N_4_1=S_N_4_1+100 WHERE DS_ID=1</SQL2>
+	</C6812>
+
+	<C6813>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+		<SQL1>update MV_DSFR20_DSP5 set N_RUN_SKEY=N_RUN_SKEY+1</SQL1>
+		<SQL2>update MV_DSFR20_DSP4 set S_N_4_1=S_N_4_1+100 WHERE DS_ID=1</SQL2>
+	</C6813>
+
+	<C6814>
+		<Regulator>US1 FED Reserve DS</Regulator>
+		<Entity>0001</Entity>
+		<Form>DSFR20 v1</Form>
+		<ReferenceDate>31/12/2015</ReferenceDate>
+		<ExportType>DS(csv)</ExportType>
+		<Module>DataSchedule-DSFR20</Module>
+	</C6814>
+</CheckSum>
+		
+		
+		

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportFormat>
+	<C6628>
+		<Regulator>Monetary Authority of Singapore</Regulator>
+		<Entity>0001</Entity>
+		<Form>AMR2011 v1</Form>
+		<ReferenceDate>30/10/2012</ReferenceDate>
+	</C6628>
+
+	<C6634>
+		<Regulator>Monetary Authority of Singapore</Regulator>
+		<Entity>0001</Entity>
+		<Form>FC v1</Form>
+		<ReferenceDate>31/12/2016</ReferenceDate>
+		<Module>MAS-FC</Module>
+	</C6634>
+
+	<C6703>
+		<Regulator>Monetary Authority of Singapore</Regulator>
+		<Entity>0001</Entity>
+		<Form>FC v1</Form>
+		<ReferenceDate>31/12/2016</ReferenceDate>
+	</C6703>
+
+	<C6704>
+		<Regulator>Monetary Authority of Singapore</Regulator>
+		<Entity>0001</Entity>
+		<Form>MAS1111 v1</Form>
+		<ReferenceDate>09/11/2016</ReferenceDate>
+		<ImportFile>MAS_0001_MAS1111_v1_20161109.xlsx</ImportFile>
+		<Module>MAS_MAS1111IntCod</Module>
+	</C6704>
+</ExportFormat>

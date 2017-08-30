@@ -1,0 +1,359 @@
+05:57:20.768 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - setup test before starting feature id export_format, scenario id export_format
+05:57:20.769 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available before polling
+05:57:20.770 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080/","host":null,"port":null,"version":null,"username":"admin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":3,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":4,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":5,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":6,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_AUTO_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":7,"name":"toolset_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"RP_AUTO_TOOLSET_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+05:57:20.770 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+05:57:20.774 [TestNG] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+05:57:20.774 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+05:57:20.774 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+05:57:22.921 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 19c5b83c618076e2c83448c274e390d9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir15168_19846}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+05:57:22.921 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+05:57:24.766 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+05:57:25.942 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080/
+05:57:27.975 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+05:57:27.999 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+05:57:28.027 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+05:57:28.053 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+05:57:28.083 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+05:57:31.472 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Get user format
+05:57:31.490 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Expected language is:en_GB
+05:57:31.491 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - ==== Verify date and time stamp is added when export toolset return to vanilla file[case id=6634]====
+05:57:31.501 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+05:57:31.501 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=Monetary Authority of Singapore
+05:57:31.659 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+05:57:31.767 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (lp.Group) WebElement by id (formFilter:selectGroup) @ ListPage (lp) page
+05:57:33.885 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+05:57:34.638 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+05:57:37.638 [TestNG] INFO  com.lombardrisk.pages.ListPage - Begin create new form[FC v1]
+05:57:38.189 [TestNG] INFO  com.lombardrisk.pages.ListPage - click create new button
+05:57:38.189 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+05:57:38.790 [TestNG] INFO  com.lombardrisk.pages.ListPage - click create new form
+05:57:38.790 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+05:57:41.997 [TestNG] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=0001
+05:57:41.997 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+05:57:42.624 [TestNG] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=31/12/2016
+05:57:42.624 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+05:57:42.723 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 31/12/2016 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+05:57:42.785 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+05:57:42.801 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Dec on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+05:57:43.153 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2016 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+05:57:43.561 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=31]]/td[a=31]/a) @ AbstractPage (ap) page
+05:57:44.125 [TestNG] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=FC v1
+05:57:44.125 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FC v1 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+05:57:44.248 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+05:57:45.248 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+05:57:46.452 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+05:57:57.171 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Begin export to vanilla
+05:57:58.591 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+05:57:59.122 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToRFBtn (fp.exportToRF) WebButton by id (formHeader:exportToFile4Fed_button) @ FormInstancePage (fp) page
+05:57:59.744 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Click export to vanilla
+05:57:59.744 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToVanilla (fp.exportToVan) WebButton by xpath (//a[span='Export to Vanilla']) @ FormInstancePage (fp) page
+05:58:00.357 [TestNG] INFO  com.lombardrisk.pages.ExportToFilePage - Set module: MAS-FC
+05:58:00.357 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text MAS-FC on moduleSelector (efp.moduleSelector) WebElement by id (transmitForm4Fed:selectModule) @ ExportToFilePage (efp) page
+05:58:02.969 [TestNG] INFO  com.lombardrisk.pages.ExportToFilePage - Click export button
+05:58:05.969 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportConfirmBtn (efp.exportConfirm) WebButton by id (transmitSubmitForm4Fed:nextBtn) @ ExportToFilePage (efp) page
+05:58:06.735 [LittleProxy-39-ProxyToServerWorker-4] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving binary file to target/result/data/download/1401b5670dd94db984c1baf7d02a8261.xml
+05:58:06.841 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking comment.cancel (efp.cancel) WebElement by id (transmitSubmitForm4Fed:cancelBtn) @ ExportToFilePage (efp) page
+05:58:06.871 [TestNG] WARN  com.lombardrisk.pages.ExportToFilePage - unknown error: Element is not clickable at point (1295, 740). Other element would receive the click: <div id="ajaxstatusDlg_modal" class="ui-widget-overlay" style="width: 1920px; height: 983px; z-index: 1011;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir15168_19846}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 19c5b83c618076e2c83448c274e390d9
+org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1295, 740). Other element would receive the click: <div id="ajaxstatusDlg_modal" class="ui-widget-overlay" style="width: 1920px; height: 983px; z-index: 1011;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir15168_19846}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 19c5b83c618076e2c83448c274e390d9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_91]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_91]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:556) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:546) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.ExportToFilePage.closeExportPage(ExportToFilePage.java:166) ~[classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.exportToFileClick(FormInstancePage.java:2326) [classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.exportToFile(FormInstancePage.java:1855) [classes/:na]
+	at com.lombardrisk.testCase_TS.Export_Format.test6634(Export_Format.java:92) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382) [testng-6.8.8.jar:na]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.8.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+05:58:12.879 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Exported file is:F:\Automation\arauto\arsel\target\result\data\download\MAS_0001_FC_v1_20161231.xml
+05:58:12.951 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Case[6634] is passed
+05:58:12.995 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - tearDown after method
+05:58:12.995 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - teardown test after finishing feature id export_format, scenario id export_format
+05:58:12.995 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available after offering
+05:58:12.995 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+05:58:15.306 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+05:58:15.948 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - set up  before method
+05:58:15.948 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - setup test before starting feature id export_format, scenario id export_format
+05:58:15.948 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available before polling
+05:58:15.949 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080/","host":null,"port":null,"version":null,"username":"admin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":3,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":4,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":5,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":6,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_AUTO_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":7,"name":"toolset_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"RP_AUTO_TOOLSET_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+05:58:15.949 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+05:58:15.953 [TestNG] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+05:58:15.953 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+05:58:15.953 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+05:58:18.096 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: bc1f5e13c64dab6eb60aa56bc8472396
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir18496_27757}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+05:58:18.096 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+05:58:20.113 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+05:58:21.293 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080/
+05:58:21.894 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+05:58:21.919 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+05:58:21.949 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+05:58:21.974 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+05:58:22.003 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+05:58:27.112 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Get user format
+05:58:27.132 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Expected language is:en_GB
+05:58:27.133 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - ==== Verify date and time stamp is not added when timezone and exporttime are not defined with toolset[case id=6703]====
+05:58:27.146 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+05:58:27.146 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=Monetary Authority of Singapore
+05:58:27.295 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+05:58:27.447 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+05:58:28.211 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+05:58:31.211 [TestNG] INFO  com.lombardrisk.pages.ListPage - Begin create new form[FC v1]
+05:58:31.759 [TestNG] INFO  com.lombardrisk.pages.ListPage - click create new button
+05:58:31.759 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+05:58:32.380 [TestNG] INFO  com.lombardrisk.pages.ListPage - click create new form
+05:58:32.380 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+05:58:35.572 [TestNG] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=0001
+05:58:35.572 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+05:58:36.127 [TestNG] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=31/12/2016
+05:58:36.127 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+05:58:36.188 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 31/12/2016 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+05:58:36.245 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+05:58:36.263 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Dec on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+05:58:36.614 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2016 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+05:58:37.017 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=31]]/td[a=31]/a) @ AbstractPage (ap) page
+05:58:37.656 [TestNG] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=FC v1
+05:58:37.656 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FC v1 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+05:58:37.809 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+05:58:38.809 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+05:58:40.029 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+05:58:50.729 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Begin export to Excel
+05:58:52.141 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+05:58:52.158 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToFileBtn (fp.expToFile) WebButton by id (formHeader:exportToFile_button) @ FormInstancePage (fp) page
+05:58:52.722 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToExcel (fp.expToXlsNoScale) WebButton by xpath (//a[span='Export to Excel (No Scale)']) @ FormInstancePage (fp) page
+05:58:53.628 [LittleProxy-40-ProxyToServerWorker-3] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving binary file to target/result/data/download/003e67604ee34ae59d72f2603cee50f9.xlsx
+05:59:00.679 [TestNG] WARN  com.lombardrisk.pages.FormInstancePage - The file already exist, old file will be deleted
+05:59:00.679 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Exported file is:F:\Automation\arauto\arsel\target\result\data\download\MAS_0001_FC_v1_20161231.xlsx
+05:59:00.704 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Case[6703] is passed
+05:59:00.755 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - tearDown after method
+05:59:00.755 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - teardown test after finishing feature id export_format, scenario id export_format
+05:59:00.755 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available after offering
+05:59:00.755 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+05:59:03.069 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+05:59:03.766 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - set up  before method
+05:59:03.766 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - setup test before starting feature id export_format, scenario id export_format
+05:59:03.766 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available before polling
+05:59:03.767 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080/","host":null,"port":null,"version":null,"username":"admin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":3,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":4,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":5,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":6,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_AUTO_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":7,"name":"toolset_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"RP_AUTO_TOOLSET_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+05:59:03.767 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+05:59:03.771 [TestNG] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+05:59:03.771 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+05:59:03.771 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+05:59:05.866 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 06725dea8c7bcc0984a4f2c5146b9940
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir10644_27767}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+05:59:05.866 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+05:59:08.717 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+05:59:09.905 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080/
+05:59:10.614 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+05:59:10.640 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+05:59:10.670 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+05:59:10.694 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+05:59:10.726 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+05:59:16.048 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Get user format
+05:59:16.065 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Expected language is:en_GB
+05:59:16.065 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - ====Test...[case id=6704]====
+05:59:16.070 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+05:59:16.070 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=Monetary Authority of Singapore
+05:59:16.190 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+05:59:16.341 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=MAS1111 v1
+05:59:16.604 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text MAS1111 v1 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+05:59:19.724 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+05:59:22.724 [TestNG] INFO  com.lombardrisk.pages.ListPage - Delete form[MAS1111 v1 09/11/2016] if exist
+05:59:22.775 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delFormIcon1 (lp.delFormIcon1) Image by id (formInstanceListForm:formInstanceListTable:2:delIcon) @ ListPage (lp) page
+05:59:23.901 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delConfBtn (lp.delConfBtn) WebElement by id (deleteReturnMessageForm:deleteReturnConfirm) @ ListPage (lp) page
+05:59:25.029 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+05:59:25.098 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing Delete return by automation on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+05:59:25.163 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteComnent (lp.deleteReturnBtn) WebElement by id (deleteReturnCommentForm:deleteReturn) @ ListPage (lp) page
+05:59:34.360 [TestNG] INFO  com.lombardrisk.pages.ListPage - Begin create form from excel
+05:59:34.360 [TestNG] INFO  com.lombardrisk.pages.ListPage - Import file is :F:\Automation\arauto\arsel\data_toolset\ExportFormat\ImportFile\MAS_0001_MAS1111_v1_20161109.xlsx
+05:59:34.360 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+05:59:35.048 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFromExcelButton (lp.createFromXls) WebElement by id (FormInstImpExpMenu:createFormInstFromExcel) @ ListPage (lp) page
+05:59:38.193 [TestNG] INFO  com.lombardrisk.pages.ListImportFilePage - Execute js script
+05:59:38.206 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing F:\Automation\arauto\arsel\data_toolset\ExportFormat\ImportFile\MAS_0001_MAS1111_v1_20161109.xlsx on uploadInput (aip.uploadInput) WebButton by id (createFromExcelForm:importFileUpload_input) @ AbstractImportPage (aip) page
+05:59:40.764 [TestNG] INFO  com.lombardrisk.pages.ListImportFilePage - Spend 2 seconds to upload file
+05:59:40.783 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking importFileBtn (aip.import) WebButton by id (createFromExcelForm:listimportBtn) @ AbstractImportPage (aip) page
+05:59:40.833 [TestNG] INFO  com.lombardrisk.pages.ListImportFilePage - Begin import data
+05:59:47.680 [TestNG] INFO  com.lombardrisk.pages.ListImportFilePage - Spend 6 seconds to import file
+05:59:47.710 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking OKBtn (icp.OKBtn) WebButton by id (createInformForm:confirmBtn) @ ImportConfirmPage (icp) page
+05:59:57.154 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Lock form
+05:59:57.154 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking lockBtn (fp.lock) WebButton by id (formHeader:lockBtn) @ FormInstancePage (fp) page
+06:00:07.508 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Click validate now button
+06:00:07.508 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking validationNowBtn (fp.valNowBtn) WebButton by id (formHeader:validateNowBtn) @ FormInstancePage (fp) page
+06:00:07.614 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+06:00:10.172 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Begin export to text(MAS_MAS1111IntCod)
+06:00:11.524 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+06:00:12.055 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToRFBtn (fp.exportToRF) WebButton by id (formHeader:exportToFile4Fed_button) @ FormInstancePage (fp) page
+06:00:12.655 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Click export to RC-Txt
+06:00:12.655 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToRC2 (fp.exportToRC2) WebButton by xpath (//a[span='Export To MAS_MAS1111IntCod']) @ FormInstancePage (fp) page
+06:00:13.302 [TestNG] INFO  com.lombardrisk.pages.ExportToFilePage - Set module: MAS_MAS1111IntCod
+06:00:13.302 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text MAS_MAS1111IntCod on moduleSelector (efp.moduleSelector) WebElement by id (transmitForm4Fed:selectModule) @ ExportToFilePage (efp) page
+06:00:18.983 [TestNG] INFO  com.lombardrisk.pages.ExportToFilePage - Click export button
+06:00:21.983 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportConfirmBtn (efp.exportConfirm) WebButton by id (transmitSubmitForm4Fed:nextBtn) @ ExportToFilePage (efp) page
+06:00:24.412 [LittleProxy-41-ProxyToServerWorker-0] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving binary file to target/result/data/download/d88d773fd11c450fa159c26786cbab7a.zip
+06:00:24.489 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking comment.cancel (efp.cancel) WebElement by id (transmitSubmitForm4Fed:cancelBtn) @ ExportToFilePage (efp) page
+06:00:24.518 [TestNG] WARN  com.lombardrisk.pages.ExportToFilePage - unknown error: Element is not clickable at point (1295, 740). Other element would receive the click: <div id="ajaxstatusDlg_modal" class="ui-widget-overlay" style="width: 1920px; height: 983px; z-index: 1017;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir10644_27767}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 06725dea8c7bcc0984a4f2c5146b9940
+org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1295, 740). Other element would receive the click: <div id="ajaxstatusDlg_modal" class="ui-widget-overlay" style="width: 1920px; height: 983px; z-index: 1017;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir10644_27767}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 06725dea8c7bcc0984a4f2c5146b9940
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_91]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_91]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:556) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:546) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.ExportToFilePage.closeExportPage(ExportToFilePage.java:166) ~[classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.exportToFileClick(FormInstancePage.java:2326) [classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.exportToFile(FormInstancePage.java:1855) [classes/:na]
+	at com.lombardrisk.testCase_TS.Export_Format.test6704(Export_Format.java:172) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382) [testng-6.8.8.jar:na]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.8.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+06:00:30.524 [TestNG] WARN  com.lombardrisk.pages.FormInstancePage - The file already exist, old file will be deleted
+06:00:30.524 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Exported file is:F:\Automation\arauto\arsel\target\result\data\download\report__EXPORT.zip
+06:00:30.678 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Case[6704,6707] is passed
+06:00:30.781 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - tearDown after method
+06:00:30.781 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - teardown test after finishing feature id export_format, scenario id export_format
+06:00:30.781 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available after offering
+06:00:30.781 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+06:00:33.093 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+06:00:33.778 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - set up  before method
+06:00:33.778 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - setup test before starting feature id export_format, scenario id export_format
+06:00:33.778 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available before polling
+06:00:33.779 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080/","host":null,"port":null,"version":null,"username":"admin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":3,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":4,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":5,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":6,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_AUTO_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":7,"name":"toolset_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"RP_AUTO_TOOLSET_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+06:00:33.780 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+06:00:33.785 [TestNG] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+06:00:33.786 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+06:00:33.786 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+06:00:35.917 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: c49bfce6ef7159dad06f4a893c297631
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir19392_3227}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+06:00:35.917 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+06:00:37.902 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+06:00:39.091 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080/
+06:00:39.697 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+06:00:39.723 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+06:00:39.752 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+06:00:39.777 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+06:00:39.805 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+06:00:42.842 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Get user format
+06:00:42.864 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Expected language is:en_GB
+06:00:42.864 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - ====Verify date and time stamp is added when export toolset return to excel file and date type cell format is specified[case id=6628]====
+06:00:42.873 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+06:00:42.873 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=Monetary Authority of Singapore
+06:00:43.060 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+06:00:43.209 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=AMR2011 v1
+06:00:43.456 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text AMR2011 v1 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+06:00:46.029 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=30/10/2012
+06:00:46.236 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 30/10/2012 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+06:00:49.854 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+06:00:52.854 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open first form
+06:00:53.368 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+06:00:57.101 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+06:00:59.683 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Begin export to excel
+06:01:01.104 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+06:01:01.122 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToFileBtn (fp.expToFile) WebButton by id (formHeader:exportToFile_button) @ FormInstancePage (fp) page
+06:01:01.686 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToExcel (fp.expToXlsNoScale) WebButton by xpath (//a[span='Export to Excel (No Scale)']) @ FormInstancePage (fp) page
+06:01:02.069 [LittleProxy-42-ProxyToServerWorker-1] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving binary file to target/result/data/download/ae9cda11f9c8496eb77fa2474c379ad2.xlsx
+06:01:09.116 [TestNG] WARN  com.lombardrisk.pages.FormInstancePage - The file already exist, old file will be deleted
+06:01:09.117 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Exported file is:F:\Automation\arauto\arsel\target\result\data\download\MAS_0001_AMR2011_v1_20121030.xlsx
+06:01:09.117 [TestNG] INFO  com.lombardrisk.utils.fileService.ExcelUtil - Get value of cell[_ExportTime]
+06:01:09.169 [TestNG] INFO  com.lombardrisk.utils.fileService.ExcelUtil - Get all names
+06:01:09.209 [TestNG] INFO  com.lombardrisk.utils.fileService.ExcelUtil - Get value of cell[_TimeZone]
+06:01:09.239 [TestNG] INFO  com.lombardrisk.utils.fileService.ExcelUtil - Get all names
+06:01:09.257 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - Case[6628] is passed
+06:01:09.306 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - tearDown after method
+06:01:09.307 [TestNG] INFO  com.lombardrisk.testCase_TS.Export_Format - teardown test after finishing feature id export_format, scenario id export_format
+06:01:09.308 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available after offering
+06:01:09.308 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+06:01:11.621 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+06:01:12.292 [TestNG] INFO  com.lombardrisk.testCase_TS.Lookup - set up  before method

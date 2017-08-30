@@ -1,0 +1,243 @@
+17:03:59.903 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - setup test before starting feature id importexportformat, scenario id importexportformat
+17:03:59.908 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+17:03:59.914 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+17:04:00.423 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+17:04:00.993 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+17:04:00.998 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+17:04:01.005 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+17:04:03.835 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 4ae5c4540ce052425eb1174649c5b473
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir11524_10051}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+17:04:03.835 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+17:04:05.574 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+17:04:06.720 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+17:04:07.361 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+17:04:07.408 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+17:04:07.451 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+17:04:07.482 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+17:04:07.520 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+17:04:11.963 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Get user format
+17:04:12.118 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Expected language is:en_GB
+17:04:12.121 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Verify the date format of exported CSV file is correct when Regional language is China_Chinese CaseID is 6504
+17:04:12.207 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+17:04:12.806 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking Preferences (lp.Preferences) WebElement by id (formHeader:btnPreferences) @ ListPage (lp) page
+17:04:14.428 [main] INFO  com.lombardrisk.pages.PreferencePage - Set language=zh_CN
+17:04:14.428 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking preferenceLanguageCheckLocator (prp.LC) WebElement by id (preferencesForm:languageCheck) @ PreferencePage (prp) page
+17:04:15.527 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by value zh_CN on preferenceLanguageSelectLocator (prp.LS) WebEdit by id (preferencesForm:selectLanguage) @ PreferencePage (prp) page
+17:04:16.089 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking preferenceConfirmButtonLocator (prp.confirm) WebButton by id (preferencesForm:confirm) @ PreferencePage (prp) page
+17:04:20.577 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+17:04:20.577 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+17:04:20.765 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text US1 FED Reserve DS on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+17:04:30.966 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+17:04:31.118 [main] INFO  com.lombardrisk.pages.ListPage - Set form=All
+17:04:31.972 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+17:04:34.972 [main] INFO  com.lombardrisk.pages.ListPage - Begin create new form[DSFR02 v1]
+17:04:35.491 [main] INFO  com.lombardrisk.pages.ListPage - click create new button
+17:04:35.491 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+17:04:36.081 [main] INFO  com.lombardrisk.pages.ListPage - click create new form
+17:04:36.081 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+17:04:39.188 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=0001
+17:04:39.188 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+17:04:39.766 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=2015-10-31
+17:04:39.766 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+17:04:39.820 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 2015-10-31 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+17:04:39.896 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+17:04:39.915 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Oct on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+17:04:40.300 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2015 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+17:04:40.672 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=31]]/td[a=31]/a) @ AbstractPage (ap) page
+17:04:41.258 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=DSFR02 v1
+17:04:41.258 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DSFR02 v1 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+17:04:41.348 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+17:04:42.348 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+17:04:43.513 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+17:04:56.030 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='DS02P04']) @ FormInstancePage (fp) page
+17:04:59.725 [main] INFO  com.lombardrisk.pages.FormInstancePage - id of input is:dateCellEditor_input
+17:04:59.725 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cellID (fp.cellID) WebElement by id (dateCellEditor_input) @ FormInstancePage (fp) page
+17:04:59.801 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 300 milliseconds
+17:05:00.102 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on cellID (fp.cellID) WebElement by id (dateCellEditor_input) @ FormInstancePage (fp) page
+17:05:00.121 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 2015-12-31 on cellID (fp.cellID) WebElement by id (dateCellEditor_input) @ FormInstancePage (fp) page
+17:05:00.167 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking current day (fp.currentDay) WebElement by xpath (.//*[@id='ui-datepicker-div']//td[contains(@class, 'current-day')]/a) @ FormInstancePage (fp) page
+17:05:00.749 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cellEditOkBtn (fp.cellEditSave) WebButton by id (okBtn) @ FormInstancePage (fp) page
+17:05:02.475 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin export to csv
+17:05:04.187 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+17:05:04.205 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToFileBtn (fp.expToFile) WebButton by id (formHeader:exportToFile_button) @ FormInstancePage (fp) page
+17:05:04.780 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToCSV (fp.expToCSV_CN) WebButton by xpath (//a[span='导出到CSV']) @ FormInstancePage (fp) page
+17:05:05.123 [LittleProxy-0-ProxyToServerWorker-1] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving text file to target/result/data/download/f0824a018a0043f49aee0cf8f978ac85.csv
+17:05:12.218 [main] WARN  com.lombardrisk.pages.FormInstancePage - The file already exist, old file will be deleted
+17:05:12.219 [main] INFO  com.lombardrisk.pages.FormInstancePage - Exported file is:F:\Automation\arauto\arsel\target\result\data\download\FED_DS_0001_DSFR02_v1_20151031.csv
+17:05:12.219 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Export file is: F:\Automation\arauto\arsel\target\result\data\download\FED_DS_0001_DSFR02_v1_20151031.csv
+17:06:34.910 [main] ERROR com.lombardrisk.testCase.ImportExportFormat - expected [true] but found [false]
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94) ~[testng-6.8.8.jar:na]
+	at org.testng.Assert.failNotEquals(Assert.java:494) ~[testng-6.8.8.jar:na]
+	at org.testng.Assert.assertTrue(Assert.java:42) ~[testng-6.8.8.jar:na]
+	at org.testng.Assert.assertTrue(Assert.java:52) ~[testng-6.8.8.jar:na]
+	at com.lombardrisk.testCase.ImportExportFormat.test6504(ImportExportFormat.java:68) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+17:06:34.911 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Case[6504] is failed
+17:06:35.678 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - tearDown after method
+17:06:35.678 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - teardown test after finishing feature id importexportformat, scenario id importexportformat
+17:06:35.678 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+17:06:35.678 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+17:06:37.992 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+17:15:50.253 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - setup test before starting feature id importexportformat, scenario id importexportformat
+17:15:50.258 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+17:15:50.264 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+17:15:50.688 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+17:15:51.132 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+17:15:51.137 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+17:15:51.144 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+17:15:53.618 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: b91aa8a046180d978ddf5ef1093ced57
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir12500_1401}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+17:15:53.619 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+17:15:56.350 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+17:15:57.507 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+17:16:03.386 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+17:16:03.428 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+17:16:03.469 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+17:16:03.504 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+17:16:03.547 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+17:16:13.765 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Get user format
+17:16:13.926 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Expected language is:en_GB
+17:16:13.926 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+17:16:14.521 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking Preferences (lp.Preferences) WebElement by id (formHeader:btnPreferences) @ ListPage (lp) page
+17:16:16.151 [main] INFO  com.lombardrisk.pages.PreferencePage - Set language=en_GB
+17:16:16.151 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking preferenceLanguageCheckLocator (prp.LC) WebElement by id (preferencesForm:languageCheck) @ PreferencePage (prp) page
+17:16:17.259 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by value en_GB on preferenceLanguageSelectLocator (prp.LS) WebEdit by id (preferencesForm:selectLanguage) @ PreferencePage (prp) page
+17:16:17.896 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking preferenceConfirmButtonLocator (prp.confirm) WebButton by id (preferencesForm:confirm) @ PreferencePage (prp) page
+17:16:25.429 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Verify the date format of exported CSV file is correct when Regional language is China_Chinese CaseID is 6504
+17:16:25.482 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+17:16:26.074 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking Preferences (lp.Preferences) WebElement by id (formHeader:btnPreferences) @ ListPage (lp) page
+17:16:27.685 [main] INFO  com.lombardrisk.pages.PreferencePage - Set language=zh_CN
+17:16:27.685 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking preferenceLanguageCheckLocator (prp.LC) WebElement by id (preferencesForm:languageCheck) @ PreferencePage (prp) page
+17:16:28.783 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by value zh_CN on preferenceLanguageSelectLocator (prp.LS) WebEdit by id (preferencesForm:selectLanguage) @ PreferencePage (prp) page
+17:16:29.331 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking preferenceConfirmButtonLocator (prp.confirm) WebButton by id (preferencesForm:confirm) @ PreferencePage (prp) page
+17:16:36.758 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+17:16:36.758 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+17:16:36.889 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+17:16:37.059 [main] INFO  com.lombardrisk.pages.ListPage - Set form=All
+17:16:37.899 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+17:16:40.900 [main] INFO  com.lombardrisk.pages.ListPage - Begin create new form[DSFR02 v1]
+17:16:41.417 [main] INFO  com.lombardrisk.pages.ListPage - click create new button
+17:16:41.417 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+17:16:42.027 [main] INFO  com.lombardrisk.pages.ListPage - click create new form
+17:16:42.027 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+17:16:45.150 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=0001
+17:16:45.150 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+17:16:45.727 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=2015-10-31
+17:16:45.727 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+17:16:45.779 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 2015-10-31 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+17:16:45.844 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+17:16:45.863 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Oct on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+17:16:46.235 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2015 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+17:16:46.630 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=31]]/td[a=31]/a) @ AbstractPage (ap) page
+17:16:47.235 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=DSFR02 v1
+17:16:47.235 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DSFR02 v1 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+17:16:47.344 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+17:16:48.345 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+17:16:49.472 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+17:17:01.164 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='DS02P04']) @ FormInstancePage (fp) page
+17:17:04.845 [main] INFO  com.lombardrisk.pages.FormInstancePage - id of input is:dateCellEditor_input
+17:17:04.845 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cellID (fp.cellID) WebElement by id (dateCellEditor_input) @ FormInstancePage (fp) page
+17:17:04.899 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 300 milliseconds
+17:17:05.199 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on cellID (fp.cellID) WebElement by id (dateCellEditor_input) @ FormInstancePage (fp) page
+17:17:05.218 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 2015-12-31 on cellID (fp.cellID) WebElement by id (dateCellEditor_input) @ FormInstancePage (fp) page
+17:17:05.265 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking current day (fp.currentDay) WebElement by xpath (.//*[@id='ui-datepicker-div']//td[contains(@class, 'current-day')]/a) @ FormInstancePage (fp) page
+17:17:05.848 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cellEditOkBtn (fp.cellEditSave) WebButton by id (okBtn) @ FormInstancePage (fp) page
+17:17:07.538 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin export to csv
+17:17:09.185 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+17:17:09.202 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToFileBtn (fp.expToFile) WebButton by id (formHeader:exportToFile_button) @ FormInstancePage (fp) page
+17:17:09.785 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToCSV (fp.expToCSV_CN) WebButton by xpath (//a[span='导出到CSV']) @ FormInstancePage (fp) page
+17:17:10.100 [LittleProxy-0-ProxyToServerWorker-4] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving text file to target/result/data/download/c0e54502a6ce4a73981b11e85ccd87a3.csv
+17:17:17.190 [main] WARN  com.lombardrisk.pages.FormInstancePage - The file already exist, old file will be deleted
+17:17:17.191 [main] INFO  com.lombardrisk.pages.FormInstancePage - Exported file is:F:\Automation\arauto\arsel\target\result\data\download\FED_DS_0001_DSFR02_v1_20151031.csv
+17:17:17.191 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Export file is: F:\Automation\arauto\arsel\target\result\data\download\FED_DS_0001_DSFR02_v1_20151031.csv
+17:45:18.073 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - setup test before starting feature id importexportformat, scenario id importexportformat
+17:45:18.077 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+17:45:18.086 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+17:45:18.473 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+17:45:18.898 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+17:45:18.903 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+17:45:18.909 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+17:45:21.463 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 6c87714ece747984d247819d3d5c2eaf
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir16564_23721}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+17:45:21.464 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+17:45:23.200 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+17:45:24.351 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+17:45:24.975 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+17:45:25.011 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+17:45:25.049 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+17:45:25.081 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+17:45:25.116 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+17:45:36.851 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Get user format
+17:45:36.996 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Expected language is:en_GB
+17:45:36.996 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+17:45:37.580 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking Preferences (lp.Preferences) WebElement by id (formHeader:btnPreferences) @ ListPage (lp) page
+17:45:39.207 [main] INFO  com.lombardrisk.pages.PreferencePage - Set language=en_GB
+17:45:39.207 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking preferenceLanguageCheckLocator (prp.LC) WebElement by id (preferencesForm:languageCheck) @ PreferencePage (prp) page
+17:45:40.306 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by value en_GB on preferenceLanguageSelectLocator (prp.LS) WebEdit by id (preferencesForm:selectLanguage) @ PreferencePage (prp) page
+17:45:40.941 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking preferenceConfirmButtonLocator (prp.confirm) WebButton by id (preferencesForm:confirm) @ PreferencePage (prp) page
+17:45:48.580 [main] INFO  com.lombardrisk.testCase.ImportExportFormat - Verify date format (From extended grid) from the export excel is same with that in AR CaseID is 6829
+17:45:48.630 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+17:45:48.631 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve
+17:45:48.784 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text US1 FED Reserve on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+17:46:02.387 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+17:46:02.637 [main] INFO  com.lombardrisk.pages.ListPage - Set form=All
+17:46:04.107 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+17:46:07.108 [main] INFO  com.lombardrisk.pages.ListPage - Begin create new form[FR2420C v3]
+17:46:07.625 [main] INFO  com.lombardrisk.pages.ListPage - click create new button
+17:46:07.625 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+17:46:08.234 [main] INFO  com.lombardrisk.pages.ListPage - click create new form
+17:46:08.234 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+17:46:11.352 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=0001
+17:46:11.352 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+17:46:11.925 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=01/01/2017
+17:46:11.925 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+17:46:11.993 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 01/01/2017 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+17:46:12.091 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+17:46:12.110 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Jan on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+17:46:12.500 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2017 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+17:46:12.909 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=1]]/td[a=1]/a) @ AbstractPage (ap) page
+17:46:13.507 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=FR2420C v3
+17:46:13.507 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FR2420C v3 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+17:46:13.589 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+17:46:14.589 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+17:46:15.713 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+17:46:28.332 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin import file:F:\Automation\arauto\arsel\data_ar\ImportExportFormat\ImportFile\TestData_FR2420C_v3.csv
+17:46:28.332 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adjustmentButton (fp.adjustment) WebElement by id (formHeader:adjust_button) @ FormInstancePage (fp) page
+17:46:28.916 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formInstanceImport (fp.import) WebElement by id (formHeader:importAdjustLog) @ FormInstancePage (fp) page
+17:46:32.010 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Execute js script
+17:46:32.018 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing F:\Automation\arauto\arsel\data_ar\ImportExportFormat\ImportFile\TestData_FR2420C_v3.csv on uploadInput (aip.uploadInput) WebButton by id (importFileForm:importFileUpload_input) @ AbstractImportPage (aip) page
+17:46:35.937 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Find error message, exit
+17:46:35.937 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Spend 0 seconds to upload file
+17:46:35.972 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking importFileBtn (aip.import2) WebButton by id (importFileForm:importBtn) @ AbstractImportPage (aip) page
+17:46:36.018 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Begin import data

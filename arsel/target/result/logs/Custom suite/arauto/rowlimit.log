@@ -1,0 +1,44 @@
+14:32:56.671 [main] INFO  com.lombardrisk.testCase.RowLimit - setup test before starting feature id rowlimit, scenario id rowlimit
+14:32:56.675 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+14:32:56.682 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+14:32:57.045 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+14:32:57.445 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+14:32:57.451 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+14:32:57.457 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+14:33:00.035 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: fda3a7d492a8b5c1f090aac272e8208a
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir10484_24964}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+14:33:00.036 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+14:33:01.590 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+14:33:02.734 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+14:33:03.542 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:33:03.582 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:33:03.625 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:33:03.659 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:33:03.701 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+14:33:07.815 [main] INFO  com.lombardrisk.testCase.RowLimit - Get user format
+14:33:07.977 [main] INFO  com.lombardrisk.testCase.RowLimit - Expected language is:en_GB
+14:33:07.980 [main] INFO  com.lombardrisk.testCase.RowLimit - ====Test case[6305]====
+14:33:08.041 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+14:33:08.041 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve SP0
+14:33:08.208 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text US1 FED Reserve SP0 on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+14:33:15.866 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+14:33:16.047 [main] INFO  com.lombardrisk.pages.ListPage - Set form=FRY14ASUMM v5
+14:33:16.214 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY14ASUMM v5 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+14:33:18.824 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=04/08/2015
+14:33:18.947 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 04/08/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+14:33:22.575 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+14:33:25.575 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+14:33:26.099 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+14:33:35.019 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+14:33:37.561 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin import file:F:\Automation\arauto\arsel\data_ar\RowLimit\ImportFile\FRY14ASUMM_v5_0001_04082015.csv
+14:33:37.561 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adjustmentButton (fp.adjustment) WebElement by id (formHeader:adjust_button) @ FormInstancePage (fp) page
+14:33:38.139 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formInstanceImport (fp.import) WebElement by id (formHeader:importAdjustLog) @ FormInstancePage (fp) page
+14:33:41.237 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Execute js script
+14:33:41.246 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing F:\Automation\arauto\arsel\data_ar\RowLimit\ImportFile\FRY14ASUMM_v5_0001_04082015.csv on uploadInput (aip.uploadInput) WebButton by id (importFileForm:importFileUpload_input) @ AbstractImportPage (aip) page
+14:33:42.436 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Find error message, exit
+14:33:42.436 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Spend 1 seconds to upload file
+14:33:42.484 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking importFileBtn (aip.import2) WebButton by id (importFileForm:importBtn) @ AbstractImportPage (aip) page
+14:33:42.534 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Begin import data
+14:33:43.075 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Spend 0 seconds to import file

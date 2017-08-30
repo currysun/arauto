@@ -1,0 +1,75 @@
+﻿2017-08-29T09:57:56+0800	---------------Start----------------
+2017-08-29T09:57:56+0800	Exported file is:G:\Automation\arauto\arsel/target/result/data/download/a31ea42c560645dfaa57d621fffea3da.xlsx
+2017-08-29T09:57:56+0800	TestData file is:G:\Automation\arauto\arsel\target\TestResult\20170829\CheckRule\TestData\Val_DSFR03v2CheckLength.xlsx
+2017-08-29T09:57:56+0800	Verify row:2
+2017-08-29T09:57:56+0800	Validation1 validation  result is:Pass
+2017-08-29T09:57:56+0800	Verify row:3
+2017-08-29T09:57:56+0800	Validation2 validation  result is:Fail
+2017-08-29T09:57:56+0800	Verify row:4
+2017-08-29T09:57:56+0800	Validation3 validation  result is:Pass
+2017-08-29T09:57:56+0800	Verify row:5
+2017-08-29T09:57:56+0800	Validation4 validation  result is:Pass
+2017-08-29T09:57:56+0800	Verify row:6
+2017-08-29T09:57:56+0800	Validation5 validation  result is:Pass
+2017-08-29T09:57:56+0800	Verify row:7
+2017-08-29T09:57:56+0800	Validation6 validation  result is:Pass
+2017-08-29T09:57:56+0800	Verify row:8
+2017-08-29T09:57:56+0800	Verify row:9
+2017-08-29T09:57:56+0800	Validation11 validation  result is:Error
+2017-08-29T09:57:56+0800	Verify row:10
+2017-08-29T09:57:56+0800	Verify row:11
+2017-08-29T09:57:56+0800	Validation13 validation  result is:Error
+2017-08-29T09:57:56+0800	Verify row:12
+2017-08-29T09:57:56+0800	Validation14 validation  result is:Error
+2017-08-29T09:57:56+0800	Verify row:13
+2017-08-29T09:57:56+0800	Validation15 validation  result is:Error
+2017-08-29T09:57:56+0800	Verify row:14
+2017-08-29T09:57:56+0800	Validation16 validation  result is:Error
+2017-08-29T09:57:56+0800	Complate....
+2017-08-29T09:57:56+0800	---------------End----------------
+2017-08-29T10:17:12+0800	---------------Start----------------
+2017-08-29T10:17:12+0800	Exported file is:G:\Automation\arauto\arsel/target/result/data/download/dd8c00c679af476499f81f1e1dde59ee.xlsx
+2017-08-29T10:17:12+0800	TestData file is:G:\Automation\arauto\arsel\target\TestResult\20170829\CheckRule\TestData\Val_DSFR03v2CheckLength.xlsx
+2017-08-29T10:17:12+0800	Verify row:2
+2017-08-29T10:17:12+0800	Validation1 validation  result is:Pass
+2017-08-29T10:17:12+0800	Verify row:3
+2017-08-29T10:17:12+0800	Validation2 validation  result is:Fail
+2017-08-29T10:17:12+0800	Verify row:4
+2017-08-29T10:17:12+0800	Validation3 validation  result is:Pass
+2017-08-29T10:17:12+0800	Verify row:5
+2017-08-29T10:17:12+0800	Validation4 validation  result is:Pass
+2017-08-29T10:17:12+0800	Verify row:6
+2017-08-29T10:17:12+0800	Validation5 validation  result is:Pass
+2017-08-29T10:17:12+0800	Verify row:7
+2017-08-29T10:17:12+0800	Validation6 validation  result is:Pass
+2017-08-29T10:17:12+0800	Verify row:8
+2017-08-29T10:17:12+0800	Verify row:9
+2017-08-29T10:17:12+0800	Validation11 validation  result is:Error
+2017-08-29T10:17:12+0800	Verify row:10
+2017-08-29T10:17:12+0800	Verify row:11
+2017-08-29T10:17:12+0800	Validation13 validation  result is:Error
+2017-08-29T10:17:12+0800	Verify row:12
+2017-08-29T10:17:12+0800	Validation14 validation  result is:Error
+2017-08-29T10:17:12+0800	Verify row:13
+2017-08-29T10:17:12+0800	Validation15 validation  result is:Error
+2017-08-29T10:17:12+0800	Verify row:14
+2017-08-29T10:17:12+0800	Validation16 validation  result is:Error
+2017-08-29T10:17:12+0800	Complate....
+2017-08-29T10:17:12+0800	---------------End----------------
+2017-08-29T10:36:45+0800	---------------Start----------------
+2017-08-29T10:36:45+0800	Exported file is:G:\Automation\arauto\arsel/target/result/data/download/f14b30dc96a0449192663a9314428175.xlsx
+2017-08-29T10:36:45+0800	TestData file is:G:\Automation\arauto\arsel\target\TestResult\20170829\CheckRule\TestData\Val_DSFR03v2CheckLength.xlsx
+2017-08-29T10:36:45+0800	Verify row:2
+2017-08-29T10:36:45+0800	Verify row:3
+2017-08-29T10:36:45+0800	Validation11 validation  result is:Error
+2017-08-29T10:36:45+0800	Verify row:4
+2017-08-29T10:36:45+0800	Verify row:5
+2017-08-29T10:36:45+0800	Validation13 validation  result is:Error
+2017-08-29T10:36:45+0800	Verify row:6
+2017-08-29T10:36:45+0800	Validation14 validation  result is:Error
+2017-08-29T10:36:45+0800	Verify row:7
+2017-08-29T10:36:45+0800	Validation15 validation  result is:Error
+2017-08-29T10:36:45+0800	Verify row:8
+2017-08-29T10:36:45+0800	Validation16 validation  result is:Error
+2017-08-29T10:36:45+0800	Complate....
+2017-08-29T10:36:45+0800	---------------End----------------

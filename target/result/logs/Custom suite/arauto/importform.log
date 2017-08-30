@@ -1,0 +1,706 @@
+11:02:51.840 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+11:02:51.844 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+11:02:51.849 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+11:02:52.170 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+11:02:52.523 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+11:02:52.526 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+11:02:52.530 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+11:02:52.545 [main] ERROR com.lombardrisk.testCase.ImportForm - The driver executable does not exist: G:\Automation\arauto\..\..\public\selenium\webdriver\win32\chromedriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: G:\Automation\arauto\..\..\public\selenium\webdriver\win32\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:518) ~[guava-21.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:123) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:118) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:302) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:146) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapperFactory.createChromeDriverWrapper(WebDriverWrapperFactory.java:192) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapperFactory.createWebDriverWrapper(WebDriverWrapperFactory.java:80) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapperFactory.create(WebDriverWrapperFactory.java:68) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.createWebDriverWrapper(TestBase.java:336) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:382) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:346) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at com.lombardrisk.utils.TestTemplate.setMethod(TestTemplate.java:206) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+11:02:52.555 [main] INFO  com.lombardrisk.testCase.ImportForm - File is: null
+11:02:52.556 [main] INFO  com.lombardrisk.testCase.ImportForm - test data file is:ImportForm.xls
+11:02:52.556 [main] INFO  com.lombardrisk.testCase.ImportForm - Begin setup test folder and test data
+11:02:52.568 [main] ERROR com.lombardrisk.testCase.ImportForm - testImportAdjustment
+java.io.FileNotFoundException: Source 'G:\Automation\arauto\data_ar\ImportForm\ImportForm.xls' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1405) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1072) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1040) ~[commons-io-2.5.jar:2.5]
+	at com.lombardrisk.utils.TestTemplate.createFolderAndCopyFile(TestTemplate.java:381) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:302) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+11:02:52.569 [main] INFO  com.lombardrisk.testCase.ImportForm - tearDown after method
+11:02:52.569 [main] INFO  com.lombardrisk.testCase.ImportForm - teardown test after finishing feature id importform, scenario id importform
+11:02:52.569 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+11:02:52.569 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+11:03:53.406 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+11:03:53.409 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+11:03:53.414 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+11:03:53.731 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+11:03:54.071 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+11:03:54.075 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+11:03:54.078 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+11:03:54.937 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 4bcf5210b49aed409ea010c51fc42e06
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+11:03:54.938 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+11:03:54.951 [main] ERROR com.lombardrisk.testCase.ImportForm - no such session
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'SHA-LRI-PC-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+Session ID: 4bcf5210b49aed409ea010c51fc42e06
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'SHA-LRI-PC-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+Session ID: 4bcf5210b49aed409ea010c51fc42e06
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:743) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper.deleteAllCookies(WebDriverWrapper.java:83) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:383) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:346) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at com.lombardrisk.utils.TestTemplate.setMethod(TestTemplate.java:206) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+11:03:54.958 [main] INFO  com.lombardrisk.testCase.ImportForm - File is: null
+11:03:54.958 [main] INFO  com.lombardrisk.testCase.ImportForm - test data file is:ImportForm.xls
+11:03:54.958 [main] INFO  com.lombardrisk.testCase.ImportForm - Begin setup test folder and test data
+11:03:54.962 [main] ERROR com.lombardrisk.testCase.ImportForm - testImportAdjustment
+java.io.FileNotFoundException: Source 'G:\Automation\arauto\data_ar\ImportForm\ImportForm.xls' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1405) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1072) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1040) ~[commons-io-2.5.jar:2.5]
+	at com.lombardrisk.utils.TestTemplate.createFolderAndCopyFile(TestTemplate.java:381) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:302) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+11:03:54.963 [main] INFO  com.lombardrisk.testCase.ImportForm - tearDown after method
+11:03:54.963 [main] INFO  com.lombardrisk.testCase.ImportForm - teardown test after finishing feature id importform, scenario id importform
+11:03:54.963 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+11:03:54.963 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+11:03:57.189 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+11:05:12.006 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+11:05:12.011 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+11:05:12.016 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+11:05:12.317 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+11:05:12.650 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+11:05:12.654 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+11:05:12.658 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+11:05:12.675 [main] ERROR com.lombardrisk.testCase.ImportForm - The driver executable does not exist: G:\Automation\arauto\..\..\public\selenium\webdriver\win32\chromedriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: G:\Automation\arauto\..\..\public\selenium\webdriver\win32\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:518) ~[guava-21.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:123) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:118) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:302) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:146) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapperFactory.createChromeDriverWrapper(WebDriverWrapperFactory.java:192) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapperFactory.createWebDriverWrapper(WebDriverWrapperFactory.java:80) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapperFactory.create(WebDriverWrapperFactory.java:68) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.createWebDriverWrapper(TestBase.java:336) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:382) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:346) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at com.lombardrisk.utils.TestTemplate.setMethod(TestTemplate.java:206) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+11:05:12.680 [main] INFO  com.lombardrisk.testCase.ImportForm - File is: null
+11:05:12.680 [main] INFO  com.lombardrisk.testCase.ImportForm - test data file is:ImportForm.xls
+11:05:12.680 [main] INFO  com.lombardrisk.testCase.ImportForm - Begin setup test folder and test data
+11:05:12.684 [main] ERROR com.lombardrisk.testCase.ImportForm - testImportAdjustment
+java.io.FileNotFoundException: Source 'G:\Automation\arauto\data_ar\ImportForm\ImportForm.xls' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1405) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1072) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1040) ~[commons-io-2.5.jar:2.5]
+	at com.lombardrisk.utils.TestTemplate.createFolderAndCopyFile(TestTemplate.java:381) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:302) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+11:05:12.684 [main] INFO  com.lombardrisk.testCase.ImportForm - tearDown after method
+11:05:12.684 [main] INFO  com.lombardrisk.testCase.ImportForm - teardown test after finishing feature id importform, scenario id importform
+11:05:12.684 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+11:05:12.685 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+11:12:00.406 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+11:12:02.150 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+11:12:02.188 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+11:12:12.755 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+11:12:14.351 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+11:12:15.251 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+11:12:15.300 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+11:12:36.491 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+11:12:38.080 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+11:12:38.104 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+11:12:38.452 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+11:12:38.836 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+11:13:34.999 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+11:13:35.034 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+13:07:22.086 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+13:07:22.089 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+13:07:22.093 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+13:07:22.377 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+13:07:22.744 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+13:07:22.748 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+13:07:22.751 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+13:07:23.557 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 38add9e34eb83123375ff196f0157e91
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+13:07:23.558 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+13:07:23.568 [main] ERROR com.lombardrisk.testCase.ImportForm - no such session
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'SHA-LRI-PC-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+Session ID: 38add9e34eb83123375ff196f0157e91
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'SHA-LRI-PC-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+Session ID: 38add9e34eb83123375ff196f0157e91
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:743) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper.deleteAllCookies(WebDriverWrapper.java:83) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:383) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:346) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at com.lombardrisk.utils.TestTemplate.setMethod(TestTemplate.java:206) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+13:07:23.574 [main] INFO  com.lombardrisk.testCase.ImportForm - File is: null
+13:07:23.574 [main] INFO  com.lombardrisk.testCase.ImportForm - test data file is:ImportForm.xls
+13:07:23.574 [main] INFO  com.lombardrisk.testCase.ImportForm - Begin setup test folder and test data
+13:07:23.578 [main] ERROR com.lombardrisk.testCase.ImportForm - testImportAdjustment
+java.io.FileNotFoundException: Source 'G:\Automation\arauto\data_ar\ImportForm\ImportForm.xls' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1405) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1072) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1040) ~[commons-io-2.5.jar:2.5]
+	at com.lombardrisk.utils.TestTemplate.createFolderAndCopyFile(TestTemplate.java:381) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:302) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+13:07:23.579 [main] INFO  com.lombardrisk.testCase.ImportForm - tearDown after method
+13:07:23.579 [main] INFO  com.lombardrisk.testCase.ImportForm - teardown test after finishing feature id importform, scenario id importform
+13:07:23.579 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+13:07:23.579 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+13:07:25.801 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+13:09:40.916 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+13:09:40.920 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+13:09:40.927 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+13:09:41.222 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+13:09:41.564 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+13:09:41.569 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+13:09:41.574 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+13:09:42.381 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: e2899b8e6caf002ecc8626301de57354
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+13:09:42.381 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+13:09:42.396 [main] ERROR com.lombardrisk.testCase.ImportForm - no such session
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'SHA-LRI-PC-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+Session ID: e2899b8e6caf002ecc8626301de57354
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'SHA-LRI-PC-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+Session ID: e2899b8e6caf002ecc8626301de57354
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:743) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper.deleteAllCookies(WebDriverWrapper.java:83) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:383) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:346) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at com.lombardrisk.utils.TestTemplate.setMethod(TestTemplate.java:206) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+13:09:42.403 [main] INFO  com.lombardrisk.testCase.ImportForm - File is: null
+13:09:42.403 [main] INFO  com.lombardrisk.testCase.ImportForm - test data file is:ImportForm.xls
+13:09:42.403 [main] INFO  com.lombardrisk.testCase.ImportForm - Begin setup test folder and test data
+13:09:42.407 [main] ERROR com.lombardrisk.testCase.ImportForm - testImportAdjustment
+java.io.FileNotFoundException: Source 'G:\Automation\arauto\data_ar\ImportForm\ImportForm.xls' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1405) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1072) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1040) ~[commons-io-2.5.jar:2.5]
+	at com.lombardrisk.utils.TestTemplate.createFolderAndCopyFile(TestTemplate.java:381) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:302) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+13:09:42.408 [main] INFO  com.lombardrisk.testCase.ImportForm - tearDown after method
+13:09:42.408 [main] INFO  com.lombardrisk.testCase.ImportForm - teardown test after finishing feature id importform, scenario id importform
+13:09:42.408 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+13:09:42.408 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+13:09:44.630 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+13:14:09.587 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+13:14:09.604 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+13:14:09.619 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+13:14:09.961 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+13:14:10.335 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+13:14:11.450 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+13:14:35.897 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+13:16:23.429 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+13:16:23.433 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+13:16:23.439 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+13:16:23.857 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+13:16:24.314 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+13:16:25.446 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+13:17:00.312 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+13:22:35.296 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+13:22:35.318 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+13:22:35.344 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+13:22:35.692 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+13:22:36.064 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+13:22:37.478 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+13:22:39.156 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+13:29:01.870 [main] INFO  com.lombardrisk.testCase.ImportForm - setup test before starting feature id importform, scenario id importform
+13:29:01.873 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+13:29:01.877 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+13:29:02.157 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+13:29:02.497 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+13:29:02.500 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+13:29:02.504 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+13:29:02.520 [main] ERROR com.lombardrisk.testCase.ImportForm - The driver executable does not exist: G:\Automation\arauto\..\..\public\selenium\webdriver\win32\chromedriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: G:\Automation\arauto\..\..\public\selenium\webdriver\win32\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:518) ~[guava-21.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:123) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:118) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:302) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:146) ~[selenium-chrome-driver-3.3.0.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapperFactory.createChromeDriverWrapper(WebDriverWrapperFactory.java:192) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapperFactory.createWebDriverWrapper(WebDriverWrapperFactory.java:80) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapperFactory.create(WebDriverWrapperFactory.java:68) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.createWebDriverWrapper(TestBase.java:336) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:382) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:346) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at com.lombardrisk.utils.TestTemplate.setMethod(TestTemplate.java:206) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+13:29:02.526 [main] INFO  com.lombardrisk.testCase.ImportForm - File is: null
+13:29:02.526 [main] INFO  com.lombardrisk.testCase.ImportForm - test data file is:ImportForm.xls
+13:29:02.526 [main] INFO  com.lombardrisk.testCase.ImportForm - Begin setup test folder and test data
+13:29:02.530 [main] ERROR com.lombardrisk.testCase.ImportForm - testImportAdjustment
+java.io.FileNotFoundException: Source 'G:\Automation\arauto\data_ar\ImportForm\ImportForm.xls' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1405) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1072) ~[commons-io-2.5.jar:2.5]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1040) ~[commons-io-2.5.jar:2.5]
+	at com.lombardrisk.utils.TestTemplate.createFolderAndCopyFile(TestTemplate.java:381) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:302) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+13:29:02.530 [main] INFO  com.lombardrisk.testCase.ImportForm - tearDown after method
+13:29:02.530 [main] INFO  com.lombardrisk.testCase.ImportForm - teardown test after finishing feature id importform, scenario id importform
+13:29:02.531 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+13:29:02.531 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy

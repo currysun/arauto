@@ -1,0 +1,514 @@
+13:30:58.745 [main] ERROR com.lombardrisk.testCase.ImportForm - no such session
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'SHA-LRI-PC-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+Session ID: bdb6e2e05426e87811fcae3c2e40159c
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'SHA-LRI-PC-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+Session ID: bdb6e2e05426e87811fcae3c2e40159c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:743) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper.deleteAllCookies(WebDriverWrapper.java:83) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:383) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:346) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at com.lombardrisk.utils.TestTemplate.setMethod(TestTemplate.java:206) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+13:30:59.089 [main] ERROR com.lombardrisk.testCase.ImportForm - null
+java.lang.NullPointerException: null
+	at com.lombardrisk.testCase.ImportForm.ImportInFormPage(ImportForm.java:173) [test-classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:348) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+13:31:03.238 [main] ERROR com.lombardrisk.testCase.ImportForm - testImportAdjustment
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'SHA-LRI-PC-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64), platform=ANY}]
+Session ID: 11ad606a591c9d28bbc94d5d81ae8024
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:743) ~[selenium-remote-driver-3.3.0.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper.deleteAllCookies(WebDriverWrapper.java:83) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:383) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at org.yiwan.webcore.test.TestBase.setUpTest(TestBase.java:346) ~[webcore-2.0.0-20170822.060030-64.jar:na]
+	at com.lombardrisk.utils.TestTemplate.reStartBrowser(TestTemplate.java:293) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:350) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+14:23:29.055 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(227.4) is not equal acctuall value(0)
+14:23:30.664 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(225.4) is not equal acctuall value(0)
+14:23:31.491 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(23) is not equal acctuall value(0)
+14:23:34.519 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(534) is not equal acctuall value(1)
+14:23:37.473 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(2) is not equal acctuall value(0)
+14:23:38.206 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(6) is not equal acctuall value(0)
+14:23:39.002 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(456) is not equal acctuall value(0)
+14:23:40.581 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(3) is not equal acctuall value(0)
+14:23:41.347 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(2344) is not equal acctuall value(2)
+14:23:42.794 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(3123) is not equal acctuall value(3)
+14:23:43.463 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(2) is not equal acctuall value(0)
+14:23:44.908 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(634) is not equal acctuall value(1)
+14:23:45.648 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(-780) is not equal acctuall value((1))
+14:23:46.401 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(47) is not equal acctuall value(0)
+14:23:54.544 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(678) is not equal acctuall value(0)
+14:23:57.506 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(272) is not equal acctuall value(0)
+14:23:58.258 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(227) is not equal acctuall value(0)
+14:24:00.488 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(75) is not equal acctuall value(0)
+14:24:01.179 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(8) is not equal acctuall value(0)
+14:24:01.982 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(53) is not equal acctuall value(0)
+14:24:03.447 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(43) is not equal acctuall value(0)
+14:24:04.938 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(540) is not equal acctuall value(1)
+14:24:14.694 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(540) is not equal acctuall value(1)
+14:24:17.471 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(785) is not equal acctuall value(1)
+14:24:18.921 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(77793) is not equal acctuall value(78)
+14:24:19.742 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(0) is not equal acctuall value(    - 0)
+14:24:20.574 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(6536) is not equal acctuall value(7)
+14:24:24.833 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(75214) is not equal acctuall value(75)
+14:24:27.899 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(-578527) is not equal acctuall value((579))
+14:24:29.461 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(578527) is not equal acctuall value(579)
+14:24:30.970 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(54240) is not equal acctuall value(54)
+14:24:31.718 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(78578) is not equal acctuall value(79)
+14:24:32.415 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(78578) is not equal acctuall value(79)
+14:25:30.649 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(454.8) is not equal acctuall value(0)
+14:25:33.359 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(155586) is not equal acctuall value(78)
+14:25:34.043 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(0) is not equal acctuall value(    - 0)
+14:25:34.743 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(13072) is not equal acctuall value(7)
+14:25:39.090 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(150428) is not equal acctuall value(75)
+14:53:43.000 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(0) is not equal acctuall value(    - 0)
+14:54:55.622 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(156) is not equal acctuall value(78)
+14:54:56.223 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(0) is not equal acctuall value(    - 0)
+14:54:56.856 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(14) is not equal acctuall value(7)
+14:55:00.744 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(150) is not equal acctuall value(75)
+15:07:20.828 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(156) is not equal acctuall value(78)
+15:07:21.452 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(14) is not equal acctuall value(7)
+15:07:25.441 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(150) is not equal acctuall value(75)
+18:42:16.643 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(3,821) is not equal acctuall value((200))
+18:42:24.793 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(3,408) is not equal acctuall value(0)
+18:43:17.159 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(4,550) is not equal acctuall value(5)
+18:43:26.896 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(2,000) is not equal acctuall value(0)
+18:45:11.408 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(4,550) is not equal acctuall value(5)
+18:45:21.196 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(2,000) is not equal acctuall value(0)
+18:46:51.501 [main] ERROR com.lombardrisk.testCase.ImportForm - unknown error: Element is not clickable at point (1798, 58). Other element would receive the click: <div id="importFilesDialog_modal" class="ui-widget-overlay" style="width: 1920px; height: 983px; z-index: 1006;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir5868_22635}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 677212e88b4b09710b5cf8fc6b039dfd
+org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1798, 58). Other element would receive the click: <div id="importFilesDialog_modal" class="ui-widget-overlay" style="width: 1920px; height: 983px; z-index: 1006;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir5868_22635}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 677212e88b4b09710b5cf8fc6b039dfd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:556) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:546) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.FormInstancePage.getAllInstance(FormInstancePage.java:2718) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.ImportInFormPage(ImportForm.java:237) [test-classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:348) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+18:57:05.597 [main] ERROR com.lombardrisk.testCase.ImportForm - The expected error info is:There is error when convert TEST123 to target type NUMERIC, cell adjustment is [Cell Position:FI2001!$4$11, Cell Name:FI2001R020C010, Instance Code:x0, Instance Id:1, Adjustment value:TEST123, Comment:FileName:  FI20_v1_9991_01022016_Error8.xlsx;Source Entity:   9991;Reporting Date:   01/02/2016;Author:   admin]. Please check whether the cell type is consistent with its definition in the Form Metadata.
+There is error when convert TEST to target type DATE, cell adjustment is [Cell Position:FI2001!$4$9, Cell Name:FI2001R001C010, Instance Code:x0, Instance Id:1, Adjustment value:TEST, Comment:FileName:  FI20_v1_9991_01022016_Error8.xlsx;Source Entity:   9991;Reporting Date:   01/02/2016;Author:   admin]. Please check whether the cell type is consistent with its definition in the Form Metadata., but actual error info is:[There is error when convert TEST to target type DATE, cell adjustment is [Cell Position:FI2001!$4$9, Cell Name:FI2001R001C010, Instance Code:x0, Instance Id:1, Adjustment value:TEST, Comment:FileName:  FI20_v1_9991_01022016_Error8.xlsx;Source Entity:   9991;Reporting Date:   01/02/2016;Author:   admin]. Please check whether the cell type is consistent with its definition in the Form Metadata.
+There is error when convert TEST123 to target type NUMERIC, cell adjustment is [Cell Position:FI2001!$4$11, Cell Name:FI2001R020C010, Instance Code:x0, Instance Id:1, Adjustment value:TEST123, Comment:FileName:  FI20_v1_9991_01022016_Error8.xlsx;Source Entity:   9991;Reporting Date:   01/02/2016;Author:   admin]. Please check whether the cell type is consistent with its definition in the Form Metadata.]
+18:59:53.732 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(08/02/2018) is not equal acctuall value(02/08/18)
+19:01:41.742 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(56ER) is not equal acctuall value(ER2)
+19:01:42.467 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(02/01/16) is not equal acctuall value(02/08/18)
+19:01:43.250 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(5GB) is not equal acctuall value(34E)
+19:01:44.018 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(NULL) is not equal acctuall value(BE)
+19:01:46.621 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(12R) is not equal acctuall value(45)
+19:04:05.284 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(4,550) is not equal acctuall value(5)
+19:04:15.198 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(2,000) is not equal acctuall value(0)
+19:05:19.227 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1@2314f013 (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir13396_11110}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 65591bfe9f9da0fb65f11979f4010855
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1@2314f013 (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir13396_11110}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 65591bfe9f9da0fb65f11979f4010855
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80) ~[selenium-support-3.0.1.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:546) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.FormInstancePage.isImportAdjustmentEnabled(FormInstancePage.java:836) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.ImportInFormPage(ImportForm.java:198) [test-classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:348) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"formHeader:adjust_button"}
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir13396_11110}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 65591bfe9f9da0fb65f11979f4010855
+*** Element info: {Using=id, value=formHeader:adjust_button}
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.By$ById.findElement(By.java:218) ~[selenium-api-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.findElement(WebDriverWrapper.java:537) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.access$1100(WebDriverWrapper.java:529) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:556) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	... 35 common frames omitted
+19:13:28.624 [main] ERROR com.lombardrisk.testCase.ImportForm - The expected error info is:There is error when convert TEST123 to target type DATE, cell adjustment is [Cell Name:LEE1C020, Instance Code:1, Instance Id:null, Adjustment value:TEST123, Comment: FileName: LEXP_v4_9991_01022016_Error6.csv Author: rpadmin , Row Key:1]. Please check whether the cell type is consistent with its definition in the Form Metadata.<br>There is error when convert ERT to target type NUMERIC, cell adjustment is [Cell Name:LELMR020, Instance Code:1, Instance Id:null, Adjustment value:ERT, Comment: FileName: LEXP_v4_9991_01022016_Error6.csv Author: rpadmin ]. Please check whether the cell type is consistent with its definition in the Form Metadata., but actual error info is:[There is error when convert TEST123 to target type DATE, cell adjustment is [Cell Name:LEE1C020, Instance Code:1, Instance Id:null, Adjustment value:TEST123, Comment: FileName: LEXP_v6_9991_01022016_Error6.csv Author: rpadmin , Row Key:1]. Please check whether the cell type is consistent with its definition in the Form Metadata.<br>There is error when convert ERT to target type NUMERIC, cell adjustment is [Cell Name:LELMR020, Instance Code:1, Instance Id:null, Adjustment value:ERT, Comment: FileName: LEXP_v6_9991_01022016_Error6.csv Author: rpadmin ]. Please check whether the cell type is consistent with its definition in the Form Metadata.]
+19:17:42.373 [main] ERROR com.lombardrisk.testCase.ImportForm - unknown error: Element is not clickable at point (1798, 58). Other element would receive the click: <div id="importFilesDialog_modal" class="ui-widget-overlay" style="width: 1920px; height: 983px; z-index: 1006;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir13360_30091}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 647be9bf3f734cee43eb5667a5a37f82
+org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1798, 58). Other element would receive the click: <div id="importFilesDialog_modal" class="ui-widget-overlay" style="width: 1920px; height: 983px; z-index: 1006;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir13360_30091}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 647be9bf3f734cee43eb5667a5a37f82
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:556) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:546) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.FormInstancePage.getAllInstance(FormInstancePage.java:2718) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.ImportInFormPage(ImportForm.java:237) [test-classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:348) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+19:23:27.895 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(56) is not equal acctuall value(VW)
+19:23:33.222 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(100) is not equal acctuall value(1,290)
+19:23:33.969 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(1,290) is not equal acctuall value(1,300)
+19:23:38.549 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(20150131) is not equal acctuall value(20151231)
+19:23:43.855 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(200.00000) is not equal acctuall value(4800.00000)
+19:23:44.620 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(4800.00000) is not equal acctuall value(4700.00000)
+19:24:30.433 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(US) is not equal acctuall value(2)
+19:24:31.276 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(2) is not equal acctuall value(100)
+19:24:36.216 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(2,500,000) is not equal acctuall value(16,000)
+19:24:37.099 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(16,000) is not equal acctuall value(175,933)
+19:24:37.910 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(175,933) is not equal acctuall value(2,500,000)
+19:24:47.277 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(1113650.00000) is not equal acctuall value(16000.00000)
+19:24:48.017 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(16000.00000) is not equal acctuall value(640000.00000)
+19:24:48.758 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected value(640801.00000) is not equal acctuall value(1115252.00000)
+19:26:42.158 [main] ERROR com.lombardrisk.pages.ListPage - Import adjustment failed
+19:27:13.294 [main] ERROR com.lombardrisk.testCase.ImportForm - Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15@8a5ecad (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir12856_4815}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e612e7eb51702348efacf416aa244f
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15@8a5ecad (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir12856_4815}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e612e7eb51702348efacf416aa244f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80) ~[selenium-support-3.0.1.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.getAttribute(WebDriverWrapper.java:876) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.FormInstancePage.selectPage(FormInstancePage.java:1371) ~[classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.getPageNameByCell(FormInstancePage.java:1791) ~[classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.getCellText(FormInstancePage.java:268) ~[classes/:na]
+	at com.lombardrisk.utils.TestTemplate.getCellValueInForm(TestTemplate.java:1117) ~[classes/:na]
+	at com.lombardrisk.testCase.ImportForm.ImportInDashboard(ImportForm.java:100) [test-classes/:na]
+	at com.lombardrisk.testCase.ImportForm.testImportAdjustment(ImportForm.java:345) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr/td[span='Page1']/parent::*"}
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\GRANTS~1\AppData\Local\Temp\scoped_dir12856_4815}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e612e7eb51702348efacf416aa244f
+*** Element info: {Using=xpath, value=//tr/td[span='Page1']/parent::*}
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361) ~[selenium-api-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.findElement(WebDriverWrapper.java:537) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.access$1100(WebDriverWrapper.java:529) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15.apply(WebDriverWrapper.java:879) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15.apply(WebDriverWrapper.java:876) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	... 37 common frames omitted

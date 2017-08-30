@@ -1,0 +1,548 @@
+15:57:51.887 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - setup test before starting feature id adjustmentstest, scenario id adjustmentstest
+15:57:51.892 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+15:57:51.901 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+15:57:52.325 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+15:57:53.239 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+15:57:53.244 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+15:57:53.250 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+15:57:56.647 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: bd6a543ef00addf5cc0c47964eb2dc83
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir16432_12597}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+15:57:56.647 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+15:57:59.003 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+15:58:00.150 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+15:58:02.802 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+15:58:02.842 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+15:58:02.884 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+15:58:02.919 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+15:58:02.965 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+15:58:09.868 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Get user format
+15:58:10.018 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Expected language is:en_GB
+15:58:10.020 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - ====Verify extended grid of Number type can be drilldown properly after user retrieve and DISCARD Adjustment - dashboard[case id=4440]====
+15:58:10.074 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+15:58:10.075 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve SP0
+15:58:10.222 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text US1 FED Reserve SP0 on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+15:58:19.465 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+15:58:19.644 [main] INFO  com.lombardrisk.pages.ListPage - Set form=FRY14ASUMM v1
+15:58:19.904 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY14ASUMM v1 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+15:58:23.084 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+15:58:26.084 [main] INFO  com.lombardrisk.pages.ListPage - Delete form[FRY14ASUMM v1 30/09/2014] if exist
+15:58:26.120 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delFormIcon1 (lp.delFormIcon1) Image by id (formInstanceListForm:formInstanceListTable:0:delIcon) @ ListPage (lp) page
+15:58:27.251 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delConfBtn (lp.delConfBtn) WebElement by id (deleteReturnMessageForm:deleteReturnConfirm) @ ListPage (lp) page
+15:58:28.364 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+15:58:28.397 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing Delete return by automation on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+15:58:28.461 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteComnent (lp.deleteReturnBtn) WebElement by id (deleteReturnCommentForm:deleteReturn) @ ListPage (lp) page
+15:58:38.174 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (lp.retrieve) WebButton by id (FormInstImpExpMenu:retrieve) @ ListPage (lp) page
+15:58:38.755 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set group= 0001
+15:58:38.755 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (frp.group) WebElement by id (retrieveForm:selectGroup) @ FormInstanceRetrievePage (frp) page
+15:58:39.347 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set processDate= 30/09/2014
+15:58:39.347 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+15:58:39.397 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 30/09/2014 on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+15:58:39.469 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+15:58:39.857 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+15:58:39.874 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Sep on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+15:58:40.230 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2014 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+15:58:40.591 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=30]]/td[a=30]/a) @ AbstractPage (ap) page
+15:58:41.707 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set form= FRY14ASUMM v1
+15:58:41.707 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY14ASUMM v1 on formLocator (frp.form) WebElement by id (retrieveForm:selectForm) @ FormInstanceRetrievePage (frp) page
+15:58:42.839 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Click retrieve button
+15:58:42.839 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (frp.retrieve) WebButton by id (retrieveForm:doRetrieve) @ FormInstanceRetrievePage (frp) page
+15:58:49.480 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Job instance id is: 2818
+15:59:46.173 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Retrieve form succeeded
+15:59:46.197 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (lp.JobResultOK) WebButton by id (jobResultForm:ok) @ ListPage (lp) page
+15:59:50.341 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+15:59:57.087 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Refresh page
+15:59:57.087 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - refreshing page
+16:00:03.245 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=30/09/2014
+16:00:03.363 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 30/09/2014 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+16:00:06.466 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+16:00:06.982 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+16:00:17.847 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+16:00:20.930 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click page :PPNR Metrics 6 of 6
+16:00:20.930 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='PPNR Metrics 6 of 6']/span) @ FormInstancePage (fp) page
+16:00:22.769 [main] INFO  com.lombardrisk.pages.FormInstancePage - Select instance 413
+16:00:22.769 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking currentInstance (fp.curInst) WebElement by id (formHeader:currentPageInstance_label) @ FormInstancePage (fp) page
+16:00:23.381 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking select instance (fp.selectInstace) WebElement by xpath (//*[@id='formHeader:currentPageInstance_panel']/div/table/tbody/tr[@data-label='413']) @ FormInstancePage (fp) page
+16:00:26.720 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='ExtDBGrid4453FEDFRY14ASUMP091R1500C0030']) @ FormInstancePage (fp) page
+16:00:30.400 [main] INFO  com.lombardrisk.pages.FormInstancePage - id of input is:numericCellEditor
+16:00:30.400 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:00:30.427 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 20000 on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:00:30.995 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cellEditOkBtn (fp.cellEditSave) WebButton by id (okBtn) @ FormInstancePage (fp) page
+16:00:34.497 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+16:00:36.497 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+16:01:00.821 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking update2 (lp.form.update2) WebTableCell by id (formInstanceListForm:formInstanceListTable:0:updateBtn) @ ListPage (lp) page
+16:01:05.325 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveNew (rsp.retrieveNewBtn) WebButton by id (returnSourcesForm:retrieveNew) @ ReturnSourcePage (rsp) page
+16:01:05.446 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+16:01:05.946 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adj.discard (rsp.adj.discard) WebElement by xpath (//*[@id='returnSourcesForm:retrieveNewMenu']/ul/li[1]/a/span) @ ReturnSourcePage (rsp) page
+16:01:14.322 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Job instance id is: 2819
+16:02:06.662 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Retrieve new form succeed
+16:02:07.674 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (lp.JobResultOK) WebButton by id (jobResultForm:ok) @ ListPage (lp) page
+16:02:11.911 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+16:02:20.325 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+16:02:20.869 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+16:02:30.671 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+16:02:35.632 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click page :PPNR Metrics 6 of 6
+16:02:35.633 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='PPNR Metrics 6 of 6']/span) @ FormInstancePage (fp) page
+16:02:41.381 [main] INFO  com.lombardrisk.pages.FormInstancePage - Select instance 413
+16:02:41.382 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking currentInstance (fp.curInst) WebElement by id (formHeader:currentPageInstance_label) @ FormInstancePage (fp) page
+16:02:42.064 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking select instance (fp.selectInstace) WebElement by xpath (//*[@id='formHeader:currentPageInstance_panel']/div/table/tbody/tr[@data-label='413']) @ FormInstancePage (fp) page
+16:03:56.555 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Case[4440] is failed
+16:03:57.305 [main] ERROR com.lombardrisk.testCase.AdjustmentsTest - test4440
+org.junit.ComparisonFailure: expected:<"[41,823.68]"> but was:<"[171,309,803.77]">
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_91]
+	at com.lombardrisk.testCase.AdjustmentsTest.test4440(AdjustmentsTest.java:618) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+16:03:57.306 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - tearDown after method
+16:03:57.306 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - teardown test after finishing feature id adjustmentstest, scenario id adjustmentstest
+16:03:57.306 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+16:03:57.306 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+16:03:59.619 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+16:34:51.971 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - setup test before starting feature id adjustmentstest, scenario id adjustmentstest
+16:34:51.976 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+16:34:51.984 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+16:34:52.416 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+16:34:52.930 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+16:34:52.934 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+16:34:52.941 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+16:34:56.491 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 887738f27adb5634ab01fe9fcb2220a4
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir17620_5100}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+16:34:56.491 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+16:35:00.827 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+16:35:01.980 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+16:35:03.011 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+16:35:03.055 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+16:35:03.096 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+16:35:03.132 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+16:35:03.179 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+16:35:07.763 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Get user format
+16:35:07.908 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Expected language is:en_GB
+16:35:07.911 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - ====Verify extended grid of Number type can be drilldown properly after user retrieve and DISCARD Adjustment - dashboard[case id=4440]====
+16:35:07.966 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+16:35:07.966 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve SP0
+16:35:08.113 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+16:35:08.280 [main] INFO  com.lombardrisk.pages.ListPage - Set form=FRY14ASUMM v1
+16:35:08.977 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+16:35:11.977 [main] INFO  com.lombardrisk.pages.ListPage - Delete form[FRY14ASUMM v1 30/09/2014] if exist
+16:35:12.014 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delFormIcon1 (lp.delFormIcon1) Image by id (formInstanceListForm:formInstanceListTable:0:delIcon) @ ListPage (lp) page
+16:35:13.142 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delConfBtn (lp.delConfBtn) WebElement by id (deleteReturnMessageForm:deleteReturnConfirm) @ ListPage (lp) page
+16:35:14.240 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+16:35:14.270 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing Delete return by automation on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+16:35:14.329 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteComnent (lp.deleteReturnBtn) WebElement by id (deleteReturnCommentForm:deleteReturn) @ ListPage (lp) page
+16:35:24.018 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (lp.retrieve) WebButton by id (FormInstImpExpMenu:retrieve) @ ListPage (lp) page
+16:35:24.602 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set group= 0001
+16:35:24.602 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (frp.group) WebElement by id (retrieveForm:selectGroup) @ FormInstanceRetrievePage (frp) page
+16:35:25.208 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set processDate= 30/09/2014
+16:35:25.208 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:35:25.274 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 30/09/2014 on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:35:25.333 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:35:25.689 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+16:35:25.724 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Sep on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+16:35:26.084 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2014 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+16:35:26.493 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=30]]/td[a=30]/a) @ AbstractPage (ap) page
+16:35:27.625 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set form= FRY14ASUMM v1
+16:35:27.625 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY14ASUMM v1 on formLocator (frp.form) WebElement by id (retrieveForm:selectForm) @ FormInstanceRetrievePage (frp) page
+16:35:28.757 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Click retrieve button
+16:35:28.757 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (frp.retrieve) WebButton by id (retrieveForm:doRetrieve) @ FormInstanceRetrievePage (frp) page
+16:35:35.916 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Job instance id is: 2822
+16:36:30.350 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Retrieve form succeeded
+16:36:30.374 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (lp.JobResultOK) WebButton by id (jobResultForm:ok) @ ListPage (lp) page
+16:36:35.008 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+16:36:41.888 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Refresh page
+16:36:41.888 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - refreshing page
+16:36:48.290 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=30/09/2014
+16:36:48.410 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 30/09/2014 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+16:36:51.511 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+16:36:52.031 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+16:37:01.828 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+16:37:04.914 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click page :PPNR Metrics 6 of 6
+16:37:04.914 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='PPNR Metrics 6 of 6']/span) @ FormInstancePage (fp) page
+16:37:06.631 [main] INFO  com.lombardrisk.pages.FormInstancePage - Select instance 413
+16:37:06.631 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking currentInstance (fp.curInst) WebElement by id (formHeader:currentPageInstance_label) @ FormInstancePage (fp) page
+16:37:07.222 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking select instance (fp.selectInstace) WebElement by xpath (//*[@id='formHeader:currentPageInstance_panel']/div/table/tbody/tr[@data-label='413']) @ FormInstancePage (fp) page
+16:37:10.452 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='ExtDBGrid4453FEDFRY14ASUMP091R1500C0030']) @ FormInstancePage (fp) page
+16:37:14.117 [main] INFO  com.lombardrisk.pages.FormInstancePage - id of input is:numericCellEditor
+16:37:14.117 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:37:14.147 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 20000 on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:37:14.720 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cellEditOkBtn (fp.cellEditSave) WebButton by id (okBtn) @ FormInstancePage (fp) page
+16:37:18.505 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+16:37:20.505 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+16:37:24.173 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking update2 (lp.form.update2) WebTableCell by id (formInstanceListForm:formInstanceListTable:0:updateBtn) @ ListPage (lp) page
+16:37:25.290 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveNew (rsp.retrieveNewBtn) WebButton by id (returnSourcesForm:retrieveNew) @ ReturnSourcePage (rsp) page
+16:37:25.351 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+16:37:25.851 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adj.discard (rsp.adj.discard) WebElement by xpath (//*[@id='returnSourcesForm:retrieveNewMenu']/ul/li[1]/a/span) @ ReturnSourcePage (rsp) page
+16:37:32.981 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Job instance id is: 2823
+16:38:28.062 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Retrieve new form succeed
+16:38:28.086 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (lp.JobResultOK) WebButton by id (jobResultForm:ok) @ ListPage (lp) page
+16:38:32.728 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+16:38:38.905 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+16:38:39.421 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+16:38:48.999 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+16:38:52.084 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click page :PPNR Metrics 6 of 6
+16:38:52.084 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='PPNR Metrics 6 of 6']/span) @ FormInstancePage (fp) page
+16:38:53.819 [main] INFO  com.lombardrisk.pages.FormInstancePage - Select instance 413
+16:38:53.819 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking currentInstance (fp.curInst) WebElement by id (formHeader:currentPageInstance_label) @ FormInstancePage (fp) page
+16:38:54.403 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking select instance (fp.selectInstace) WebElement by xpath (//*[@id='formHeader:currentPageInstance_panel']/div/table/tbody/tr[@data-label='413']) @ FormInstancePage (fp) page
+16:39:59.584 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Case[4440] is failed
+16:40:04.541 [main] ERROR com.lombardrisk.testCase.AdjustmentsTest - test4440
+org.junit.ComparisonFailure: expected:<"81.6[87]"> but was:<"81.6[9]">
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_91]
+	at com.lombardrisk.testCase.AdjustmentsTest.test4440(AdjustmentsTest.java:618) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+16:40:04.569 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - tearDown after method
+16:40:04.569 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - teardown test after finishing feature id adjustmentstest, scenario id adjustmentstest
+16:40:04.570 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+16:40:04.570 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+16:40:06.917 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+16:40:57.248 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - setup test before starting feature id adjustmentstest, scenario id adjustmentstest
+16:40:57.252 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+16:40:57.260 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+16:40:57.624 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+16:40:58.016 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+16:40:58.021 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+16:40:58.025 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+16:41:02.404 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: d6d468bb794bd8a940e1f3c7a151f7aa
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir18636_11500}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+16:41:02.404 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+16:41:04.977 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+16:41:06.123 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+16:41:09.520 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+16:41:09.564 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+16:41:09.620 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+16:41:09.669 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+16:41:09.721 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+16:41:14.577 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Get user format
+16:41:14.707 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Expected language is:en_GB
+16:41:14.710 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - ====Verify extended grid of Number type can be drilldown properly after user retrieve and DISCARD Adjustment - dashboard[case id=4440]====
+16:41:14.759 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+16:41:14.760 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve SP0
+16:41:14.904 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+16:41:15.071 [main] INFO  com.lombardrisk.pages.ListPage - Set form=FRY14ASUMM v1
+16:41:15.768 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+16:41:18.768 [main] INFO  com.lombardrisk.pages.ListPage - Delete form[FRY14ASUMM v1 30/09/2014] if exist
+16:41:18.797 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delFormIcon1 (lp.delFormIcon1) Image by id (formInstanceListForm:formInstanceListTable:0:delIcon) @ ListPage (lp) page
+16:41:19.901 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delConfBtn (lp.delConfBtn) WebElement by id (deleteReturnMessageForm:deleteReturnConfirm) @ ListPage (lp) page
+16:41:21.042 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+16:41:21.076 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing Delete return by automation on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+16:41:21.138 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteComnent (lp.deleteReturnBtn) WebElement by id (deleteReturnCommentForm:deleteReturn) @ ListPage (lp) page
+16:41:30.848 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (lp.retrieve) WebButton by id (FormInstImpExpMenu:retrieve) @ ListPage (lp) page
+16:41:31.436 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set group= 0001
+16:41:31.436 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (frp.group) WebElement by id (retrieveForm:selectGroup) @ FormInstanceRetrievePage (frp) page
+16:41:32.023 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set processDate= 30/09/2014
+16:41:32.023 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:41:32.071 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 30/09/2014 on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:41:32.132 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:41:32.488 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+16:41:32.505 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Sep on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+16:41:32.863 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2014 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+16:41:33.246 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=30]]/td[a=30]/a) @ AbstractPage (ap) page
+16:41:34.348 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set form= FRY14ASUMM v1
+16:41:34.348 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY14ASUMM v1 on formLocator (frp.form) WebElement by id (retrieveForm:selectForm) @ FormInstanceRetrievePage (frp) page
+16:41:35.499 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Click retrieve button
+16:41:35.499 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (frp.retrieve) WebButton by id (retrieveForm:doRetrieve) @ FormInstanceRetrievePage (frp) page
+16:41:42.114 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Job instance id is: 2824
+16:42:41.469 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Retrieve form succeeded
+16:42:41.495 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (lp.JobResultOK) WebButton by id (jobResultForm:ok) @ ListPage (lp) page
+16:42:46.107 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+16:42:52.889 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Refresh page
+16:42:52.889 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - refreshing page
+16:42:58.669 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=30/09/2014
+16:42:58.801 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 30/09/2014 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+16:43:01.895 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+16:43:02.413 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+16:43:11.223 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+16:43:14.304 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click page :PPNR Metrics 6 of 6
+16:43:14.304 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='PPNR Metrics 6 of 6']/span) @ FormInstancePage (fp) page
+16:43:16.028 [main] INFO  com.lombardrisk.pages.FormInstancePage - Select instance 413
+16:43:16.028 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking currentInstance (fp.curInst) WebElement by id (formHeader:currentPageInstance_label) @ FormInstancePage (fp) page
+16:43:16.616 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking select instance (fp.selectInstace) WebElement by xpath (//*[@id='formHeader:currentPageInstance_panel']/div/table/tbody/tr[@data-label='413']) @ FormInstancePage (fp) page
+16:43:19.828 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='ExtDBGrid4453FEDFRY14ASUMP091R1500C0030']) @ FormInstancePage (fp) page
+16:43:23.483 [main] INFO  com.lombardrisk.pages.FormInstancePage - id of input is:numericCellEditor
+16:43:23.484 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:43:23.538 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 20000 on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:43:24.117 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cellEditOkBtn (fp.cellEditSave) WebButton by id (okBtn) @ FormInstancePage (fp) page
+16:43:27.877 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+16:43:29.877 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+16:43:33.684 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking update2 (lp.form.update2) WebTableCell by id (formInstanceListForm:formInstanceListTable:0:updateBtn) @ ListPage (lp) page
+16:43:34.788 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveNew (rsp.retrieveNewBtn) WebButton by id (returnSourcesForm:retrieveNew) @ ReturnSourcePage (rsp) page
+16:43:34.846 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+16:43:35.346 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adj.discard (rsp.adj.discard) WebElement by xpath (//*[@id='returnSourcesForm:retrieveNewMenu']/ul/li[1]/a/span) @ ReturnSourcePage (rsp) page
+16:43:41.983 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Job instance id is: 2825
+16:44:40.427 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Retrieve new form succeed
+16:44:40.452 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (lp.JobResultOK) WebButton by id (jobResultForm:ok) @ ListPage (lp) page
+16:44:45.053 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+16:44:51.174 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+16:44:51.689 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+16:45:01.283 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+16:45:04.364 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click page :PPNR Metrics 6 of 6
+16:45:04.364 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='PPNR Metrics 6 of 6']/span) @ FormInstancePage (fp) page
+16:45:06.096 [main] INFO  com.lombardrisk.pages.FormInstancePage - Select instance 413
+16:45:06.096 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking currentInstance (fp.curInst) WebElement by id (formHeader:currentPageInstance_label) @ FormInstancePage (fp) page
+16:45:06.679 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking select instance (fp.selectInstace) WebElement by xpath (//*[@id='formHeader:currentPageInstance_panel']/div/table/tbody/tr[@data-label='413']) @ FormInstancePage (fp) page
+16:45:09.500 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - try to perform following actions:double click inputCell (fp.inputCell) WebElement by xpath (//input[@id='ExtDBGrid4453FEDFRY14ASUMP091R1500C0030']) @ FormInstancePage (fp) page;
+16:45:15.503 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Case[4440] is failed
+16:45:15.903 [main] ERROR com.lombardrisk.testCase.AdjustmentsTest - test4440
+org.junit.ComparisonFailure: expected:<"8168[7]"> but was:<"8168[6.9]">
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_91]
+	at com.lombardrisk.testCase.AdjustmentsTest.test4440(AdjustmentsTest.java:622) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) ~[testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) ~[testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:na]
+16:45:15.904 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - tearDown after method
+16:45:15.904 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - teardown test after finishing feature id adjustmentstest, scenario id adjustmentstest
+16:45:15.904 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+16:45:15.904 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+16:45:18.213 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+16:50:26.873 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - setup test before starting feature id adjustmentstest, scenario id adjustmentstest
+16:50:26.878 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+16:50:26.884 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+16:50:27.235 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+16:50:27.638 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+16:50:27.644 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+16:50:27.649 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+16:50:30.805 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 8e1f38ac381be867a63d875a15c30ae6
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir18616_22498}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+16:50:30.806 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+16:50:32.280 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+16:50:33.430 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+16:50:34.256 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+16:50:34.299 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+16:50:34.342 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+16:50:34.379 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+16:50:34.423 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+16:50:39.384 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Get user format
+16:50:39.516 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Expected language is:en_GB
+16:50:39.519 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - ====Verify extended grid of Number type can be drilldown properly after user retrieve and DISCARD Adjustment - dashboard[case id=4440]====
+16:50:39.569 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+16:50:39.570 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve SP0
+16:50:39.713 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+16:50:39.889 [main] INFO  com.lombardrisk.pages.ListPage - Set form=FRY14ASUMM v1
+16:50:40.581 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+16:50:43.581 [main] INFO  com.lombardrisk.pages.ListPage - Delete form[FRY14ASUMM v1 30/09/2014] if exist
+16:50:43.615 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delFormIcon1 (lp.delFormIcon1) Image by id (formInstanceListForm:formInstanceListTable:0:delIcon) @ ListPage (lp) page
+16:50:44.734 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delConfBtn (lp.delConfBtn) WebElement by id (deleteReturnMessageForm:deleteReturnConfirm) @ ListPage (lp) page
+16:50:45.857 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+16:50:45.886 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing Delete return by automation on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+16:50:45.949 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteComnent (lp.deleteReturnBtn) WebElement by id (deleteReturnCommentForm:deleteReturn) @ ListPage (lp) page
+16:50:55.683 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (lp.retrieve) WebButton by id (FormInstImpExpMenu:retrieve) @ ListPage (lp) page
+16:50:56.265 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set group= 0001
+16:50:56.265 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (frp.group) WebElement by id (retrieveForm:selectGroup) @ FormInstanceRetrievePage (frp) page
+16:50:56.859 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set processDate= 30/09/2014
+16:50:56.859 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:50:56.917 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 30/09/2014 on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:50:56.978 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:50:57.337 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+16:50:57.355 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Sep on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+16:50:57.718 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2014 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+16:50:58.077 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=30]]/td[a=30]/a) @ AbstractPage (ap) page
+16:50:59.192 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set form= FRY14ASUMM v1
+16:50:59.192 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY14ASUMM v1 on formLocator (frp.form) WebElement by id (retrieveForm:selectForm) @ FormInstanceRetrievePage (frp) page
+16:51:00.321 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Click retrieve button
+16:51:00.321 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (frp.retrieve) WebButton by id (retrieveForm:doRetrieve) @ FormInstanceRetrievePage (frp) page
+16:51:07.480 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Job instance id is: 2826
+16:52:05.505 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Retrieve form succeeded
+16:52:05.533 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (lp.JobResultOK) WebButton by id (jobResultForm:ok) @ ListPage (lp) page
+16:52:09.673 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+16:52:16.453 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Refresh page
+16:52:16.453 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - refreshing page
+16:52:22.092 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=30/09/2014
+16:52:22.222 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 30/09/2014 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+16:52:25.323 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+16:52:25.843 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+16:52:35.249 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+16:52:38.330 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click page :PPNR Metrics 6 of 6
+16:52:38.330 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='PPNR Metrics 6 of 6']/span) @ FormInstancePage (fp) page
+16:52:40.071 [main] INFO  com.lombardrisk.pages.FormInstancePage - Select instance 413
+16:52:40.072 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking currentInstance (fp.curInst) WebElement by id (formHeader:currentPageInstance_label) @ FormInstancePage (fp) page
+16:52:40.663 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking select instance (fp.selectInstace) WebElement by xpath (//*[@id='formHeader:currentPageInstance_panel']/div/table/tbody/tr[@data-label='413']) @ FormInstancePage (fp) page
+16:52:43.952 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='ExtDBGrid4453FEDFRY14ASUMP091R1500C0030']) @ FormInstancePage (fp) page
+16:52:47.622 [main] INFO  com.lombardrisk.pages.FormInstancePage - id of input is:numericCellEditor
+16:52:47.623 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:52:47.646 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 20000 on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:52:48.216 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cellEditOkBtn (fp.cellEditSave) WebButton by id (okBtn) @ FormInstancePage (fp) page
+16:52:51.506 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+16:52:53.506 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+16:52:57.069 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking update2 (lp.form.update2) WebTableCell by id (formInstanceListForm:formInstanceListTable:0:updateBtn) @ ListPage (lp) page
+16:52:58.182 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveNew (rsp.retrieveNewBtn) WebButton by id (returnSourcesForm:retrieveNew) @ ReturnSourcePage (rsp) page
+16:52:58.244 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+16:52:58.744 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adj.discard (rsp.adj.discard) WebElement by xpath (//*[@id='returnSourcesForm:retrieveNewMenu']/ul/li[1]/a/span) @ ReturnSourcePage (rsp) page
+16:53:05.363 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Job instance id is: 2827
+16:54:00.603 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Retrieve new form succeed
+16:54:00.631 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (lp.JobResultOK) WebButton by id (jobResultForm:ok) @ ListPage (lp) page
+16:54:05.264 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+16:54:11.420 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+16:54:11.935 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+16:54:17.772 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+16:54:22.402 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click page :PPNR Metrics 6 of 6
+16:54:22.402 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='PPNR Metrics 6 of 6']/span) @ FormInstancePage (fp) page
+16:54:24.187 [main] INFO  com.lombardrisk.pages.FormInstancePage - Select instance 413
+16:54:24.187 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking currentInstance (fp.curInst) WebElement by id (formHeader:currentPageInstance_label) @ FormInstancePage (fp) page
+16:54:24.776 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking select instance (fp.selectInstace) WebElement by xpath (//*[@id='formHeader:currentPageInstance_panel']/div/table/tbody/tr[@data-label='413']) @ FormInstancePage (fp) page
+16:54:27.602 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - try to perform following actions:double click inputCell (fp.inputCell) WebElement by xpath (//input[@id='ExtDBGrid4453FEDFRY14ASUMP091R1500C0030']) @ FormInstancePage (fp) page;
+16:54:33.535 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Case[4440] is passed
+16:54:33.935 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - tearDown after method
+16:54:33.936 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - teardown test after finishing feature id adjustmentstest, scenario id adjustmentstest
+16:54:33.936 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+16:54:33.936 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+16:54:36.247 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+16:55:45.847 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - setup test before starting feature id adjustmentstest, scenario id adjustmentstest
+16:55:45.853 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+16:55:45.862 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+16:55:46.283 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+16:55:46.906 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+16:55:46.911 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+16:55:46.917 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+16:55:49.335 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 0041a10cbb10daefeba9c517df16f314
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir19096_11951}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+16:55:49.336 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+16:55:52.456 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+16:55:53.617 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+16:55:56.999 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+16:55:57.038 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+16:55:57.075 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+16:55:57.107 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+16:55:57.165 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+16:56:01.967 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Get user format
+16:56:02.126 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Expected language is:en_GB
+16:56:02.129 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - ====Verify user can drilldown extended grid after modifictaion properly[case id=6951]====
+16:56:02.178 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+16:56:02.178 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve SP0
+16:56:02.325 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+16:56:02.492 [main] INFO  com.lombardrisk.pages.ListPage - Set form=FRY14ASUMM v1
+16:56:03.193 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+16:56:06.193 [main] INFO  com.lombardrisk.pages.ListPage - Delete form[FRY14ASUMM v1 30/09/2014] if exist
+16:56:06.228 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delFormIcon1 (lp.delFormIcon1) Image by id (formInstanceListForm:formInstanceListTable:0:delIcon) @ ListPage (lp) page
+16:56:07.352 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delConfBtn (lp.delConfBtn) WebElement by id (deleteReturnMessageForm:deleteReturnConfirm) @ ListPage (lp) page
+16:56:08.475 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+16:56:08.505 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing Delete return by automation on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+16:56:08.568 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteComnent (lp.deleteReturnBtn) WebElement by id (deleteReturnCommentForm:deleteReturn) @ ListPage (lp) page
+16:56:18.256 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (lp.retrieve) WebButton by id (FormInstImpExpMenu:retrieve) @ ListPage (lp) page
+16:56:18.841 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set group= 0001
+16:56:18.841 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (frp.group) WebElement by id (retrieveForm:selectGroup) @ FormInstanceRetrievePage (frp) page
+16:56:19.437 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set processDate= 30/09/2014
+16:56:19.437 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:56:19.487 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 30/09/2014 on referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:56:19.549 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking referenceDateCalendarLocator (frp.dateInput) WebElement by id (retrieveForm:referenceDate_input) @ FormInstanceRetrievePage (frp) page
+16:56:19.910 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+16:56:19.927 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Sep on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+16:56:20.287 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2014 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+16:56:20.649 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=30]]/td[a=30]/a) @ AbstractPage (ap) page
+16:56:21.792 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Set form= FRY14ASUMM v1
+16:56:21.792 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY14ASUMM v1 on formLocator (frp.form) WebElement by id (retrieveForm:selectForm) @ FormInstanceRetrievePage (frp) page
+16:56:22.935 [main] INFO  com.lombardrisk.pages.FormInstanceRetrievePage - Click retrieve button
+16:56:22.935 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking retrieveButton (frp.retrieve) WebButton by id (retrieveForm:doRetrieve) @ FormInstanceRetrievePage (frp) page
+16:56:30.086 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Job instance id is: 2828
+16:57:27.897 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Retrieve form succeeded
+16:57:27.923 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (lp.JobResultOK) WebButton by id (jobResultForm:ok) @ ListPage (lp) page
+16:57:32.563 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+16:57:39.397 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Refresh page
+16:57:39.397 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - refreshing page
+16:57:45.661 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=30/09/2014
+16:57:45.788 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 30/09/2014 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+16:57:48.886 [main] INFO  com.lombardrisk.pages.ListPage - Open first form
+16:57:49.405 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstFormLink (lp.firstFormLink) Link by id (formInstanceListForm:formInstanceListTable:0:selectButton) @ ListPage (lp) page
+16:57:59.340 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 2000 milliseconds
+16:58:02.423 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click page :PPNR Metrics 6 of 6
+16:58:02.423 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='PPNR Metrics 6 of 6']/span) @ FormInstancePage (fp) page
+16:58:04.148 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage2) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid44')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+16:58:23.889 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='ExtDBGrid4457FEDFRY14ASUMP091R1500C0060']) @ FormInstancePage (fp) page
+16:58:27.687 [main] INFO  com.lombardrisk.pages.FormInstancePage - id of input is:numericCellEditor
+16:58:27.688 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:58:27.728 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 805000 on cellID (fp.cellID) WebElement by id (numericCellEditor) @ FormInstancePage (fp) page
+16:58:28.334 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cellEditOkBtn (fp.cellEditSave) WebButton by id (okBtn) @ FormInstancePage (fp) page
+16:58:34.083 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - try to perform following actions:double click inputCell (fp.inputCell) WebElement by xpath (//input[@id='ExtDBGrid4457FEDFRY14ASUMP091R1500C0060']) @ FormInstancePage (fp) page;
+16:58:53.632 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - Case[6951] is passed
+16:58:59.493 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - tearDown after method
+16:58:59.493 [main] INFO  com.lombardrisk.testCase.AdjustmentsTest - teardown test after finishing feature id adjustmentstest, scenario id adjustmentstest
+16:58:59.493 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+16:58:59.493 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+16:59:01.803 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver

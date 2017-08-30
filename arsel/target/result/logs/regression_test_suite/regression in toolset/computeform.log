@@ -1,0 +1,682 @@
+18:16:42.537 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - setup test before starting feature id computeform, scenario id computeform
+18:16:42.539 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available before polling
+18:16:42.544 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080/","host":null,"port":null,"version":null,"username":"admin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"HKMA_52103_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":3,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_DATA","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":4,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"MAS_22103_2K8T55U_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":5,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":6,"name":"toolset_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"ECR_HKMA_AUTO_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":7,"name":"toolset_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"RP_AUTO_TOOLSET_SYSTEM","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+18:16:42.804 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+18:16:43.101 [TestNG] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+18:16:43.105 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+18:16:43.109 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+18:16:45.500 [TestNG] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 28940a45c7bd30f28766251af8a54485
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+18:16:45.501 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+18:16:48.097 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+18:16:49.283 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080/
+18:16:51.292 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:16:51.321 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:16:51.350 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:16:51.378 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:16:51.410 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:16:57.961 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Get user format
+18:16:58.109 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Expected language is:en_GB
+18:16:58.112 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - File is: null
+18:16:58.112 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Begin setup test folder and test data
+18:16:58.453 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[CVA v4_02/12/2015_0001],caseid=5263,1704,1710,1711,1712,1869,1722,2723,1957,1958,2080,1688,1690,1755,3195,1709=======
+18:16:58.454 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:16:58.454 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=European Common Reporting
+18:16:58.586 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text European Common Reporting on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:17:02.689 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:17:02.843 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:17:03.544 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:17:06.544 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:17:06.544 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:17:07.249 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0001
+18:17:07.249 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:17:07.829 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set processDate:02/12/2015
+18:17:07.829 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:17:07.936 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 02/12/2015 on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:17:08.302 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:17:08.323 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Dec on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+18:17:08.697 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2015 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+18:17:09.052 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=2]]/td[a=2]/a) @ AbstractPage (ap) page
+18:17:09.719 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set form:CVA v4
+18:17:09.719 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text CVA v4 on formLocator (cp.form) WebElement by id (computeForm:selectForm) @ ComputePage (cp) page
+18:17:10.387 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (cp.computeBtn) WebButton by id (computeForm:compute) @ ComputePage (cp) page
+18:17:11.673 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeConfirmBtn (cp.computeConfirmBtn) WebButton by id (computeConfirm) @ ComputePage (cp) page
+18:17:20.463 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C010(instance=1 rowID=)=4,125
+18:17:23.947 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C010(instance=1 rowID=) expected value=4,125 ,acctual value=4,125
+18:17:23.965 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C020(instance=1 rowID=)=1,080
+18:17:24.725 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C020(instance=1 rowID=) expected value=1,080 ,acctual value=1,080
+18:17:24.737 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C030(instance=1 rowID=)=2,700
+18:17:25.459 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C030(instance=1 rowID=) expected value=2,700 ,acctual value=2,700
+18:17:25.477 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C010(instance=1 rowID=)=1,200
+18:17:26.265 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C010(instance=1 rowID=) expected value=1,200 ,acctual value=1,200
+18:17:26.278 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C020(instance=1 rowID=)=300
+18:17:27.095 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C020(instance=1 rowID=) expected value=300 ,acctual value=300
+18:17:27.107 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C030(instance=1 rowID=)=750
+18:17:27.897 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C030(instance=1 rowID=) expected value=750 ,acctual value=750
+18:17:27.909 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C040(instance=1 rowID=)=1,200
+18:17:28.591 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C040(instance=1 rowID=) expected value=1,200 ,acctual value=1,200
+18:17:28.601 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C050(instance=1 rowID=)=1,350
+18:17:29.347 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C050(instance=1 rowID=) expected value=1,350 ,acctual value=1,350
+18:17:29.356 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C060(instance=1 rowID=)=1,500
+18:17:30.052 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C060(instance=1 rowID=) expected value=1,500 ,acctual value=1,500
+18:17:30.061 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C070(instance=1 rowID=)=1,650
+18:17:30.737 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C070(instance=1 rowID=) expected value=1,650 ,acctual value=1,650
+18:17:30.748 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR030C010(instance=1 rowID=)=1,275
+18:17:31.510 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR030C010(instance=1 rowID=) expected value=1,275 ,acctual value=1,275
+18:17:31.520 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR030C020(instance=1 rowID=)=330
+18:17:32.211 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR030C020(instance=1 rowID=) expected value=330 ,acctual value=330
+18:17:32.220 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR030C030(instance=1 rowID=)=900
+18:17:32.877 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR030C030(instance=1 rowID=) expected value=900 ,acctual value=900
+18:17:32.886 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR040C010(instance=1 rowID=)=1,650
+18:17:33.658 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR040C010(instance=1 rowID=) expected value=1,650 ,acctual value=1,650
+18:17:33.666 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR040C020(instance=1 rowID=)=450
+18:17:34.362 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR040C020(instance=1 rowID=) expected value=450 ,acctual value=450
+18:17:34.369 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR040C030(instance=1 rowID=)=1,050
+18:17:35.029 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR040C030(instance=1 rowID=) expected value=1,050 ,acctual value=1,050
+18:17:35.037 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C080(instance=1 rowID=)=6,750
+18:17:35.914 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Click page :Page 2
+18:17:35.914 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='Page 2']/span) @ FormInstancePage (fp) page
+18:17:37.640 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Cell[CVAR010C080] in page[Page 2]
+18:17:37.737 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C080(instance=1 rowID=) expected value=6,750 ,acctual value=6,750
+18:17:37.745 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C090(instance=1 rowID=)=84,375
+18:17:38.407 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C090(instance=1 rowID=) expected value=84,375 ,acctual value=84,375
+18:17:38.417 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C100(instance=1 rowID=)=270
+18:17:39.117 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C100(instance=1 rowID=) expected value=270 ,acctual value=270
+18:17:39.126 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C110(instance=1 rowID=)=15
+18:17:39.932 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C110(instance=1 rowID=) expected value=15 ,acctual value=15
+18:17:39.938 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C120(instance=1 rowID=)=180
+18:17:40.637 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C120(instance=1 rowID=) expected value=180 ,acctual value=180
+18:17:40.655 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C130(instance=1 rowID=)=405
+18:17:41.359 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C130(instance=1 rowID=) expected value=405 ,acctual value=405
+18:17:41.367 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR010C140(instance=1 rowID=)=495
+18:17:41.996 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR010C140(instance=1 rowID=) expected value=495 ,acctual value=495
+18:17:42.004 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C080(instance=1 rowID=)=3,000
+18:17:42.634 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C080(instance=1 rowID=) expected value=3,000 ,acctual value=3,000
+18:17:42.641 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C090(instance=1 rowID=)=37,500
+18:17:43.347 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C090(instance=1 rowID=) expected value=37,500 ,acctual value=37,500
+18:17:43.354 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C100(instance=1 rowID=)=75
+18:17:44.126 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C100(instance=1 rowID=) expected value=75 ,acctual value=75
+18:17:44.133 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C110(instance=1 rowID=)=15
+18:17:44.766 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C110(instance=1 rowID=) expected value=15 ,acctual value=15
+18:17:44.773 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C130(instance=1 rowID=)=195
+18:17:45.485 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C130(instance=1 rowID=) expected value=195 ,acctual value=195
+18:17:45.493 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR020C140(instance=1 rowID=)=240
+18:17:46.125 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR020C140(instance=1 rowID=) expected value=240 ,acctual value=240
+18:17:46.131 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR030C080(instance=1 rowID=)=1,800
+18:17:46.821 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR030C080(instance=1 rowID=) expected value=1,800 ,acctual value=1,800
+18:17:46.827 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR030C090(instance=1 rowID=)=22,500
+18:17:47.511 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR030C090(instance=1 rowID=) expected value=22,500 ,acctual value=22,500
+18:17:47.518 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR030C100(instance=1 rowID=)=90
+18:17:48.227 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR030C100(instance=1 rowID=) expected value=90 ,acctual value=90
+18:17:48.238 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR030C130(instance=1 rowID=)=210
+18:17:48.946 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR030C130(instance=1 rowID=) expected value=210 ,acctual value=210
+18:17:48.952 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR030C140(instance=1 rowID=)=255
+18:17:49.657 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR030C140(instance=1 rowID=) expected value=255 ,acctual value=255
+18:17:49.666 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR040C080(instance=1 rowID=)=1,950
+18:17:50.362 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR040C080(instance=1 rowID=) expected value=1,950 ,acctual value=1,950
+18:17:50.370 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR040C090(instance=1 rowID=)=24,375
+18:17:51.094 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR040C090(instance=1 rowID=) expected value=24,375 ,acctual value=24,375
+18:17:51.102 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if CVAR040C100(instance=1 rowID=)=105
+18:17:51.806 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CVAR040C100(instance=1 rowID=) expected value=105 ,acctual value=105
+18:17:51.875 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:17:53.875 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:17:57.584 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[OPRS v1_02/12/2015_0001],caseid=5266=======
+18:17:57.584 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:17:57.584 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=European Common Reporting
+18:17:57.733 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:17:57.850 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:17:58.547 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:18:01.547 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:18:01.547 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:18:02.119 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0001
+18:18:02.119 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:18:02.683 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set processDate:02/12/2015
+18:18:02.683 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:18:02.724 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 02/12/2015 on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:18:03.085 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:18:03.112 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Dec on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+18:18:03.527 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2015 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+18:18:03.944 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=2]]/td[a=2]/a) @ AbstractPage (ap) page
+18:18:04.563 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set form:OPRS v1
+18:18:04.563 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text OPRS v1 on formLocator (cp.form) WebElement by id (computeForm:selectForm) @ ComputePage (cp) page
+18:18:05.226 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (cp.computeBtn) WebButton by id (computeForm:compute) @ ComputePage (cp) page
+18:18:06.477 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Close compute page
+18:18:06.477 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cancelBtn (cp.canel) WebButton by id (computeForm:cancel) @ ComputePage (cp) page
+18:18:07.085 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[CVA v4_31/12/2015_0001],caseid=5267,1716=======
+18:18:07.085 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:18:07.085 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=European Common Reporting
+18:18:07.140 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:18:07.202 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:18:07.806 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:18:10.806 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:18:10.806 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:18:11.408 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0001
+18:18:11.408 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:18:11.976 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set processDate:31/12/2015
+18:18:11.976 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:18:12.077 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 31/12/2015 on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:18:12.458 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:18:12.484 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Dec on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+18:18:12.859 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2015 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+18:18:13.290 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=31]]/td[a=31]/a) @ AbstractPage (ap) page
+18:18:13.903 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set form:CVA v4
+18:18:13.903 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text CVA v4 on formLocator (cp.form) WebElement by id (computeForm:selectForm) @ ComputePage (cp) page
+18:18:14.607 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (cp.computeBtn) WebButton by id (computeForm:compute) @ ComputePage (cp) page
+18:18:15.835 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Close compute page
+18:18:15.835 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cancelBtn (cp.canel) WebButton by id (computeForm:cancel) @ ComputePage (cp) page
+18:18:16.470 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[CRGB v5_31/01/2015_0001],caseid=5268=======
+18:18:16.470 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:18:16.470 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=Hong Kong Monetary Authority
+18:18:16.529 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Hong Kong Monetary Authority on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:18:20.588 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:18:20.916 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:18:21.613 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:18:24.613 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:18:24.613 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:18:25.225 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0001
+18:18:25.225 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:18:25.793 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set processDate:31/01/2015
+18:18:25.793 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:18:25.873 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 31/01/2015 on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:18:26.232 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:18:26.256 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Jan on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+18:18:26.604 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2015 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+18:18:27.038 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=31]]/td[a=31]/a) @ AbstractPage (ap) page
+18:18:27.708 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Close compute page
+18:18:27.708 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cancelBtn (cp.canel) WebButton by id (computeForm:cancel) @ ComputePage (cp) page
+18:18:28.332 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[CVA v4_02/12/2015_0001],caseid=5676,7227=======
+18:18:28.332 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:18:28.332 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=European Common Reporting
+18:18:28.440 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text European Common Reporting on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:18:31.489 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:18:31.655 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:18:32.332 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:18:35.332 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:18:35.332 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:18:35.920 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0001
+18:18:35.920 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:18:36.481 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set processDate:02/12/2015
+18:18:36.481 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:18:36.557 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 02/12/2015 on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:18:36.917 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:18:36.944 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Dec on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+18:18:37.338 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2015 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+18:18:37.791 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=2]]/td[a=2]/a) @ AbstractPage (ap) page
+18:18:38.394 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set form:CVA v4
+18:18:38.394 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text CVA v4 on formLocator (cp.form) WebElement by id (computeForm:selectForm) @ ComputePage (cp) page
+18:18:39.031 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (cp.computeBtn) WebButton by id (computeForm:compute) @ ComputePage (cp) page
+18:18:40.301 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeConfirmBtn (cp.computeConfirmBtn) WebButton by id (computeConfirm) @ ComputePage (cp) page
+18:18:49.030 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - try to perform following actions:double click inputCell (fp.inputCell) WebElement by xpath (//input[@id='CVAR020C020']) @ FormInstancePage (fp) page;
+18:19:04.581 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking export (ac.export) Image by id (formInstDetailFooterTabView:drilldownForm:drilldownExport) @ AllocationPage (ac) page
+18:19:05.582 [LittleProxy-0-ProxyToServerWorker-3] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving text file to target/result/data/download/d8b2ca91ee34426da34286cfb50f0fa3.csv
+18:19:06.127 [TestNG] INFO  com.lombardrisk.pages.AllocationPage - Exported file is:F:\Automation\arauto\arsel/target/result/data/download/d8b2ca91ee34426da34286cfb50f0fa3.csv
+18:19:06.127 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Begin compare the downloaded csv file with baseline
+18:19:06.167 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CSV compare result: Pass
+18:19:06.272 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:19:08.272 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:19:11.495 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[CRSD v3_02/12/2015_0001],caseid=5677=======
+18:19:11.495 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:19:11.496 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=European Common Reporting
+18:19:11.609 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:19:11.728 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:19:12.406 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:19:15.407 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:19:15.407 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:19:16.081 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0001
+18:19:16.081 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:19:16.648 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set processDate:02/12/2015
+18:19:16.648 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:19:16.712 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 02/12/2015 on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:19:17.096 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:19:17.120 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Dec on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+18:19:17.520 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2015 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+18:19:17.904 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=2]]/td[a=2]/a) @ AbstractPage (ap) page
+18:19:18.507 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set form:CRSD v3
+18:19:18.507 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text CRSD v3 on formLocator (cp.form) WebElement by id (computeForm:selectForm) @ ComputePage (cp) page
+18:19:19.190 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (cp.computeBtn) WebButton by id (computeForm:compute) @ ComputePage (cp) page
+18:19:20.470 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeConfirmBtn (cp.computeConfirmBtn) WebButton by id (computeConfirm) @ ComputePage (cp) page
+18:19:29.239 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CRSDC470,1 is extendgrid cell
+18:19:32.038 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:33.747 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:35.449 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:37.187 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:38.908 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:40.627 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:42.293 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:43.891 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:45.558 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:47.273 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Click page :Page 3
+18:19:47.273 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='Page 3']/span) @ FormInstancePage (fp) page
+18:19:49.460 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:19:49.961 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:51.068 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:19:51.568 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:52.667 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:19:53.167 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:54.289 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:19:54.789 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:55.884 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:19:56.385 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:57.523 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:19:58.024 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:19:59.175 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:19:59.676 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:20:00.873 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:20:01.373 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:20:02.541 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:20:03.041 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking nextPage (fp.nextPage) WebElement by xpath (//div[starts-with(@id,'formInstContentForm:ExtDBGrid')][contains(@id,'_paginator_bottom')]/span[contains(@class,'ui-paginator-next')]/span) @ FormInstancePage (fp) page
+18:20:04.698 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Click page :Page 5
+18:20:04.698 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pageLocator (fp.pageLocator) WebElement by xpath (//tr/td[span='Page 5']/span) @ FormInstancePage (fp) page
+18:20:07.045 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - try to perform following actions:double click inputCell (fp.inputCell) WebElement by xpath (//input[@id='ExtDBGrid149CRSDC470']) @ FormInstancePage (fp) page;
+18:20:22.604 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking export (ac.export) Image by id (formInstDetailFooterTabView:drilldownForm:drilldownExport) @ AllocationPage (ac) page
+18:20:23.705 [LittleProxy-0-ProxyToServerWorker-5] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving text file to target/result/data/download/81396290c4644450b50ed0daa1595139.csv
+18:20:24.278 [TestNG] INFO  com.lombardrisk.pages.AllocationPage - Exported file is:F:\Automation\arauto\arsel/target/result/data/download/81396290c4644450b50ed0daa1595139.csv
+18:20:24.278 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Begin compare the downloaded csv file with baseline
+18:20:24.287 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - CSV compare result: Pass
+18:20:24.368 [TestNG] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:20:26.368 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:20:29.592 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[SFRS v0_25/02/2016_0017],caseid=5678=======
+18:20:29.592 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:20:29.592 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=Hong Kong Monetary Authority
+18:20:29.715 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Hong Kong Monetary Authority on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:20:33.112 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0017
+18:20:33.405 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0017 on groupLocaltor (lp.Group) WebElement by id (formFilter:selectGroup) @ ListPage (lp) page
+18:20:35.562 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:20:36.202 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:20:39.202 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:20:39.202 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:20:39.835 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0017
+18:20:39.835 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0017 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:20:40.484 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set processDate:25/02/2016
+18:20:40.484 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:20:40.555 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 25/02/2016 on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:20:40.915 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:20:40.937 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Feb on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+18:20:41.310 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2016 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+18:20:41.703 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=25]]/td[a=25]/a) @ AbstractPage (ap) page
+18:20:42.362 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set form:SFRS v0
+18:20:42.362 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text SFRS v0 on formLocator (cp.form) WebElement by id (computeForm:selectForm) @ ComputePage (cp) page
+18:21:12.841 [TestNG] ERROR com.lombardrisk.testCase_TS.ComputeForm - Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6@6e226762 (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6@6e226762 (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80) ~[selenium-support-3.0.1.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.selectByVisibleText(WebDriverWrapper.java:716) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.ComputePage.setform(ComputePage.java:65) ~[classes/:na]
+	at com.lombardrisk.pages.ComputePage.computeReturn(ComputePage.java:156) ~[classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.computeForm(ComputeForm.java:115) [test-classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.testComputeForm(ComputeForm.java:67) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382) [testng-6.8.8.jar:na]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.8.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: SFRS v0
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6.apply(WebDriverWrapper.java:719) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6.apply(WebDriverWrapper.java:716) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	... 25 common frames omitted
+18:21:12.944 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[KM v0_25/02/2016_0015],caseid=5679=======
+18:21:12.944 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:21:12.944 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=Hong Kong Monetary Authority
+18:21:13.094 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0015
+18:21:13.352 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0015 on groupLocaltor (lp.Group) WebElement by id (formFilter:selectGroup) @ ListPage (lp) page
+18:21:15.503 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:21:16.104 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:21:19.104 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:21:19.104 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:21:19.198 [TestNG] ERROR com.lombardrisk.testCase_TS.ComputeForm - unknown error: Element is not clickable at point (739, 55). Other element would receive the click: <div id="formInstanceComputeDialog_modal" class="ui-widget-overlay" style="width: 1366px; height: 663px; z-index: 1004;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (739, 55). Other element would receive the click: <div id="formInstanceComputeDialog_modal" class="ui-widget-overlay" style="width: 1366px; height: 663px; z-index: 1004;"></div>
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_91]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_91]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:556) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$1.apply(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:553) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.click(WebDriverWrapper.java:546) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.ListPage.enterComputePage(ListPage.java:2088) ~[classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.computeForm(ComputeForm.java:114) [test-classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.testComputeForm(ComputeForm.java:67) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382) [testng-6.8.8.jar:na]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.8.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+18:21:19.303 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[LEXP v4_31/12/2015_0001],caseid=5264,1741,1868,2081=======
+18:21:19.303 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:21:19.303 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=European Common Reporting
+18:21:19.378 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text European Common Reporting on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:21:22.422 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:21:22.568 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:21:23.247 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:21:26.680 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=LEXP v4
+18:21:26.800 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text LEXP v4 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+18:21:29.581 [TestNG] INFO  com.lombardrisk.pages.ListPage - Delete form[LEXP v4 31/12/2015] if exist
+18:21:29.594 [TestNG] WARN  com.lombardrisk.pages.ListPage - Form[LEXP v4@31/12/2015] does not exist
+18:21:29.594 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:21:29.594 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:21:30.157 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0001
+18:21:30.157 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:21:30.740 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set processDate:31/12/2015
+18:21:30.740 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:21:30.816 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 31/12/2015 on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:21:31.176 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:21:31.200 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Dec on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+18:21:31.568 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2015 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+18:21:31.960 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=31]]/td[a=31]/a) @ AbstractPage (ap) page
+18:21:32.607 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set form:LEXP v4
+18:21:32.607 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text LEXP v4 on formLocator (cp.form) WebElement by id (computeForm:selectForm) @ ComputePage (cp) page
+18:21:33.296 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (cp.computeBtn) WebButton by id (computeForm:compute) @ ComputePage (cp) page
+18:21:34.628 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if LEE1C020(instance=null rowID=1)=NULL
+18:22:05.069 [TestNG] ERROR com.lombardrisk.testCase_TS.ComputeForm - Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15@4c8dc6b3 (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15@4c8dc6b3 (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80) ~[selenium-support-3.0.1.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.getAttribute(WebDriverWrapper.java:876) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.FormInstancePage.selectPage(FormInstancePage.java:1370) ~[classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.getPageNameByCell(FormInstancePage.java:1790) ~[classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.getCellText(FormInstancePage.java:267) ~[classes/:na]
+	at com.lombardrisk.utils.TestTemplate.getCellValueInForm(TestTemplate.java:1117) ~[classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.computeForm(ComputeForm.java:201) [test-classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.testComputeForm(ComputeForm.java:67) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382) [testng-6.8.8.jar:na]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.8.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr/td[span='Page 2']/parent::*"}
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+*** Element info: {Using=xpath, value=//tr/td[span='Page 2']/parent::*}
+	at sun.reflect.GeneratedConstructorAccessor79.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_91]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_91]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361) ~[selenium-api-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.findElement(WebDriverWrapper.java:537) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.access$1100(WebDriverWrapper.java:529) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15.apply(WebDriverWrapper.java:879) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15.apply(WebDriverWrapper.java:876) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	... 27 common frames omitted
+18:22:05.259 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[AA v0_31/12/2014_0001],caseid=5264=======
+18:22:05.259 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:22:05.259 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=Hong Kong Monetary Authority
+18:22:05.493 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Hong Kong Monetary Authority on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:22:09.020 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:22:09.355 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:22:10.059 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:22:13.640 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=AA v0
+18:22:13.754 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text AA v0 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+18:22:16.652 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2014
+18:22:16.753 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2014 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:22:19.824 [TestNG] INFO  com.lombardrisk.pages.ListPage - Delete form[AA v0 31/12/2014] if exist
+18:22:19.899 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delFormIcon1 (lp.delFormIcon1) Image by id (formInstanceListForm:formInstanceListTable:0:delIcon) @ ListPage (lp) page
+18:22:21.030 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking delConfBtn (lp.delConfBtn) WebElement by id (deleteReturnMessageForm:deleteReturnConfirm) @ ListPage (lp) page
+18:22:22.169 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+18:22:22.231 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing Delete return by automation on deleteComnent (lp.deleteComment) WebElement by id (deleteReturnCommentForm:deleteReturnCommentTxt) @ ListPage (lp) page
+18:22:22.314 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteComnent (lp.deleteReturnBtn) WebElement by id (deleteReturnCommentForm:deleteReturn) @ ListPage (lp) page
+18:22:31.001 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:22:31.001 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:22:31.600 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0001
+18:22:31.600 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:22:32.165 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set processDate:31/12/2014
+18:22:32.165 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:22:32.236 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 31/12/2014 on inputReferenceDate (cp.date) WebEdit by id (computeForm:processDate_input) @ ComputePage (cp) page
+18:22:32.604 [TestNG] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:22:32.636 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Dec on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+18:22:33.010 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2014 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+18:22:33.435 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=31]]/td[a=31]/a) @ AbstractPage (ap) page
+18:22:34.077 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set form:AA v0
+18:22:34.077 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text AA v0 on formLocator (cp.form) WebElement by id (computeForm:selectForm) @ ComputePage (cp) page
+18:22:34.671 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (cp.computeBtn) WebButton by id (computeForm:compute) @ ComputePage (cp) page
+18:22:35.881 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - Verify if AANAME1(instance=null rowID=)=NULL
+18:23:06.322 [TestNG] ERROR com.lombardrisk.testCase_TS.ComputeForm - Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15@499711ef (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15@499711ef (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80) ~[selenium-support-3.0.1.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.getAttribute(WebDriverWrapper.java:876) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.FormInstancePage.selectPage(FormInstancePage.java:1370) ~[classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.getPageNameByCell(FormInstancePage.java:1727) ~[classes/:na]
+	at com.lombardrisk.pages.FormInstancePage.getCellText(FormInstancePage.java:267) ~[classes/:na]
+	at com.lombardrisk.utils.TestTemplate.getCellValueInForm(TestTemplate.java:1117) ~[classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.computeForm(ComputeForm.java:201) [test-classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.testComputeForm(ComputeForm.java:67) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382) [testng-6.8.8.jar:na]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.8.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr/td[span='Cover']/parent::*"}
+  (Session info: chrome=52.0.2743.6)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+*** Element info: {Using=xpath, value=//tr/td[span='Cover']/parent::*}
+	at sun.reflect.GeneratedConstructorAccessor79.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_91]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_91]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361) ~[selenium-api-3.0.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360) ~[selenium-remote-driver-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.findElement(WebDriverWrapper.java:537) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.access$1100(WebDriverWrapper.java:529) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15.apply(WebDriverWrapper.java:879) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$15.apply(WebDriverWrapper.java:876) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	... 27 common frames omitted
+18:23:06.395 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[null_null_0001],caseid=1784=======
+18:23:06.395 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:23:06.395 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=European Common Reporting
+18:23:06.549 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text European Common Reporting on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:23:09.620 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:23:09.740 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set form=All
+18:23:10.426 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:23:13.426 [TestNG] INFO  com.lombardrisk.pages.ListPage - Open compute return page
+18:23:13.426 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (lp.computeBtn) WebButton by id (FormInstImpExpMenu:compute) @ ListPage (lp) page
+18:23:13.982 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Set entity:0001
+18:23:13.982 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on entitySelector (cp.entity) WebElement by id (computeForm:selectGroup) @ ComputePage (cp) page
+18:23:14.537 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking computeBtn (cp.computeBtn) WebButton by id (computeForm:compute) @ ComputePage (cp) page
+18:23:15.840 [TestNG] INFO  com.lombardrisk.pages.ComputePage - Close compute page
+18:23:15.840 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cancelBtn (cp.canel) WebButton by id (computeForm:cancel) @ ComputePage (cp) page
+18:23:16.481 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - =======Test Compue return[AA v0_31/12/2014_0002],caseid=6826=======
+18:23:16.481 [TestNG] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:23:16.481 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set regulator=Hong Kong Monetary Authority
+18:23:16.633 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Hong Kong Monetary Authority on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:23:20.103 [TestNG] INFO  com.lombardrisk.pages.ListPage - Set entity=0002
+18:23:20.392 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0002 on groupLocaltor (lp.Group) WebElement by id (formFilter:selectGroup) @ ListPage (lp) page
+18:23:52.306 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0002 on groupLocaltor (lp.Group) WebElement by id (formFilter:selectGroup) @ ListPage (lp) page
+18:24:22.740 [TestNG] ERROR com.lombardrisk.testCase_TS.ComputeForm - Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6@405d35f5 (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6@405d35f5 (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir3832_32655}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28940a45c7bd30f28766251af8a54485
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80) ~[selenium-support-3.0.1.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.selectByVisibleText(WebDriverWrapper.java:716) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.ListPage.setGroup(ListPage.java:91) ~[classes/:na]
+	at com.lombardrisk.pages.ListPage.getProductListPage(ListPage.java:2007) ~[classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.computeForm(ComputeForm.java:86) [test-classes/:na]
+	at com.lombardrisk.testCase_TS.ComputeForm.testComputeForm(ComputeForm.java:67) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382) [testng-6.8.8.jar:na]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.8.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 0002
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6.apply(WebDriverWrapper.java:719) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6.apply(WebDriverWrapper.java:716) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	... 25 common frames omitted
+18:24:22.800 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - tearDown after method
+18:24:22.800 [TestNG] INFO  com.lombardrisk.testCase_TS.ComputeForm - teardown test after finishing feature id computeform, scenario id computeform
+18:24:22.800 [TestNG] INFO  org.yiwan.webcore.test.TestCaseManager - 1 test environments is available after offering
+18:24:22.800 [TestNG] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+18:24:25.113 [TestNG] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver

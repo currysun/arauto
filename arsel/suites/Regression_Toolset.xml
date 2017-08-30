@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Test Json file is : Toolset_ORA.json/Toolset_SQL.json-->
+<suite name="regression_test_suite" verbose="1" parallel="tests" thread-count="3" preserve-order="true">
+    <test name="regression in toolset">
+        <parameter name="os" value="WINDOWS" />
+        <parameter name="os_version" value="7" />
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.lombardrisk.testCase.CreateForm" />
+            <class name="com.lombardrisk.testCase.ImportForm" />
+            <class name="com.lombardrisk.testCase.ExportForm" />
+            <class name="com.lombardrisk.testCase_TS.Workflow"/>
+            <class name="com.lombardrisk.testCase_TS.HighLight"/>
+            <class name="com.lombardrisk.testCase_TS.ReturnList"/>
+            <class name="com.lombardrisk.testCase_TS.Precision"/>
+        </classes>
+    </test>
+</suite>

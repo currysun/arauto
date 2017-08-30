@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataValidation>
+    <C6817>
+		<Regulator>US1 FED Reserve</Regulator>
+		<Entity>CONA</Entity>
+		<Form>FR2052A v2</Form>
+		<ReferenceDate>31/05/2016</ReferenceDate>
+		<RuleID>PS/100</RuleID>
+		<RuleType>Validity/50</RuleType>
+		<DataSchedule>OS/9</DataSchedule>
+		<TargetColumn>MaturityValue/4</TargetColumn>
+	</C6817>
+
+	<C6818>
+		<Regulator>US1 FED Reserve</Regulator>
+		<Entity>CONA</Entity>
+		<Form>FR2052A v2</Form>
+		<ReferenceDate>31/05/2016</ReferenceDate>
+	</C6818>
+
+	<C6821>
+		<Regulator>US1 FED Reserve SP0</Regulator>
+		<Entity>0001</Entity>
+		<Form>FRY9C v1</Form>
+		<ReferenceDate>30/09/2014</ReferenceDate>
+	</C6821>
+
+	<C6886>
+		<Regulator>US1 FED Reserve</Regulator>
+		<Entity>CONA</Entity>
+		<Form>FR2052A v2</Form>
+		<ReferenceDate>31/05/2016</ReferenceDate>
+		<COUNT>Pass/3#Failed/84#Warning/10#Error/1#Unimplemented/19#All/119</COUNT>
+	</C6886>
+
+</DataValidation>
+		
+		
+		

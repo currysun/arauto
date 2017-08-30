@@ -1,0 +1,372 @@
+17:59:58.022 [main] INFO  com.lombardrisk.testCase.DataSchedule - setup test before starting feature id dataschedule, scenario id dataschedule
+17:59:58.026 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+17:59:58.032 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+17:59:58.352 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+17:59:58.690 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+17:59:58.696 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+17:59:58.701 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+18:00:01.126 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 4767659025a2d8a2d35fb5b1d0bdf7c5
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir12408_7566}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+18:00:01.126 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+18:00:02.671 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+18:00:03.892 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+18:00:07.049 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:00:07.079 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:00:07.113 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:00:07.140 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:00:07.174 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:00:18.531 [main] INFO  com.lombardrisk.testCase.DataSchedule - Get user format
+18:00:18.676 [main] INFO  com.lombardrisk.testCase.DataSchedule - Expected language is:en_GB
+18:00:18.678 [main] INFO  com.lombardrisk.testCase.DataSchedule - Begin setup test folder and test data
+18:00:18.684 [main] INFO  com.lombardrisk.testCase.DataSchedule - Begin setup test folder and test data
+18:00:18.684 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking settingBtn (lp.settingBtn) WebButton by id (formHeader:giSetting) @ ListPage (lp) page
+18:00:19.267 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adminMenu (lp.adminMenu) WebElement by linkText (Administration) @ ListPage (lp) page
+18:00:20.025 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking physicalLocation (lp.physicalLocation) WebElement by xpath (.//*[@id='formHeader:physicalLocation']/span) @ ListPage (lp) page
+18:00:22.218 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboardButton (pl.dashboardBtn) WebElement by id (formHeader:errorBarBtn) @ PhysicalLocationPage (pl) page
+18:00:31.825 [main] INFO  com.lombardrisk.testCase.DataSchedule - ==========Test ds return export==========
+18:00:31.825 [main] INFO  com.lombardrisk.testCase.DataSchedule - Case id is:5889
+18:00:31.825 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:00:31.825 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:00:31.940 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:00:32.057 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:00:32.343 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DSFR02 v1 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+18:00:34.940 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:00:35.177 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:00:38.837 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:00:45.714 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:00:46.278 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:00:46.278 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:00:54.774 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:00:59.390 [main] INFO  com.lombardrisk.pages.FormInstancePage - Unlock form
+18:00:59.390 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking unLockBtn (fp.unLock) WebButton by id (formHeader:unlockBtn) @ FormInstancePage (fp) page
+18:01:07.352 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:01:09.352 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:01:12.532 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:01:13.114 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:01:13.114 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:01:19.190 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:01:23.805 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking returnSource (fp.returnSource) WebButton by id (formHeader:ReturnSource) @ FormInstancePage (fp) page
+18:01:26.031 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking update (rsp.updateBtn) WebButton by id (returnSourcesForm:update) @ ReturnSourcePage (rsp) page
+18:01:33.643 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (fp.JobResultOK) WebButton by id (jobResultForm:ok) @ FormInstancePage (fp) page
+18:03:04.816 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click ready for approve button
+18:03:09.816 [main] INFO  com.lombardrisk.pages.FormInstancePage - wait for 5s to avoid loading
+18:03:09.817 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking workflowBtn (fp.wfBtn) WebButton by id (formHeader:workflow_button) @ FormInstancePage (fp) page
+18:03:09.947 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:03:10.447 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking readyApprove (fp.readyAppr) WebElement by id (formHeader:readyForApproval) @ FormInstancePage (fp) page
+18:03:18.065 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:03:20.065 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:03:23.279 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+18:03:23.878 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking logoutButton (lp.Logout) WebButton by id (formHeader:btnLogout) @ ListPage (lp) page
+18:03:23.997 [main] INFO  com.lombardrisk.pages.HomePage - Login RP with user[admin1]
+18:03:23.997 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:03:27.085 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin1 on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:03:27.165 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:03:27.202 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:03:27.761 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:03:33.689 [main] INFO  com.lombardrisk.pages.HomePage - update user language and format
+18:03:33.705 [main] INFO  com.lombardrisk.pages.HomePage - Expected language is:en_GB
+18:03:33.705 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:03:33.705 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:03:33.829 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text US1 FED Reserve DS on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:03:43.186 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:03:43.402 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:03:43.657 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DSFR02 v1 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+18:03:46.253 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:03:46.440 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:03:50.088 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:04:18.080 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:04:18.617 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:04:18.618 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:04:25.297 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:04:29.897 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin approve form
+18:04:29.897 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking workflowBtn (fp.wfBtn) WebButton by id (formHeader:workflow_button) @ FormInstancePage (fp) page
+18:04:29.997 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking approve (fp.approve) WebElement by id (formHeader:approve) @ FormInstancePage (fp) page
+18:04:33.111 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing test on approveComment (fp.apprComment) WebEdit by id (approveCommentForm:approveCommentTextarea) @ FormInstancePage (fp) page
+18:04:33.149 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking commentOK (fp.apprCommentOK) WebButton by id (approveCommentForm:addApproveComment) @ FormInstancePage (fp) page
+18:04:35.827 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+18:04:36.952 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:04:38.952 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:04:42.180 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+18:04:42.801 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking logoutButton (lp.Logout) WebButton by id (formHeader:btnLogout) @ ListPage (lp) page
+18:04:42.944 [main] INFO  com.lombardrisk.pages.HomePage - Login RP with user[admin2]
+18:04:42.944 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:04:46.026 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin2 on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:04:46.082 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:04:46.123 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:04:46.678 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:04:53.145 [main] INFO  com.lombardrisk.pages.HomePage - update user language and format
+18:04:53.163 [main] INFO  com.lombardrisk.pages.HomePage - Expected language is:en_GB
+18:04:53.163 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:04:53.163 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:04:53.280 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text US1 FED Reserve DS on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:05:02.518 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:05:02.725 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:05:02.985 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DSFR02 v1 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+18:05:05.567 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:05:05.771 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:05:09.431 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:05:12.432 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:05:12.984 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:05:12.984 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:05:19.309 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:05:23.897 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin approve form
+18:05:23.897 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking workflowBtn (fp.wfBtn) WebButton by id (formHeader:workflow_button) @ FormInstancePage (fp) page
+18:05:23.986 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking approve (fp.approve) WebElement by id (formHeader:approve) @ FormInstancePage (fp) page
+18:05:27.116 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing test on approveComment (fp.apprComment) WebEdit by id (approveCommentForm:approveCommentTextarea) @ FormInstancePage (fp) page
+18:05:27.201 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking commentOK (fp.apprCommentOK) WebButton by id (approveCommentForm:addApproveComment) @ FormInstancePage (fp) page
+18:05:29.965 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+18:05:31.097 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:05:33.098 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:05:36.307 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+18:05:36.972 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking logoutButton (lp.Logout) WebButton by id (formHeader:btnLogout) @ ListPage (lp) page
+18:05:37.028 [main] INFO  com.lombardrisk.pages.HomePage - Login RP with user[admin3]
+18:05:37.029 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:05:40.094 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin3 on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:05:40.142 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:05:40.171 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:05:40.718 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:05:46.546 [main] INFO  com.lombardrisk.pages.HomePage - update user language and format
+18:05:46.573 [main] INFO  com.lombardrisk.pages.HomePage - Expected language is:en_GB
+18:05:46.573 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:05:46.573 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:05:46.723 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text US1 FED Reserve DS on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+18:05:56.202 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:05:56.407 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:05:56.658 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DSFR02 v1 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+18:05:59.240 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:05:59.389 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:06:03.040 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:06:06.040 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:06:06.591 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:06:06.591 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:06:13.354 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:06:17.965 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin approve form
+18:06:17.965 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking workflowBtn (fp.wfBtn) WebButton by id (formHeader:workflow_button) @ FormInstancePage (fp) page
+18:06:18.101 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking approve (fp.approve) WebElement by id (formHeader:approve) @ FormInstancePage (fp) page
+18:06:21.207 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing test on approveComment (fp.apprComment) WebEdit by id (approveCommentForm:approveCommentTextarea) @ FormInstancePage (fp) page
+18:06:21.275 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking commentOK (fp.apprCommentOK) WebButton by id (approveCommentForm:addApproveComment) @ FormInstancePage (fp) page
+18:06:24.466 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+18:06:25.681 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:06:27.681 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:06:30.836 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+18:06:31.431 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking logoutButton (lp.Logout) WebButton by id (formHeader:btnLogout) @ ListPage (lp) page
+18:06:31.577 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:06:34.675 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:06:34.747 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:06:34.787 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:06:34.820 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:06:44.978 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:06:44.979 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:06:45.131 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:06:45.244 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:06:45.507 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DSFR02 v1 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+18:06:48.093 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:06:48.196 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:06:51.801 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:06:54.860 [main] INFO  com.lombardrisk.testCase.DataSchedule - Prefix of regulator[US1 FED Reserve DS] is:FED_DS
+18:06:54.860 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:06:55.394 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:06:55.394 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:07:01.882 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:07:21.021 [main] INFO  com.lombardrisk.testCase.DataSchedule - File location is:/Submission/FED_DS/0001/201531122/
+18:08:04.064 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin exprot to DS(csv)
+18:08:08.866 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:08:09.514 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToRFBtn (fp.exportToRF) WebButton by id (formHeader:exportToFile4Fed_button) @ FormInstancePage (fp) page
+18:08:10.227 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click export to data schdule(csv)
+18:08:10.229 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToDS (fp.exportToDSCsv) WebButton by xpath (//a[span='Export To DataSchedule-csv']) @ FormInstancePage (fp) page
+18:08:10.910 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Set module: DataSchedule-DSFR02
+18:08:10.911 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DataSchedule-DSFR02 on moduleSelector (efp.moduleSelector) WebElement by id (transmitForm4Fed:selectModule) @ ExportToFilePage (efp) page
+18:08:16.737 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Set compressType: GZ
+18:08:16.739 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text GZ on compressType (efp.compressType) WebElement by id (transmitForm4Fed:compressTypeSelector) @ ExportToFilePage (efp) page
+18:08:20.140 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Click export button
+18:08:23.142 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportConfirm_DS (efp.exportConfirm_DS) WebButton by id (transmitSubmitForm4Fed:exportBtn) @ ExportToFilePage (efp) page
+18:08:26.646 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (fp.JobResultOK) WebButton by id (jobResultForm:ok) @ FormInstancePage (fp) page
+18:25:06.054 [main] INFO  com.lombardrisk.pages.FormInstancePage - Downloading
+18:25:06.221 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 5000 milliseconds
+18:25:16.701 [main] INFO  com.lombardrisk.pages.FormInstancePage - Downloading
+18:25:17.191 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 5000 milliseconds
+18:25:29.974 [main] INFO  com.lombardrisk.pages.FormInstancePage - Downloading
+18:25:30.188 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 5000 milliseconds
+18:27:31.960 [main] INFO  com.lombardrisk.testCase.DataSchedule - setup test before starting feature id dataschedule, scenario id dataschedule
+18:27:31.963 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+18:27:31.968 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+18:27:32.292 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+18:27:32.647 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+18:27:32.652 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+18:27:32.657 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+18:27:35.080 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: db9d6c178b105b0c5aede34d515c8543
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir13744_27058}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+18:27:35.080 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+18:27:38.573 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+18:27:39.815 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+18:27:41.249 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:27:41.285 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:27:41.324 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:27:41.357 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:27:41.389 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:27:53.655 [main] INFO  com.lombardrisk.testCase.DataSchedule - Get user format
+18:27:53.818 [main] INFO  com.lombardrisk.testCase.DataSchedule - Expected language is:en_GB
+18:27:53.823 [main] INFO  com.lombardrisk.testCase.DataSchedule - Begin setup test folder and test data
+18:27:53.823 [main] INFO  com.lombardrisk.testCase.DataSchedule - Begin setup test folder and test data
+18:27:53.823 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking settingBtn (lp.settingBtn) WebButton by id (formHeader:giSetting) @ ListPage (lp) page
+18:27:54.420 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking adminMenu (lp.adminMenu) WebElement by linkText (Administration) @ ListPage (lp) page
+18:27:55.152 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking physicalLocation (lp.physicalLocation) WebElement by xpath (.//*[@id='formHeader:physicalLocation']/span) @ ListPage (lp) page
+18:27:57.416 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboardButton (pl.dashboardBtn) WebElement by id (formHeader:errorBarBtn) @ PhysicalLocationPage (pl) page
+18:28:07.013 [main] INFO  com.lombardrisk.testCase.DataSchedule - ==========Test ds return export==========
+18:28:07.013 [main] INFO  com.lombardrisk.testCase.DataSchedule - Case id is:5889
+18:28:07.013 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:28:07.013 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:28:07.132 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:28:07.247 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:28:07.563 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DSFR02 v1 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+18:28:10.162 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:28:10.322 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:28:13.981 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:29:15.887 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:29:16.492 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:29:16.492 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:29:22.492 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:29:27.196 [main] INFO  com.lombardrisk.pages.FormInstancePage - Unlock form
+18:29:27.196 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking unLockBtn (fp.unLock) WebButton by id (formHeader:unlockBtn) @ FormInstancePage (fp) page
+18:29:35.652 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:29:37.653 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:29:40.832 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:29:41.423 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:29:41.423 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:29:45.674 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:29:50.322 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking returnSource (fp.returnSource) WebButton by id (formHeader:ReturnSource) @ FormInstancePage (fp) page
+18:29:52.710 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cancel (rsp.cancelBtn) WebButton by id (returnSourcesForm:cancel) @ ReturnSourcePage (rsp) page
+18:29:53.882 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click ready for approve button
+18:29:58.882 [main] INFO  com.lombardrisk.pages.FormInstancePage - wait for 5s to avoid loading
+18:29:58.882 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking workflowBtn (fp.wfBtn) WebButton by id (formHeader:workflow_button) @ FormInstancePage (fp) page
+18:29:58.982 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 500 milliseconds
+18:29:59.482 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking readyApprove (fp.readyAppr) WebElement by id (formHeader:readyForApproval) @ FormInstancePage (fp) page
+18:30:03.532 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:30:05.532 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:30:08.712 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+18:30:09.338 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking logoutButton (lp.Logout) WebButton by id (formHeader:btnLogout) @ ListPage (lp) page
+18:30:09.483 [main] INFO  com.lombardrisk.pages.HomePage - Login RP with user[admin1]
+18:30:09.484 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:30:12.584 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin1 on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:30:12.706 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:30:12.740 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:30:13.290 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:30:16.741 [main] INFO  com.lombardrisk.pages.HomePage - update user language and format
+18:30:16.758 [main] INFO  com.lombardrisk.pages.HomePage - Expected language is:en_GB
+18:30:16.758 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:30:16.759 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:30:16.889 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:30:16.996 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:30:17.248 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:30:17.339 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:30:20.988 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:30:23.989 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:30:24.566 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:30:24.566 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:30:31.070 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:30:35.717 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin approve form
+18:30:35.717 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking workflowBtn (fp.wfBtn) WebButton by id (formHeader:workflow_button) @ FormInstancePage (fp) page
+18:30:35.907 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking approve (fp.approve) WebElement by id (formHeader:approve) @ FormInstancePage (fp) page
+18:30:39.044 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing test on approveComment (fp.apprComment) WebEdit by id (approveCommentForm:approveCommentTextarea) @ FormInstancePage (fp) page
+18:30:39.142 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking commentOK (fp.apprCommentOK) WebButton by id (approveCommentForm:addApproveComment) @ FormInstancePage (fp) page
+18:30:41.822 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+18:30:43.007 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:30:45.007 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:30:48.194 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+18:30:48.891 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking logoutButton (lp.Logout) WebButton by id (formHeader:btnLogout) @ ListPage (lp) page
+18:30:49.031 [main] INFO  com.lombardrisk.pages.HomePage - Login RP with user[admin2]
+18:30:49.031 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:30:52.131 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin2 on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:30:52.265 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:30:52.306 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:30:52.856 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:30:56.536 [main] INFO  com.lombardrisk.pages.HomePage - update user language and format
+18:30:56.555 [main] INFO  com.lombardrisk.pages.HomePage - Expected language is:en_GB
+18:30:56.555 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:30:56.555 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:30:56.679 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:30:56.783 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:30:57.035 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:30:57.127 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:31:00.770 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:31:03.771 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:31:04.321 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:31:04.321 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:31:10.876 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:31:15.541 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin approve form
+18:31:15.541 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking workflowBtn (fp.wfBtn) WebButton by id (formHeader:workflow_button) @ FormInstancePage (fp) page
+18:31:15.673 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking approve (fp.approve) WebElement by id (formHeader:approve) @ FormInstancePage (fp) page
+18:31:18.800 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing test on approveComment (fp.apprComment) WebEdit by id (approveCommentForm:approveCommentTextarea) @ FormInstancePage (fp) page
+18:31:18.906 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking commentOK (fp.apprCommentOK) WebButton by id (approveCommentForm:addApproveComment) @ FormInstancePage (fp) page
+18:31:21.641 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+18:31:22.850 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:31:24.850 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:31:28.050 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+18:31:28.634 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking logoutButton (lp.Logout) WebButton by id (formHeader:btnLogout) @ ListPage (lp) page
+18:31:28.752 [main] INFO  com.lombardrisk.pages.HomePage - Login RP with user[admin3]
+18:31:28.753 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:31:31.840 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing admin3 on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:31:31.886 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:31:31.912 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:31:32.454 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:31:36.025 [main] INFO  com.lombardrisk.pages.HomePage - update user language and format
+18:31:36.042 [main] INFO  com.lombardrisk.pages.HomePage - Expected language is:en_GB
+18:31:36.042 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:31:36.042 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:31:36.184 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:31:36.287 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:31:36.542 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:31:36.632 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:31:40.275 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:31:43.276 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:31:43.835 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:31:43.835 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:31:50.510 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:31:55.147 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin approve form
+18:31:55.147 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking workflowBtn (fp.wfBtn) WebButton by id (formHeader:workflow_button) @ FormInstancePage (fp) page
+18:31:55.250 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking approve (fp.approve) WebElement by id (formHeader:approve) @ FormInstancePage (fp) page
+18:31:58.356 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing test on approveComment (fp.apprComment) WebEdit by id (approveCommentForm:approveCommentTextarea) @ FormInstancePage (fp) page
+18:31:58.434 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking commentOK (fp.apprCommentOK) WebButton by id (approveCommentForm:addApproveComment) @ FormInstancePage (fp) page
+18:32:01.646 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+18:32:02.825 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:32:04.825 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+18:32:08.019 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking userMenu (lp.uMenu) WebElement by id (formHeader:lblUser_button) @ ListPage (lp) page
+18:32:08.662 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking logoutButton (lp.Logout) WebButton by id (formHeader:btnLogout) @ ListPage (lp) page
+18:32:08.801 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:32:11.876 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+18:32:11.919 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:32:11.950 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+18:32:11.983 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+18:32:16.059 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+18:32:16.059 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve DS
+18:32:16.265 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+18:32:16.369 [main] INFO  com.lombardrisk.pages.ListPage - Set form=DSFR02 v1
+18:32:16.626 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=31/12/2015
+18:32:16.713 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 31/12/2015 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+18:32:20.348 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+18:32:23.431 [main] INFO  com.lombardrisk.testCase.DataSchedule - Prefix of regulator[US1 FED Reserve DS] is:FED_DS
+18:32:23.431 [main] INFO  com.lombardrisk.pages.ListPage - Open form[DSFR02 v1 31/12/2015]
+18:32:24.017 [main] INFO  com.lombardrisk.pages.ListPage - Click form link
+18:32:24.017 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking formLink (lp.formLink) Image by xpath (//*[@id='formInstanceListForm:formInstanceListTable_data']/tr[td[2][a='DSFR02'] and td[3]='1' and td[4]='31/12/2015']/td[2]/a) @ ListPage (lp) page
+18:32:28.517 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 4000 milliseconds
+18:32:40.486 [main] INFO  com.lombardrisk.testCase.DataSchedule - File location is:/Submission/FED_DS/0001/201531122/
+18:32:41.773 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin exprot to DS(csv)
+18:32:43.914 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+18:32:44.541 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToRFBtn (fp.exportToRF) WebButton by id (formHeader:exportToFile4Fed_button) @ FormInstancePage (fp) page
+18:32:45.228 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click export to data schdule(csv)
+18:32:45.230 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToDS (fp.exportToDSCsv) WebButton by xpath (//a[span='Export To DataSchedule-csv']) @ FormInstancePage (fp) page
+18:32:46.052 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Set module: DataSchedule-DSFR02
+18:32:46.054 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text DataSchedule-DSFR02 on moduleSelector (efp.moduleSelector) WebElement by id (transmitForm4Fed:selectModule) @ ExportToFilePage (efp) page
+18:32:51.969 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Set compressType: GZ
+18:32:51.971 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text GZ on compressType (efp.compressType) WebElement by id (transmitForm4Fed:compressTypeSelector) @ ExportToFilePage (efp) page
+18:32:55.372 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Click export button
+18:32:58.373 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportConfirm_DS (efp.exportConfirm_DS) WebButton by id (transmitSubmitForm4Fed:exportBtn) @ ExportToFilePage (efp) page
+18:33:01.965 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking JobResultOK (fp.JobResultOK) WebButton by id (jobResultForm:ok) @ FormInstancePage (fp) page
+18:33:47.695 [main] INFO  com.lombardrisk.pages.FormInstancePage - Export to dataSchedule succeed
+18:33:52.030 [main] ERROR com.lombardrisk.testCase.DataSchedule - Should not generated file
+18:33:55.135 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+18:33:57.135 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page

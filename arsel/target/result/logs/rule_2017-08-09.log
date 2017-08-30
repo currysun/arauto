@@ -1,0 +1,708 @@
+﻿2017-08-09T15:57:12+0800	---------------Start----------------
+2017-08-09T15:57:12+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/2c7e95971d98459ea10b63e7d7cba3b7.xlsx
+2017-08-09T15:57:12+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\RowLimit\CheckCellValue\VAL_FRY14ASUMMv5.xlsx
+2017-08-09T15:57:12+0800	Verify row:2
+2017-08-09T15:57:12+0800	Validation1 validation  result is:Pass
+2017-08-09T15:57:12+0800	Verify row:3
+2017-08-09T15:57:12+0800	Validation1 validation  result is:Pass
+2017-08-09T15:57:12+0800	Verify row:4
+2017-08-09T15:57:12+0800	Validation2 validation  result is:Fail
+2017-08-09T15:57:12+0800	Verify row:5
+2017-08-09T15:57:12+0800	Validation2 validation  result is:Fail
+2017-08-09T15:57:12+0800	Verify row:6
+2017-08-09T15:57:12+0800	Validation2 validation  result is:Pass
+2017-08-09T15:57:12+0800	Verify row:7
+2017-08-09T15:57:12+0800	Validation2 validation  result is:Pass
+2017-08-09T15:57:12+0800	Verify row:8
+2017-08-09T15:57:12+0800	Validation2 validation  result is:Pass
+2017-08-09T15:57:12+0800	Verify row:9
+2017-08-09T15:57:12+0800	Validation2 validation  result is:Pass
+2017-08-09T15:57:12+0800	Verify row:10
+2017-08-09T15:57:12+0800	Validation2 validation  result is:Fail
+2017-08-09T15:57:12+0800	Verify row:11
+2017-08-09T15:57:12+0800	Validation2 validation  result is:Fail
+2017-08-09T15:57:12+0800	Complate....
+2017-08-09T15:57:12+0800	---------------End----------------
+2017-08-09T16:20:11+0800	---------------Start----------------
+2017-08-09T16:20:11+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/20c176611db44d5b836c3e677a63701d.xlsx
+2017-08-09T16:20:11+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\Threshold\CheckCellValue\VAL_FRY14ASUMMv4.xlsx
+2017-08-09T16:20:11+0800	Verify row:2
+2017-08-09T16:20:11+0800	Validation1 validation  result is:Fail
+2017-08-09T16:20:11+0800	Verify row:3
+2017-08-09T16:20:11+0800	Validation1 validation  result is:Fail
+2017-08-09T16:20:11+0800	Verify row:4
+2017-08-09T16:20:11+0800	Validation2 validation  result is:Fail
+2017-08-09T16:20:11+0800	Verify row:5
+2017-08-09T16:20:11+0800	Validation2 validation  result is:Fail
+2017-08-09T16:20:11+0800	Verify row:6
+2017-08-09T16:20:11+0800	Validation2 validation  result is:Pass
+2017-08-09T16:20:11+0800	Verify row:7
+2017-08-09T16:20:11+0800	Validation2 validation  result is:Pass
+2017-08-09T16:20:11+0800	Complate....
+2017-08-09T16:20:11+0800	---------------End----------------
+2017-08-09T19:50:56+0800	---------------Start----------------
+2017-08-09T19:50:56+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/aabaa9cca8a9422ab1e96397d9ca6844.xlsx
+2017-08-09T19:50:56+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\Val_TESTPRODUCT_CAGSv4.xlsx
+2017-08-09T19:50:56+0800	Verify row:2
+2017-08-09T19:50:56+0800	Validation12 validation  result is:Fail
+2017-08-09T19:50:56+0800	Verify row:3
+2017-08-09T19:50:56+0800	Validation12 validation  result is:Pass
+2017-08-09T19:50:56+0800	Verify row:4
+2017-08-09T19:50:56+0800	Validation12 validation  result is:Pass
+2017-08-09T19:50:56+0800	Verify row:5
+2017-08-09T19:50:56+0800	Validation12 validation  result is:Pass
+2017-08-09T19:50:56+0800	Verify row:6
+2017-08-09T19:50:56+0800	Validation12 validation  result is:Fail
+2017-08-09T19:50:56+0800	Verify row:7
+2017-08-09T19:50:56+0800	Validation12 validation  result is:Fail
+2017-08-09T19:50:56+0800	Verify row:8
+2017-08-09T19:50:56+0800	Validation13 validation  result is:Pass
+2017-08-09T19:50:56+0800	Verify row:9
+2017-08-09T19:50:56+0800	Validation13 validation  result is:Pass
+2017-08-09T19:50:56+0800	Verify row:10
+2017-08-09T19:50:56+0800	Validation13 validation  result is:Pass
+2017-08-09T19:50:56+0800	Verify row:11
+2017-08-09T19:50:57+0800	Validation13 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:12
+2017-08-09T19:50:57+0800	Validation13 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:13
+2017-08-09T19:50:57+0800	Validation13 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:14
+2017-08-09T19:50:57+0800	Validation14 validation  result is:Error
+2017-08-09T19:50:57+0800	Verify row:15
+2017-08-09T19:50:57+0800	Validation14 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:16
+2017-08-09T19:50:57+0800	Validation14 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:17
+2017-08-09T19:50:57+0800	Validation14 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:18
+2017-08-09T19:50:57+0800	Validation14 validation  result is:Error
+2017-08-09T19:50:57+0800	Verify row:19
+2017-08-09T19:50:57+0800	Validation14 validation  result is:Error
+2017-08-09T19:50:57+0800	Verify row:20
+2017-08-09T19:50:57+0800	Validation15 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:21
+2017-08-09T19:50:57+0800	Validation15 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:22
+2017-08-09T19:50:57+0800	Validation15 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:23
+2017-08-09T19:50:57+0800	Validation15 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:24
+2017-08-09T19:50:57+0800	Validation15 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:25
+2017-08-09T19:50:57+0800	Validation15 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:26
+2017-08-09T19:50:57+0800	Validation16 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:27
+2017-08-09T19:50:57+0800	Validation16 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:28
+2017-08-09T19:50:57+0800	Validation16 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:29
+2017-08-09T19:50:57+0800	Validation16 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:30
+2017-08-09T19:50:57+0800	Validation16 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:31
+2017-08-09T19:50:57+0800	Validation16 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:32
+2017-08-09T19:50:57+0800	Validation17 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:33
+2017-08-09T19:50:57+0800	Validation17 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:34
+2017-08-09T19:50:57+0800	Validation17 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:35
+2017-08-09T19:50:57+0800	Validation17 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:36
+2017-08-09T19:50:57+0800	Validation17 validation  result is:Pass
+2017-08-09T19:50:57+0800	Verify row:37
+2017-08-09T19:50:57+0800	Validation17 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Verify row:38
+2017-08-09T19:50:57+0800	Validation17 validation  result is:Ignored
+2017-08-09T19:50:57+0800	Complate....
+2017-08-09T19:50:57+0800	---------------End----------------
+2017-08-09T19:51:39+0800	---------------Start----------------
+2017-08-09T19:51:39+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/37b9ea10b84f48dea2f7bdb2581be615.xlsx
+2017-08-09T19:51:39+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\Val_TESTPRODUCT_FSA001v1.xlsx
+2017-08-09T19:51:39+0800	Verify row:2
+2017-08-09T19:51:39+0800	Validation1 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:3
+2017-08-09T19:51:39+0800	Validation2 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:4
+2017-08-09T19:51:39+0800	Validation3 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:5
+2017-08-09T19:51:39+0800	Validation3 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:6
+2017-08-09T19:51:39+0800	Validation3 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:7
+2017-08-09T19:51:39+0800	Validation3 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:8
+2017-08-09T19:51:39+0800	Validation3 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:9
+2017-08-09T19:51:39+0800	Validation4 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:10
+2017-08-09T19:51:39+0800	Validation4 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:11
+2017-08-09T19:51:39+0800	Validation4 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:12
+2017-08-09T19:51:39+0800	Validation4 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:13
+2017-08-09T19:51:39+0800	Validation4 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:14
+2017-08-09T19:51:39+0800	Validation5 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:15
+2017-08-09T19:51:39+0800	Validation6 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:16
+2017-08-09T19:51:39+0800	Validation7 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:17
+2017-08-09T19:51:39+0800	Validation7 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:18
+2017-08-09T19:51:39+0800	Validation7 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:19
+2017-08-09T19:51:39+0800	Validation7 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:20
+2017-08-09T19:51:39+0800	Validation7 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:21
+2017-08-09T19:51:39+0800	Validation8 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:22
+2017-08-09T19:51:39+0800	Validation8 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:23
+2017-08-09T19:51:39+0800	Validation8 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:24
+2017-08-09T19:51:39+0800	Validation8 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:25
+2017-08-09T19:51:39+0800	Validation8 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:26
+2017-08-09T19:51:39+0800	Validation9 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:27
+2017-08-09T19:51:39+0800	Validation9 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:28
+2017-08-09T19:51:39+0800	Validation9 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:29
+2017-08-09T19:51:39+0800	Validation9 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:30
+2017-08-09T19:51:39+0800	Validation9 validation  result is:Pass
+2017-08-09T19:51:39+0800	Verify row:31
+2017-08-09T19:51:39+0800	Validation10 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:32
+2017-08-09T19:51:39+0800	Validation10 validation  result is:Fail
+2017-08-09T19:51:39+0800	Verify row:33
+2017-08-09T19:51:40+0800	Validation10 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:34
+2017-08-09T19:51:40+0800	Validation10 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:35
+2017-08-09T19:51:40+0800	Validation10 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:36
+2017-08-09T19:51:40+0800	Validation11 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:37
+2017-08-09T19:51:40+0800	Validation12 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:38
+2017-08-09T19:51:40+0800	Validation13 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:39
+2017-08-09T19:51:40+0800	Validation14 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:40
+2017-08-09T19:51:40+0800	Validation15 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:41
+2017-08-09T19:51:40+0800	Validation16 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:42
+2017-08-09T19:51:40+0800	Validation17 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:43
+2017-08-09T19:51:40+0800	Validation17 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:44
+2017-08-09T19:51:40+0800	Validation17 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:45
+2017-08-09T19:51:40+0800	Validation17 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:46
+2017-08-09T19:51:40+0800	Validation18 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:47
+2017-08-09T19:51:40+0800	Validation18 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:48
+2017-08-09T19:51:40+0800	Validation18 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:49
+2017-08-09T19:51:40+0800	Validation18 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:50
+2017-08-09T19:51:40+0800	Validation19 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:51
+2017-08-09T19:51:40+0800	Validation19 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:52
+2017-08-09T19:51:40+0800	Validation19 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:53
+2017-08-09T19:51:40+0800	Validation19 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:54
+2017-08-09T19:51:40+0800	Validation20 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:55
+2017-08-09T19:51:40+0800	Validation20 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:56
+2017-08-09T19:51:40+0800	Validation20 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:57
+2017-08-09T19:51:40+0800	Validation20 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:58
+2017-08-09T19:51:40+0800	Validation20 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:59
+2017-08-09T19:51:40+0800	Validation21 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:60
+2017-08-09T19:51:40+0800	Validation21 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:61
+2017-08-09T19:51:40+0800	Validation21 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:62
+2017-08-09T19:51:40+0800	Validation21 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:63
+2017-08-09T19:51:40+0800	Validation22 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:64
+2017-08-09T19:51:40+0800	Validation22 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:65
+2017-08-09T19:51:40+0800	Validation22 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:66
+2017-08-09T19:51:40+0800	Validation22 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:67
+2017-08-09T19:51:40+0800	Validation23 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:68
+2017-08-09T19:51:40+0800	Validation23 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:69
+2017-08-09T19:51:40+0800	Validation23 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:70
+2017-08-09T19:51:40+0800	Validation23 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:71
+2017-08-09T19:51:40+0800	Validation24 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:72
+2017-08-09T19:51:40+0800	Validation24 validation  result is:Fail
+2017-08-09T19:51:40+0800	Verify row:73
+2017-08-09T19:51:40+0800	Validation24 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:74
+2017-08-09T19:51:40+0800	Validation24 validation  result is:Pass
+2017-08-09T19:51:40+0800	Verify row:75
+2017-08-09T19:51:40+0800	---------------End----------------
+2017-08-09T19:52:20+0800	---------------Start----------------
+2017-08-09T19:52:20+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/ce206924feb344f590ad26e421846082.xlsx
+2017-08-09T19:52:20+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\Val_TESTPRODUCT_FSA045v1.xlsx
+2017-08-09T19:52:20+0800	Verify row:2
+2017-08-09T19:52:20+0800	Validation1 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:3
+2017-08-09T19:52:20+0800	Validation1 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:4
+2017-08-09T19:52:20+0800	Validation1 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:5
+2017-08-09T19:52:20+0800	Validation2 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:6
+2017-08-09T19:52:20+0800	Validation2 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:7
+2017-08-09T19:52:20+0800	Validation2 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:8
+2017-08-09T19:52:20+0800	Validation3 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:9
+2017-08-09T19:52:20+0800	Validation3 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:10
+2017-08-09T19:52:20+0800	Validation3 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:11
+2017-08-09T19:52:20+0800	Validation4 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:12
+2017-08-09T19:52:20+0800	Validation4 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:13
+2017-08-09T19:52:20+0800	Validation4 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:14
+2017-08-09T19:52:20+0800	Validation5 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:15
+2017-08-09T19:52:20+0800	Validation5 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:16
+2017-08-09T19:52:20+0800	Validation5 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:17
+2017-08-09T19:52:20+0800	Validation6 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:18
+2017-08-09T19:52:20+0800	Validation6 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:19
+2017-08-09T19:52:20+0800	Validation6 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:20
+2017-08-09T19:52:20+0800	Validation7 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:21
+2017-08-09T19:52:20+0800	Validation7 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:22
+2017-08-09T19:52:20+0800	Validation7 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:23
+2017-08-09T19:52:20+0800	Validation8 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:24
+2017-08-09T19:52:20+0800	Validation8 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:25
+2017-08-09T19:52:20+0800	Validation8 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:26
+2017-08-09T19:52:20+0800	Validation9 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:27
+2017-08-09T19:52:20+0800	Validation9 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:28
+2017-08-09T19:52:20+0800	Validation9 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:29
+2017-08-09T19:52:20+0800	Validation9 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:30
+2017-08-09T19:52:20+0800	Validation9 validation  result is:Fail
+2017-08-09T19:52:20+0800	Verify row:31
+2017-08-09T19:52:20+0800	Validation10 validation  result is:Pass
+2017-08-09T19:52:20+0800	Verify row:32
+2017-08-09T19:52:20+0800	---------------End----------------
+2017-08-09T19:54:08+0800	---------------Start----------------
+2017-08-09T19:54:08+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/32ea8ae186c94b3481a4ff23c615e1c7.xlsx
+2017-08-09T19:54:08+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_0001_20140630_CARv5.xlsx
+2017-08-09T19:54:08+0800	Verify row:2
+2017-08-09T19:54:08+0800	Cross Validation1 validation  result is:Pass
+2017-08-09T19:54:08+0800	Complate....
+2017-08-09T19:54:08+0800	---------------End----------------
+2017-08-09T19:54:57+0800	---------------Start----------------
+2017-08-09T19:54:57+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/c96addacfb434c1d81a1367b15e360b4.xlsx
+2017-08-09T19:54:57+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1000_20141231_CARv5.xlsx
+2017-08-09T19:54:57+0800	Verify row:2
+2017-08-09T19:54:57+0800	Cross Validation2 validation  result is:Pass
+2017-08-09T19:54:57+0800	Verify row:3
+2017-08-09T19:54:57+0800	Cross Validation3 validation  result is:Fail
+2017-08-09T19:54:57+0800	Complate....
+2017-08-09T19:54:57+0800	---------------End----------------
+2017-08-09T19:55:44+0800	---------------Start----------------
+2017-08-09T19:55:44+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/3eb6a2ac007042de9697e28707ebad54.xlsx
+2017-08-09T19:55:44+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1001_20150430_CARv5.xlsx
+2017-08-09T19:55:44+0800	Verify row:2
+2017-08-09T19:55:44+0800	Cross Validation4 validation  result is:Pass
+2017-08-09T19:55:44+0800	Verify row:3
+2017-08-09T19:55:45+0800	Cross Validation5 validation  result is:Fail
+2017-08-09T19:55:45+0800	Complate....
+2017-08-09T19:55:45+0800	---------------End----------------
+2017-08-09T19:56:32+0800	---------------Start----------------
+2017-08-09T19:56:32+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/a19c678312624b49baebb78fa4bba878.xlsx
+2017-08-09T19:56:32+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1002_20141128_CARv5.xlsx
+2017-08-09T19:56:32+0800	Verify row:2
+2017-08-09T19:56:32+0800	Cross Validation6 validation  result is:Pass
+2017-08-09T19:56:32+0800	Verify row:3
+2017-08-09T19:56:32+0800	Cross Validation7 validation  result is:Pass
+2017-08-09T19:56:32+0800	Verify row:4
+2017-08-09T19:56:32+0800	Cross Validation7 validation  result is:Fail
+2017-08-09T19:56:32+0800	Complate....
+2017-08-09T19:56:32+0800	---------------End----------------
+2017-08-09T19:57:20+0800	---------------Start----------------
+2017-08-09T19:57:20+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/eb1fd6344c6b4aeebefe04a636688427.xlsx
+2017-08-09T19:57:20+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1003_20151231_CARv5.xlsx
+2017-08-09T19:57:20+0800	Verify row:2
+2017-08-09T19:57:20+0800	Cross Validation8 validation  result is:Pass
+2017-08-09T19:57:20+0800	Verify row:3
+2017-08-09T19:57:20+0800	Cross Validation9 validation  result is:Fail
+2017-08-09T19:57:20+0800	Complate....
+2017-08-09T19:57:20+0800	---------------End----------------
+2017-08-09T19:58:07+0800	---------------Start----------------
+2017-08-09T19:58:07+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/6d96e52fcb0941bbbee07ebfe08b6aa6.xlsx
+2017-08-09T19:58:07+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1004_20141231_CARv5.xlsx
+2017-08-09T19:58:07+0800	Verify row:2
+2017-08-09T19:58:07+0800	Cross Validation10 validation  result is:Pass
+2017-08-09T19:58:07+0800	Verify row:3
+2017-08-09T19:58:07+0800	Cross Validation11 validation  result is:Fail
+2017-08-09T19:58:07+0800	Verify row:4
+2017-08-09T19:58:07+0800	Cross Validation11 validation  result is:Fail
+2017-08-09T19:58:07+0800	Verify row:5
+2017-08-09T19:58:07+0800	Cross Validation11 validation  result is:Fail
+2017-08-09T19:58:07+0800	Complate....
+2017-08-09T19:58:07+0800	---------------End----------------
+2017-08-09T19:58:52+0800	---------------Start----------------
+2017-08-09T19:58:52+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/2affc3d8726a4bb2850b6c9c6ac4865c.xlsx
+2017-08-09T19:58:52+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1005_20141231_CARv5.xlsx
+2017-08-09T19:58:52+0800	Verify row:2
+2017-08-09T19:58:52+0800	Cross Validation12 validation  result is:Fail
+2017-08-09T19:58:52+0800	Verify row:3
+2017-08-09T19:58:52+0800	Cross Validation13 validation  result is:Pass
+2017-08-09T19:58:52+0800	Verify row:4
+2017-08-09T19:58:52+0800	Cross Validation13 validation  result is:Fail
+2017-08-09T19:58:52+0800	Complate....
+2017-08-09T19:58:52+0800	---------------End----------------
+2017-08-09T19:59:38+0800	---------------Start----------------
+2017-08-09T19:59:38+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/01971421184d4b42a60da3d5f5b2efc7.xlsx
+2017-08-09T19:59:38+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1007_20141222_CARv5.xlsx
+2017-08-09T19:59:38+0800	Verify row:2
+2017-08-09T19:59:39+0800	Cross Validation16 validation  result is:Pass
+2017-08-09T19:59:39+0800	Verify row:3
+2017-08-09T19:59:39+0800	Cross Validation17 validation  result is:Ignored
+2017-08-09T19:59:39+0800	Complate....
+2017-08-09T19:59:39+0800	---------------End----------------
+2017-08-09T20:00:25+0800	---------------Start----------------
+2017-08-09T20:00:25+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/7667a2004edd4a0784c1d207416610d8.xlsx
+2017-08-09T20:00:25+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1008_20150430_CARv5.xlsx
+2017-08-09T20:00:25+0800	Verify row:2
+2017-08-09T20:00:25+0800	Cross Validation18 validation  result is:Pass
+2017-08-09T20:00:25+0800	Verify row:3
+2017-08-09T20:00:25+0800	Cross Validation19 validation  result is:Fail
+2017-08-09T20:00:25+0800	Complate....
+2017-08-09T20:00:25+0800	---------------End----------------
+2017-08-09T20:01:12+0800	---------------Start----------------
+2017-08-09T20:01:12+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/bf390621f48e4abbba4e1a5d1cb4494e.xlsx
+2017-08-09T20:01:12+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1009_20141128_CARv5.xlsx
+2017-08-09T20:01:12+0800	Verify row:2
+2017-08-09T20:01:12+0800	Cross Validation20 validation  result is:Pass
+2017-08-09T20:01:12+0800	Verify row:3
+2017-08-09T20:01:12+0800	Cross Validation21 validation  result is:Fail
+2017-08-09T20:01:12+0800	Verify row:4
+2017-08-09T20:01:12+0800	Cross Validation21 validation  result is:Pass
+2017-08-09T20:01:12+0800	Verify row:5
+2017-08-09T20:01:12+0800	Cross Validation21 validation  result is:Fail
+2017-08-09T20:01:12+0800	Complate....
+2017-08-09T20:01:12+0800	---------------End----------------
+2017-08-09T20:01:58+0800	---------------Start----------------
+2017-08-09T20:01:58+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/e43711d0437b42668d9a4ec343a2617a.xlsx
+2017-08-09T20:01:58+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1010_20141224_CARv5.xlsx
+2017-08-09T20:01:58+0800	Verify row:2
+2017-08-09T20:01:58+0800	Cross Validation22 validation  result is:Pass
+2017-08-09T20:01:58+0800	Verify row:3
+2017-08-09T20:01:58+0800	Cross Validation23 validation  result is:Fail
+2017-08-09T20:01:58+0800	Verify row:4
+2017-08-09T20:01:58+0800	Cross Validation23 validation  result is:Pass
+2017-08-09T20:01:58+0800	Verify row:5
+2017-08-09T20:01:58+0800	Cross Validation23 validation  result is:Fail
+2017-08-09T20:01:58+0800	Complate....
+2017-08-09T20:01:58+0800	---------------End----------------
+2017-08-09T20:02:45+0800	---------------Start----------------
+2017-08-09T20:02:45+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/edce04ae32e441da8336ad8cc69a95ed.xlsx
+2017-08-09T20:02:45+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_1012_20141218_CARv5.xlsx
+2017-08-09T20:02:45+0800	Verify row:2
+2017-08-09T20:02:45+0800	Cross Validation28 validation  result is:Pass
+2017-08-09T20:02:45+0800	Verify row:3
+2017-08-09T20:02:45+0800	Cross Validation29 validation  result is:Fail
+2017-08-09T20:02:45+0800	Complate....
+2017-08-09T20:02:45+0800	---------------End----------------
+2017-08-09T20:03:36+0800	---------------Start----------------
+2017-08-09T20:03:36+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/aac3c82a24d84edab8315bc138baa3ec.xlsx
+2017-08-09T20:03:36+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_FI35v1_20151115.xlsx
+2017-08-09T20:03:36+0800	Verify row:2
+2017-08-09T20:03:36+0800	Cross Validation4 validation  result is:Error
+2017-08-09T20:03:36+0800	Verify row:3
+2017-08-09T20:03:36+0800	Cross Validation5 validation  result is:Error
+2017-08-09T20:03:36+0800	Verify row:4
+2017-08-09T20:03:36+0800	Cross Validation6 validation  result is:Error
+2017-08-09T20:03:36+0800	Verify row:5
+2017-08-09T20:03:36+0800	Cross Validation7 validation  result is:Error
+2017-08-09T20:03:36+0800	Verify row:6
+2017-08-09T20:03:36+0800	Cross Validation8 validation  result is:Error
+2017-08-09T20:03:36+0800	Verify row:7
+2017-08-09T20:03:36+0800	Cross Validation9 validation  result is:Error
+2017-08-09T20:03:36+0800	Verify row:8
+2017-08-09T20:03:36+0800	Cross Validation10 validation  result is:Error
+2017-08-09T20:03:36+0800	Verify row:9
+2017-08-09T20:03:36+0800	Cross Validation11 validation  result is:Error
+2017-08-09T20:03:36+0800	Verify row:10
+2017-08-09T20:03:36+0800	Cross Validation12 validation  result is:Error
+2017-08-09T20:03:36+0800	Complate....
+2017-08-09T20:03:36+0800	---------------End----------------
+2017-08-09T20:04:16+0800	---------------Start----------------
+2017-08-09T20:04:16+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/47623dd1452845eb829d08cc6496384a.xlsx
+2017-08-09T20:04:16+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCT_FI35v1_20151120.xlsx
+2017-08-09T20:04:16+0800	Verify row:2
+2017-08-09T20:04:16+0800	Cross Validation1 validation  result is:Error
+2017-08-09T20:04:16+0800	Verify row:3
+2017-08-09T20:04:16+0800	Cross Validation2 validation  result is:Error
+2017-08-09T20:04:16+0800	Verify row:4
+2017-08-09T20:04:16+0800	Cross Validation3 validation  result is:Error
+2017-08-09T20:04:16+0800	Verify row:5
+2017-08-09T20:04:16+0800	Cross Validation13 validation  result is:Error
+2017-08-09T20:04:16+0800	Verify row:6
+2017-08-09T20:04:16+0800	Cross Validation14 validation  result is:Error
+2017-08-09T20:04:16+0800	Verify row:7
+2017-08-09T20:04:17+0800	Cross Validation15 validation  result is:Error
+2017-08-09T20:04:17+0800	Verify row:8
+2017-08-09T20:04:17+0800	Cross Validation16 validation  result is:Error
+2017-08-09T20:04:17+0800	Verify row:9
+2017-08-09T20:04:17+0800	Cross Validation17 validation  result is:Error
+2017-08-09T20:04:17+0800	Verify row:10
+2017-08-09T20:04:17+0800	Cross Validation18 validation  result is:Error
+2017-08-09T20:04:17+0800	Complate....
+2017-08-09T20:04:17+0800	---------------End----------------
+2017-08-09T20:04:54+0800	---------------Start----------------
+2017-08-09T20:04:54+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/a1c802ed737d451191c5e3958e934285.xlsx
+2017-08-09T20:04:54+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\Val_TESTPRODUCT_FI35v1_20141120.xlsx
+2017-08-09T20:04:54+0800	Verify row:2
+2017-08-09T20:04:54+0800	Validation1 validation  result is:Fail
+2017-08-09T20:04:54+0800	Verify row:3
+2017-08-09T20:04:54+0800	Validation2 validation  result is:Pass
+2017-08-09T20:04:54+0800	Verify row:4
+2017-08-09T20:04:54+0800	Validation3 validation  result is:Ignored
+2017-08-09T20:04:54+0800	Verify row:5
+2017-08-09T20:04:54+0800	Validation7 validation  result is:Fail
+2017-08-09T20:04:54+0800	Verify row:6
+2017-08-09T20:04:54+0800	Validation8 validation  result is:Pass
+2017-08-09T20:04:54+0800	Verify row:7
+2017-08-09T20:04:54+0800	Validation9 validation  result is:Ignored
+2017-08-09T20:04:54+0800	Verify row:8
+2017-08-09T20:04:54+0800	Validation10 validation  result is:Fail
+2017-08-09T20:04:54+0800	Verify row:9
+2017-08-09T20:04:54+0800	Validation11 validation  result is:Error
+2017-08-09T20:04:54+0800	Verify row:10
+2017-08-09T20:04:54+0800	Validation12 validation  result is:Ignored
+2017-08-09T20:04:54+0800	Complate....
+2017-08-09T20:04:54+0800	---------------End----------------
+2017-08-09T20:05:37+0800	---------------Start----------------
+2017-08-09T20:05:37+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/6ddbdeb8b63d41a899c4fe2aea9f7c7d.xlsx
+2017-08-09T20:05:37+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\Val_TESTPRODUCT_CAGSv4 - AllowNull.xlsx
+2017-08-09T20:05:37+0800	Verify row:2
+2017-08-09T20:05:37+0800	Validation12 validation  result is:Pass
+2017-08-09T20:05:37+0800	Verify row:3
+2017-08-09T20:05:37+0800	Validation12 validation  result is:Fail
+2017-08-09T20:05:37+0800	Verify row:4
+2017-08-09T20:05:37+0800	Validation12 validation  result is:Pass
+2017-08-09T20:05:37+0800	Verify row:5
+2017-08-09T20:05:37+0800	Validation12 validation  result is:Fail
+2017-08-09T20:05:37+0800	Verify row:6
+2017-08-09T20:05:37+0800	Validation12 validation  result is:Fail
+2017-08-09T20:05:37+0800	Verify row:7
+2017-08-09T20:05:37+0800	Validation13 validation  result is:Pass
+2017-08-09T20:05:37+0800	Verify row:8
+2017-08-09T20:05:37+0800	Validation14 validation  result is:Fail
+2017-08-09T20:05:37+0800	Complate....
+2017-08-09T20:05:37+0800	---------------End----------------
+2017-08-09T20:06:27+0800	---------------Start----------------
+2017-08-09T20:06:27+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/a857c5c482fe45d0a079dfa46488231a.xlsx
+2017-08-09T20:06:27+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCTNULLIMP_MKCMv100_20160601.xlsx
+2017-08-09T20:06:27+0800	Verify row:2
+2017-08-09T20:06:27+0800	Cross Validation1 validation  result is:Fail
+2017-08-09T20:06:28+0800	Verify row:3
+2017-08-09T20:06:28+0800	Cross Validation2 validation  result is:Fail
+2017-08-09T20:06:28+0800	Verify row:4
+2017-08-09T20:06:28+0800	Cross Validation3 validation  result is:Pass
+2017-08-09T20:06:28+0800	Complate....
+2017-08-09T20:06:28+0800	---------------End----------------
+2017-08-09T20:07:12+0800	---------------Start----------------
+2017-08-09T20:07:12+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/b430dcd799ef40efa26ae64c0d44080a.xlsx
+2017-08-09T20:07:12+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_TESTPRODUCTNULLIMP_MKCMv101_20160331.xlsx
+2017-08-09T20:07:12+0800	Verify row:2
+2017-08-09T20:07:12+0800	Cross Validation1 validation  result is:Pass
+2017-08-09T20:07:12+0800	Complate....
+2017-08-09T20:07:12+0800	---------------End----------------
+2017-08-09T20:08:01+0800	---------------Start----------------
+2017-08-09T20:08:01+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/edeb1d23d68841f694c11fc977fa89ee.xlsx
+2017-08-09T20:08:01+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\XVal_GMAXv1.xlsx
+2017-08-09T20:08:01+0800	Verify row:2
+2017-08-09T20:08:01+0800	Cross Validation60 validation  result is:Pass
+2017-08-09T20:08:01+0800	Verify row:3
+2017-08-09T20:08:01+0800	Cross Validation61 validation  result is:Pass
+2017-08-09T20:08:01+0800	Verify row:4
+2017-08-09T20:08:01+0800	Cross Validation62 validation  result is:Pass
+2017-08-09T20:08:01+0800	Verify row:5
+2017-08-09T20:08:01+0800	Cross Validation63 validation  result is:Fail
+2017-08-09T20:08:01+0800	Verify row:6
+2017-08-09T20:08:01+0800	Cross Validation64 validation  result is:Fail
+2017-08-09T20:08:01+0800	Verify row:7
+2017-08-09T20:08:01+0800	Cross Validation65 validation  result is:Fail
+2017-08-09T20:08:01+0800	Verify row:8
+2017-08-09T20:08:01+0800	Cross Validation66 validation  result is:Error
+2017-08-09T20:08:01+0800	Verify row:9
+2017-08-09T20:08:01+0800	Cross Validation67 validation  result is:Fail
+2017-08-09T20:08:01+0800	Verify row:10
+2017-08-09T20:08:01+0800	Cross Validation68 validation  result is:Fail
+2017-08-09T20:08:01+0800	Complate....
+2017-08-09T20:08:01+0800	---------------End----------------
+2017-08-09T20:08:41+0800	---------------Start----------------
+2017-08-09T20:08:41+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/707015f46f2b4a7eb240a534056763c2.xlsx
+2017-08-09T20:08:41+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\Val_GMAXv1.xlsx
+2017-08-09T20:08:41+0800	Verify row:2
+2017-08-09T20:08:41+0800	Validation1 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:3
+2017-08-09T20:08:41+0800	Validation1 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:4
+2017-08-09T20:08:41+0800	Validation1 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:5
+2017-08-09T20:08:41+0800	Validation1 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:6
+2017-08-09T20:08:41+0800	Validation2 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:7
+2017-08-09T20:08:41+0800	Validation2 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:8
+2017-08-09T20:08:41+0800	Validation2 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:9
+2017-08-09T20:08:41+0800	Validation2 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:10
+2017-08-09T20:08:41+0800	Validation3 validation  result is:Ignored
+2017-08-09T20:08:41+0800	Verify row:11
+2017-08-09T20:08:41+0800	Validation3 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:12
+2017-08-09T20:08:41+0800	Validation3 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:13
+2017-08-09T20:08:41+0800	Validation3 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:14
+2017-08-09T20:08:41+0800	Validation4 validation  result is:Fail
+2017-08-09T20:08:41+0800	Verify row:15
+2017-08-09T20:08:41+0800	Validation4 validation  result is:Fail
+2017-08-09T20:08:41+0800	Verify row:16
+2017-08-09T20:08:41+0800	Validation4 validation  result is:Fail
+2017-08-09T20:08:41+0800	Verify row:17
+2017-08-09T20:08:41+0800	Validation4 validation  result is:Fail
+2017-08-09T20:08:41+0800	Verify row:18
+2017-08-09T20:08:41+0800	Validation5 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:19
+2017-08-09T20:08:41+0800	Validation5 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:20
+2017-08-09T20:08:41+0800	Validation5 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:21
+2017-08-09T20:08:41+0800	Validation5 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:22
+2017-08-09T20:08:41+0800	Validation6 validation  result is:Error
+2017-08-09T20:08:41+0800	Verify row:23
+2017-08-09T20:08:41+0800	Validation6 validation  result is:Error
+2017-08-09T20:08:41+0800	Verify row:24
+2017-08-09T20:08:41+0800	Validation6 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:25
+2017-08-09T20:08:41+0800	Validation6 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:26
+2017-08-09T20:08:41+0800	Validation7 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:27
+2017-08-09T20:08:41+0800	Validation8 validation  result is:Fail
+2017-08-09T20:08:41+0800	Verify row:28
+2017-08-09T20:08:41+0800	Validation10 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:29
+2017-08-09T20:08:41+0800	Validation10 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:30
+2017-08-09T20:08:41+0800	Validation11 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:31
+2017-08-09T20:08:41+0800	Validation11 validation  result is:Fail
+2017-08-09T20:08:41+0800	Verify row:32
+2017-08-09T20:08:41+0800	Validation12 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:33
+2017-08-09T20:08:41+0800	Validation12 validation  result is:Fail
+2017-08-09T20:08:41+0800	Verify row:34
+2017-08-09T20:08:41+0800	Validation13 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:35
+2017-08-09T20:08:41+0800	Validation13 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:36
+2017-08-09T20:08:41+0800	Validation14 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:37
+2017-08-09T20:08:41+0800	Validation15 validation  result is:Fail
+2017-08-09T20:08:41+0800	Verify row:38
+2017-08-09T20:08:41+0800	Validation16 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:39
+2017-08-09T20:08:41+0800	Validation16 validation  result is:Pass
+2017-08-09T20:08:41+0800	Verify row:40
+2017-08-09T20:08:41+0800	Validation50 validation  result is:Error
+2017-08-09T20:08:41+0800	Verify row:41
+2017-08-09T20:08:41+0800	Validation51 validation  result is:Error
+2017-08-09T20:08:41+0800	Verify row:42
+2017-08-09T20:08:41+0800	Validation52 validation  result is:Error
+2017-08-09T20:08:41+0800	Verify row:43
+2017-08-09T20:08:41+0800	Validation53 validation  result is:Error
+2017-08-09T20:08:41+0800	Verify row:44
+2017-08-09T20:08:41+0800	Validation54 validation  result is:Fail
+2017-08-09T20:08:41+0800	Verify row:45
+2017-08-09T20:08:41+0800	Validation55 validation  result is:Error
+2017-08-09T20:08:41+0800	Verify row:46
+2017-08-09T20:08:41+0800	Validation17 validation  result is:Error
+2017-08-09T20:08:41+0800	Verify row:47
+2017-08-09T20:08:41+0800	Validation18 validation  result is:Pass
+2017-08-09T20:08:41+0800	Complate....
+2017-08-09T20:08:41+0800	---------------End----------------
+2017-08-09T20:09:20+0800	---------------Start----------------
+2017-08-09T20:09:20+0800	Exported file is:F:\Automation\arauto\arsel/target/result/data/download/74cf2ddaea594b309ad1427d40b7573f.xlsx
+2017-08-09T20:09:20+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170809\CheckRule\TestData\Val_GMAXv2.xlsx
+2017-08-09T20:09:20+0800	Verify row:2
+2017-08-09T20:09:20+0800	Validation3 validation  result is:Fail
+2017-08-09T20:09:20+0800	Verify row:3
+2017-08-09T20:09:21+0800	Validation3 validation  result is:Pass
+2017-08-09T20:09:21+0800	Verify row:4
+2017-08-09T20:09:21+0800	Validation3 validation  result is:Pass
+2017-08-09T20:09:21+0800	Verify row:5
+2017-08-09T20:09:21+0800	Validation3 validation  result is:Pass
+2017-08-09T20:09:21+0800	Verify row:6
+2017-08-09T20:09:21+0800	Validation4 validation  result is:Fail
+2017-08-09T20:09:21+0800	Verify row:7
+2017-08-09T20:09:21+0800	Validation6 validation  result is:Pass
+2017-08-09T20:09:21+0800	Verify row:8
+2017-08-09T20:09:21+0800	Validation6 validation  result is:Pass
+2017-08-09T20:09:21+0800	Verify row:9
+2017-08-09T20:09:21+0800	Validation6 validation  result is:Pass
+2017-08-09T20:09:21+0800	Verify row:10
+2017-08-09T20:09:21+0800	Validation6 validation  result is:Pass
+2017-08-09T20:09:21+0800	Complate....
+2017-08-09T20:09:21+0800	---------------End----------------

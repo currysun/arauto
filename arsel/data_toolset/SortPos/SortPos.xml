@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SortPos>
+	<C7245>
+        <Regulator>European Common Reporting</Regulator>
+        <Entity>0001</Entity>
+        <Form>LEXP v4</Form>
+		<ReferenceDate>31/12/2017</ReferenceDate>
+        <CreateFile>ECR_0001_LEXP_v4_20171231_C27.xlsx</CreateFile>
+        <PageName>Page 2</PageName>
+        <CheckCellValueFile>LEXPV4_7245.xlsx</CheckCellValueFile>
+        <DBIndex>6</DBIndex>
+    </C7245>
+
+    <C7246>
+        <Regulator>European Common Reporting</Regulator>
+        <Entity>0001</Entity>
+        <Form>LEXP v4</Form>
+        <ReferenceDate>31/12/2017</ReferenceDate>
+        <CreateFile>ECR_0001_LEXP_v4_20171231_C27.xlsx</CreateFile>
+        <PageName>Page 2</PageName>
+        <Insert>ExtDBGrid149LEINDEX1</Insert>>
+        <Edit1>ExtDBGrid149LEE1C010~AAA#ExtDBGrid149LEE1C020~XXX</Edit1>
+        <Edit2>ExtDBGrid149LEE1C010~UVW#ExtDBGrid149LEE1C020~AAABB#ExtDBGrid152LEE1C030~10/01/2017#ExtDBGrid152LEE1C040~AR#ExtDBGrid151LEE1C050~NF#ExtDBGrid151LEE1C060~R91</Edit2>
+        <Expect1>ExtDBGrid151LEE1C010~UVW#ExtDBGrid151LEE1C040~AR</Expect1>
+        <Expect2>ExtDBGrid11570LEE1C020~XXX</Expect2>
+    </C7246>
+
+    <C7247>
+        <Regulator>European Common Reporting</Regulator>
+        <Entity>0001</Entity>
+        <Form>LEXP v4</Form>
+        <ReferenceDate>31/12/2017</ReferenceDate>
+        <CreateFile>ECR_0001_LEXP_v4_20171231_C27.xlsx</CreateFile>
+        <AdjsutmentFile>ECR_0001_LEXP_v4_20171231_C27_ImportAdjustments.xlsx</AdjsutmentFile>
+        <PageName>Page 2</PageName>
+        <CheckCellValueFile>LEXPV4_7247.xlsx</CheckCellValueFile>
+        <DBIndex>6</DBIndex>
+    </C7247>
+
+    <C7252>
+        <Regulator>European Common Reporting</Regulator>
+        <Entity>0001</Entity>
+        <Form>CRSD v3</Form>
+        <ReferenceDate>02/12/2015</ReferenceDate>
+        <CheckCellValueFile>CRSDV3_7252.xlsx</CheckCellValueFile>
+        <DBIndex>6</DBIndex>
+    </C7252>
+
+    <C7250>
+        <Regulator>Hong Kong Monetary Authority</Regulator>
+        <Entity>0001</Entity>
+        <Form>KM v0</Form>
+        <ReferenceDate>31/12/2018</ReferenceDate>
+        <CheckCellValueFile>KMV0_7250.xlsx</CheckCellValueFile>
+        <DBIndex>2</DBIndex>
+    </C7250>
+
+
+    <C7248>
+        <Regulator>European Common Reporting</Regulator>
+        <Entity>0001</Entity>
+        <Form>LEXP v4</Form>
+        <ReferenceDate>31/12/2017</ReferenceDate>
+        <CreateFile>ECR_0001_LEXP_v4_20171231_C27.xlsx</CreateFile>
+        <Message>Duplicate SortPos</Message>
+        <DBIndex>6</DBIndex>
+    </C7248>
+
+    <C7253>
+        <Regulator>European Common Reporting</Regulator>
+        <Entity>0001</Entity>
+        <Form>CRSD v3</Form>
+        <ReferenceDate>02/12/2015</ReferenceDate>
+        <Message>Duplicate SortPos</Message>
+        <DBIndex>6</DBIndex>
+    </C7253>
+
+    <C7249>
+        <Regulator>European Common Reporting</Regulator>
+        <Entity>0001</Entity>
+        <Form>LEXP v4</Form>
+        <ReferenceDate>31/12/2017</ReferenceDate>
+        <CreateFile>ECR_0001_LEXP_v4_20171231_C27.xlsx</CreateFile>
+        <Message>Duplicate SortPos</Message>
+        <DBIndex>6</DBIndex>
+    </C7249>
+
+    <C7256>
+        <Regulator>European Common Reporting</Regulator>
+        <Entity>0001</Entity>
+        <Form>CRSD v3</Form>
+        <ReferenceDate>2015-12-02#02/12/2015#12/02/2015</ReferenceDate>
+        <Message>排序位置重复#Duplicate SortPos#Duplicate SortPos</Message>
+        <DBIndex>6</DBIndex>
+        <Zone>zh_CN#en_GB#en_US</Zone>
+    </C7256>
+
+    <C7255>
+        <Regulator>Hong Kong Monetary Authority</Regulator>
+        <Entity>0001</Entity>
+        <Form>KM v0</Form>
+        <ReferenceDate>2015-12-02#02/12/2015#12/02/2015</ReferenceDate>
+        <Message>排序位置重复#Duplicate SortPos#Duplicate SortPos</Message>
+        <DBIndex>2</DBIndex>
+        <Zone>zh_CN#en_GB#en_US</Zone>
+    </C7255>
+</SortPos>

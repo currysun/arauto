@@ -1,0 +1,120 @@
+14:37:02.561 [main] INFO  com.lombardrisk.testCase.Utility - setup test before starting feature id utility, scenario id utility
+14:37:02.565 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+14:37:02.572 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+14:37:02.948 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+14:37:03.366 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+14:37:03.371 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+14:37:03.377 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+14:37:05.788 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 8802accce99895486090cf1b211b6b57
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir16472_29313}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+14:37:05.789 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+14:37:07.804 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+14:37:08.943 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+14:37:09.557 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:37:09.595 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:37:09.631 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:37:09.664 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:37:09.704 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+14:37:15.754 [main] INFO  com.lombardrisk.testCase.Utility - Get user format
+14:37:15.896 [main] INFO  com.lombardrisk.testCase.Utility - Expected language is:en_GB
+14:37:15.899 [main] INFO  com.lombardrisk.testCase.Utility - ====Test case[5524]====
+14:37:15.931 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+14:37:15.931 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=Reserve Bank of India For Auto
+14:37:16.073 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Reserve Bank of India For Auto on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+14:37:23.690 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+14:37:23.850 [main] INFO  com.lombardrisk.pages.ListPage - Set form=LR v3
+14:37:24.463 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text LR v3 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+14:37:27.592 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+14:37:30.592 [main] INFO  com.lombardrisk.pages.ListPage - Begin create form from excel
+14:37:30.592 [main] INFO  com.lombardrisk.pages.ListPage - Import file is :F:\Automation\arauto\arsel\data_ar\Utility\5524\LR_v3_G0001_04122015.xlsx
+14:37:30.592 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+14:37:31.184 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFromExcelButton (lp.createFromXls) WebElement by id (FormInstImpExpMenu:createFormInstFromExcel) @ ListPage (lp) page
+14:37:34.295 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Execute js script
+14:37:34.303 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing F:\Automation\arauto\arsel\data_ar\Utility\5524\LR_v3_G0001_04122015.xlsx on uploadInput (aip.uploadInput) WebButton by id (createFromExcelForm:importFileUpload_input) @ AbstractImportPage (aip) page
+14:37:37.414 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Spend 2 seconds to upload file
+14:37:37.444 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking importFileBtn (aip.import) WebButton by id (createFromExcelForm:listimportBtn) @ AbstractImportPage (aip) page
+14:37:37.512 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Begin import data
+14:37:38.589 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Spend 1 seconds to import file
+14:37:38.612 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFromExcelForm (icp.createConf) WebButton by id (replaceconfirm) @ ImportConfirmPage (icp) page
+14:38:24.154 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking OKBtn (icp.OKBtn) WebButton by id (createInformForm:confirmBtn) @ ImportConfirmPage (icp) page
+14:38:32.252 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin export to iFile
+14:38:33.865 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+14:38:34.399 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToRFBtn (fp.exportToRF) WebButton by id (formHeader:exportToFile4Fed_button) @ FormInstancePage (fp) page
+14:38:34.976 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click export to iFile
+14:38:34.976 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToiFile (fp.exportToiFIile) WebButton by xpath (//a[span='Export To iFile']) @ FormInstancePage (fp) page
+14:38:35.550 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Set module: RBIndia-LR
+14:38:35.550 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text RBIndia-LR on moduleSelector (efp.moduleSelector) WebElement by id (transmitForm4Fed:selectModule) @ ExportToFilePage (efp) page
+14:38:41.127 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Click export button
+14:38:44.127 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportConfirmBtn (efp.exportConfirm) WebButton by id (transmitSubmitForm4Fed:nextBtn) @ ExportToFilePage (efp) page
+14:40:03.145 [LittleProxy-0-ProxyToServerWorker-3] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving binary file to target/result/data/download/195ea41e8b0c476291725b864d4edfbc.zip
+14:40:22.466 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking comment.cancel (efp.cancel) WebElement by id (transmitSubmitForm4Fed:cancelBtn) @ ExportToFilePage (efp) page
+14:40:35.979 [main] INFO  com.lombardrisk.testCase.Utility - setup test before starting feature id utility, scenario id utility
+14:40:35.984 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+14:40:35.993 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+14:40:36.384 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+14:40:36.786 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+14:40:36.791 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+14:40:36.796 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+14:40:39.226 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: be08d5192eb859b6a8ece27c859461b8
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir6320_28423}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+14:40:39.227 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+14:40:41.860 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+14:40:43.008 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+14:40:46.156 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:40:46.192 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:40:46.228 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:40:46.263 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:40:46.302 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+14:40:51.626 [main] INFO  com.lombardrisk.testCase.Utility - Get user format
+14:40:51.769 [main] INFO  com.lombardrisk.testCase.Utility - Expected language is:en_GB
+14:40:51.771 [main] INFO  com.lombardrisk.testCase.Utility - ====Test case[5524]====
+14:40:51.807 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+14:40:51.807 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=Reserve Bank of India For Auto
+14:40:51.956 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+14:40:52.122 [main] INFO  com.lombardrisk.pages.ListPage - Set form=LR v3
+14:40:53.262 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+14:40:56.262 [main] INFO  com.lombardrisk.pages.ListPage - Begin create form from excel
+14:40:56.262 [main] INFO  com.lombardrisk.pages.ListPage - Import file is :F:\Automation\arauto\arsel\data_ar\Utility\5524\LR_v3_G0001_04122015.xlsx
+14:40:56.262 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+14:40:56.855 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFromExcelButton (lp.createFromXls) WebElement by id (FormInstImpExpMenu:createFormInstFromExcel) @ ListPage (lp) page
+14:41:00.006 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Execute js script
+14:41:00.019 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing F:\Automation\arauto\arsel\data_ar\Utility\5524\LR_v3_G0001_04122015.xlsx on uploadInput (aip.uploadInput) WebButton by id (createFromExcelForm:importFileUpload_input) @ AbstractImportPage (aip) page
+14:41:05.681 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Spend 5 seconds to upload file
+14:41:05.705 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking importFileBtn (aip.import) WebButton by id (createFromExcelForm:listimportBtn) @ AbstractImportPage (aip) page
+14:41:05.763 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Begin import data
+14:41:06.819 [main] INFO  com.lombardrisk.pages.ListImportFilePage - Spend 1 seconds to import file
+14:41:06.841 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFromExcelForm (icp.createConf) WebButton by id (replaceconfirm) @ ImportConfirmPage (icp) page
+14:41:49.881 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking OKBtn (icp.OKBtn) WebButton by id (createInformForm:confirmBtn) @ ImportConfirmPage (icp) page
+14:42:01.100 [main] INFO  com.lombardrisk.pages.FormInstancePage - Begin export to iFile
+14:42:02.784 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+14:42:03.318 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToRFBtn (fp.exportToRF) WebButton by id (formHeader:exportToFile4Fed_button) @ FormInstancePage (fp) page
+14:42:03.898 [main] INFO  com.lombardrisk.pages.FormInstancePage - Click export to iFile
+14:42:03.898 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportToiFile (fp.exportToiFIile) WebButton by xpath (//a[span='Export To iFile']) @ FormInstancePage (fp) page
+14:42:04.476 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Set module: RBIndia-LR
+14:42:04.476 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text RBIndia-LR on moduleSelector (efp.moduleSelector) WebElement by id (transmitForm4Fed:selectModule) @ ExportToFilePage (efp) page
+14:42:10.071 [main] INFO  com.lombardrisk.pages.ExportToFilePage - Click export button
+14:42:13.071 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking exportConfirmBtn (efp.exportConfirm) WebButton by id (transmitSubmitForm4Fed:nextBtn) @ ExportToFilePage (efp) page
+14:43:28.657 [LittleProxy-0-ProxyToServerWorker-1] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - saving binary file to target/result/data/download/58e03160c2d3415ea28ced54595e80cd.zip
+14:43:49.726 [main] WARN  com.lombardrisk.pages.FormInstancePage - The file already exist, old file will be deleted
+14:43:49.727 [main] INFO  com.lombardrisk.pages.FormInstancePage - Exported file is:F:\Automation\arauto\arsel\target\result\data\download\RBIForAutomation_0001_RBIndia-LR_20151204.zip
+14:44:00.115 [main] ERROR com.lombardrisk.utils.fileService.ExcelUtil - Cannot find cell:fn_I36_22_04122015
+14:44:00.162 [main] ERROR com.lombardrisk.utils.fileService.ExcelUtil - Cannot find cell:fn_I37_23_04122015
+14:44:00.162 [main] ERROR com.lombardrisk.utils.fileService.ExcelUtil - Cannot find cell:fn_I38_24_04122015
+14:44:00.163 [main] ERROR com.lombardrisk.utils.fileService.ExcelUtil - Cannot find cell:fn_I39_25_04122015
+14:44:00.163 [main] ERROR com.lombardrisk.utils.fileService.ExcelUtil - Cannot find cell:fn_I40_26_04122015
+14:44:00.163 [main] ERROR com.lombardrisk.utils.fileService.ExcelUtil - Cannot find cell:fn_I41_27_04122015
+14:44:00.163 [main] ERROR com.lombardrisk.utils.fileService.ExcelUtil - Cannot find cell:fn_I42_28_04122015
+14:44:00.163 [main] ERROR com.lombardrisk.utils.fileService.ExcelUtil - Cannot find cell:fn_I43_29_04122015
+14:44:00.164 [main] ERROR com.lombardrisk.utils.fileService.ExcelUtil - Cannot find cell:fn_I44_30_04122015
+14:44:00.248 [main] INFO  com.lombardrisk.pages.FormInstancePage - Close form
+14:44:02.249 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeFormInstanceButton (fp.close) WebElement by id (formHeader:closeFormInstanceBtn) @ FormInstancePage (fp) page
+14:44:05.325 [main] INFO  com.lombardrisk.testCase.Utility - Case[5524] is failed
+14:44:05.520 [main] INFO  com.lombardrisk.testCase.Utility - tearDown after method
+14:44:05.520 [main] INFO  com.lombardrisk.testCase.Utility - teardown test after finishing feature id utility, scenario id utility
+14:44:05.520 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+14:44:05.520 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+14:44:07.831 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver

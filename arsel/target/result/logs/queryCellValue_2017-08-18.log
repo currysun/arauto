@@ -1,0 +1,20 @@
+﻿2017-08-18T10:59:01+0800	---------------Start----------------
+2017-08-18T10:59:01+0800	Exported file is:F:\Automation\arauto\arsel\target\result\data\download\FED_SP0_0001_FRY9C_v1_20140930.xlsx
+2017-08-18T10:59:01+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170818\Precision\CheckCellValue/FRYPC_v1_NoScale.xlsx
+2017-08-18T10:59:01+0800	Start time is:18/08/2017 10:59:01
+2017-08-18T10:59:09+0800	Verify row:2
+2017-08-18T10:59:09+0800	Verify row:3
+2017-08-18T10:59:09+0800	Verify row:4
+2017-08-18T10:59:09+0800	Verify row:5
+2017-08-18T10:59:09+0800	Complate....
+2017-08-18T10:59:09+0800	---------------End----------------
+2017-08-18T10:59:22+0800	---------------Start----------------
+2017-08-18T10:59:22+0800	Exported file is:F:\Automation\arauto\arsel\target\result\data\download\FED_SP0_0001_FRY9C_v1_20140930.xlsx
+2017-08-18T10:59:22+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170818\Precision\CheckCellValue/FRYPC_v1_WithScale.xlsx
+2017-08-18T10:59:22+0800	Start time is:18/08/2017 10:59:22
+2017-08-18T10:59:31+0800	Verify row:2
+2017-08-18T10:59:31+0800	Verify row:3
+2017-08-18T10:59:31+0800	Verify row:4
+2017-08-18T10:59:31+0800	Verify row:5
+2017-08-18T10:59:31+0800	Complate....
+2017-08-18T10:59:31+0800	---------------End----------------

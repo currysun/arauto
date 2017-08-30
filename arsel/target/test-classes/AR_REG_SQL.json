@@ -1,0 +1,172 @@
+[
+  {
+    "applicationServers": [
+      {
+        "id": 0,
+        "name": "default",
+        "url": "http://10.20.0.79:8080",
+        "username": "rpadmin",
+        "password": "password"
+      }
+    ],
+    "databaseServers": [
+      {
+        "id": 0,
+        "name": "ar_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "AR_AUTO_OWNERv2"
+      },
+      {
+        "id": 1,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "SCHD1_DMP"
+      },
+      {
+        "id": 2,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "FR2052A"
+      }
+    ]
+  },
+  {
+    "applicationServers": [
+      {
+        "id": 0,
+        "name": "default",
+        "url": "http://10.20.0.79:8080",
+        "username": "rpadmin",
+        "password": "password"
+      }
+    ],
+    "databaseServers": [
+      {
+        "id": 0,
+        "name": "ar_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "AR_AUTO_OWNERv2"
+      },
+      {
+        "id": 1,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "SCHD1_DMP"
+      },
+      {
+        "id": 2,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "FR2052A"
+      }
+    ]
+  },
+  {
+    "applicationServers": [
+      {
+        "id": 0,
+        "name": "default",
+        "url": "http://10.20.0.79:8080",
+        "username": "rpadmin",
+        "password": "password"
+      }
+    ],
+    "databaseServers": [
+      {
+        "id": 0,
+        "name": "ar_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "AR_AUTO_OWNERv2"
+      },
+      {
+        "id": 1,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "SCHD1_DMP"
+      },
+      {
+        "id": 2,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "FR2052A"
+      }
+    ]
+  },
+  {
+    "applicationServers": [
+      {
+        "id": 0,
+        "name": "default",
+        "url": "http://10.20.0.79:8080",
+        "username": "rpadmin",
+        "password": "password"
+      }
+    ],
+    "databaseServers": [
+      {
+        "id": 0,
+        "name": "ar_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "AR_AUTO_OWNERv2"
+      },
+      {
+        "id": 1,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "SCHD1_DMP"
+      },
+      {
+        "id": 2,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "FR2052A"
+      }
+    ]
+  },
+  {
+    "applicationServers": [
+      {
+        "id": 0,
+        "name": "default",
+        "url": "http://10.20.0.79:8080",
+        "username": "rpadmin",
+        "password": "password"
+      }
+    ],
+    "databaseServers": [
+      {
+        "id": 0,
+        "name": "ar_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "AR_AUTO_OWNERv2"
+      },
+      {
+        "id": 1,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "SCHD1_DMP"
+      },
+      {
+        "id": 2,
+        "name": "ofsaa_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "FR2052A"
+      }
+    ]
+  }
+]

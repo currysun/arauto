@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportForm>
+    <C6682>
+        <Regulator>US1 FED Reserve</Regulator>
+        <Entity>0001</Entity>
+        <Form>FRYPC v2</Form>
+        <ReferenceDate>30/09/2016</ReferenceDate>
+        <ImportFile>FED_0001_FRY9C_v2_20160930.xlsx</ImportFile>
+        <Module>RepCentral-FRY9CIntCod</Module>
+    </C6682>
+
+    <C6683>
+        <Regulator>US1 FED Reserve</Regulator>
+        <Entity>0001</Entity>
+        <Form>FRYPC v2</Form>
+        <ReferenceDate1>27/09/2016</ReferenceDate1>
+        <ReferenceDate2>28/09/2016</ReferenceDate2>
+        <ImportFile1>FED_0001_FRY9C_v2_20160927.xlsx</ImportFile1>
+        <ImportFile2>FED_0001_FRY9C_v2_20160928.xlsx</ImportFile2>
+        <Module>RepCentral-FRY9CIntCod</Module>
+    </C6683>
+
+    <C6687>
+        <Regulator>US1 FED Reserve</Regulator>
+        <Entity>0001</Entity>
+        <Form>FRYPC v2</Form>
+        <ReferenceDate>29/09/2016</ReferenceDate>
+        <ImportFile>FED_0001_FRY9C_v2_20160929.xlsx</ImportFile>
+        <Module>RepCentral-FRY9CIntCod</Module>
+    </C6687>
+
+</ExportForm>

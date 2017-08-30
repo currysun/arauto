@@ -1,0 +1,167 @@
+14:11:01.909 [main] INFO  com.lombardrisk.testCase.Contextual - setup test before starting feature id contextual, scenario id contextual
+14:11:01.914 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+14:11:01.923 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+14:11:02.295 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+14:11:02.717 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+14:11:02.722 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+14:11:02.728 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+14:11:05.141 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 70b60378cee507e629aebcecc58a1fcd
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir17412_24870}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+14:11:05.141 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+14:11:06.574 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+14:11:07.718 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+14:11:08.452 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:11:08.485 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:11:08.526 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:11:08.554 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:11:08.591 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+14:11:19.226 [main] INFO  com.lombardrisk.testCase.Contextual - Get user format
+14:11:19.364 [main] INFO  com.lombardrisk.testCase.Contextual - Expected language is:en_GB
+14:11:19.367 [main] INFO  com.lombardrisk.testCase.Contextual - ====Verify can open a new page with the appropriate URL when click icon[case id=4015]====
+14:11:19.454 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking settingBtn (lp.settingBtn) WebButton by id (formHeader:giSetting) @ ListPage (lp) page
+14:11:20.034 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking administrationManage (lp.Admin) WebElement by linkText (Administration) @ ListPage (lp) page
+14:11:20.660 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking admin_dwIntegration (lp.dwIntegration) WebElement by id (formHeader:dataIntegation) @ ListPage (lp) page
+14:11:21.912 [main] INFO  com.lombardrisk.pages.ListPage - Enter data warehouse integration page
+14:11:21.912 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking columeName (dwi.DWName) WebElement by xpath (.//*[@id='calcEngineList_data']/tr[td[span='OFSAA_Icon']]) @ DWIntegrationPage (dwi) page
+14:11:23.076 [main] INFO  com.lombardrisk.pages.DWIntegrationPage - Delete contextual on:OFSAA_Icon
+14:11:23.077 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking remove (dwi.dataTable.remove) WebElement by xpath (.//tbody[starts-with(@id,'contextualBtnDetailForm') and contains(@id,'data')]/tr[1]/td/a[2]) @ DWIntegrationPage (dwi) page
+14:11:23.667 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteConfirm (dwi.dataTable.deleteConfirm) WebElement by id (deleteConfirm) @ DWIntegrationPage (dwi) page
+14:11:32.803 [main] INFO  com.lombardrisk.pages.DWIntegrationPage - Begin add contextual on:OFSAA_Icon
+14:11:32.803 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking columeName (dwi.DWName) WebElement by xpath (.//*[@id='calcEngineList_data']/tr[td[span='OFSAA_Icon']]) @ DWIntegrationPage (dwi) page
+14:11:33.874 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking addContextual (dwi.dataTable.add) WebElement by id (contextualBtnDetailForm:addContextualButton) @ DWIntegrationPage (dwi) page
+14:11:34.985 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on name (dwi.edit.name) WebElement by id (addContextualBtnDlgForm:contextualBtnName) @ DWIntegrationPage (dwi) page
+14:11:35.015 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing OBIEE on name (dwi.edit.name) WebElement by id (addContextualBtnDlgForm:contextualBtnName) @ DWIntegrationPage (dwi) page
+14:11:35.355 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:35.382 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing https://www.baidu.com/ on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:35.442 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing ? on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:35.578 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing cellId= on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:35.708 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pattern (dwi.edit.pattern) WebElement by xpath (.//*[@id='addContextualBtnDlgForm:urlParaDg_content']/table/tbody/tr[td[button[span[2]='${cellId}']]]/td[button[span='${cellId}']]/button) @ DWIntegrationPage (dwi) page
+14:11:36.812 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing & on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:36.931 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing entityName= on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:37.074 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pattern (dwi.edit.pattern) WebElement by xpath (.//*[@id='addContextualBtnDlgForm:urlParaDg_content']/table/tbody/tr[td[button[span[2]='${entityName}']]]/td[button[span='${entityName}']]/button) @ DWIntegrationPage (dwi) page
+14:11:38.173 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing & on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:38.295 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing formCode= on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:38.426 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pattern (dwi.edit.pattern) WebElement by xpath (.//*[@id='addContextualBtnDlgForm:urlParaDg_content']/table/tbody/tr[td[button[span[2]='${formCode}']]]/td[button[span='${formCode}']]/button) @ DWIntegrationPage (dwi) page
+14:11:39.544 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing & on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:39.662 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing formVersion= on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:11:39.803 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pattern (dwi.edit.pattern) WebElement by xpath (.//*[@id='addContextualBtnDlgForm:urlParaDg_content']/table/tbody/tr[td[button[span[2]='${formVersion}']]]/td[button[span='${formVersion}']]/button) @ DWIntegrationPage (dwi) page
+14:11:40.911 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on desc (dwi.edit.desc) WebElement by id (addContextualBtnDlgForm:Description) @ DWIntegrationPage (dwi) page
+14:11:40.942 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing OBIEE on desc (dwi.edit.desc) WebElement by id (addContextualBtnDlgForm:Description) @ DWIntegrationPage (dwi) page
+14:11:40.992 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking icon (dwi.edit.icon) WebElement by xpath (.//a[starts-with(@id,'addContextualBtnDlgForm:iconSelector:0:j')]) @ DWIntegrationPage (dwi) page
+14:11:42.094 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking add (dwi.add.confirm) WebElement by id (addContextualBtnDlgForm:addNewContextualBtn) @ DWIntegrationPage (dwi) page
+14:11:51.219 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+14:11:59.401 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+14:11:59.401 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve SP0
+14:11:59.536 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text US1 FED Reserve SP0 on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+14:12:08.299 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+14:12:08.459 [main] INFO  com.lombardrisk.pages.ListPage - Set form=All
+14:12:09.141 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+14:12:12.141 [main] INFO  com.lombardrisk.pages.ListPage - Begin create new form[FRY9C v1]
+14:12:12.661 [main] INFO  com.lombardrisk.pages.ListPage - click create new button
+14:12:12.661 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+14:12:13.259 [main] INFO  com.lombardrisk.pages.ListPage - click create new form
+14:12:13.259 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+14:12:16.368 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=0001
+14:12:16.368 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+14:12:16.943 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=30/09/2016
+14:12:16.943 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+14:12:16.998 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 30/09/2016 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+14:12:17.079 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+14:12:17.098 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Sep on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+14:12:17.470 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2016 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+14:12:17.834 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=30]]/td[a=30]/a) @ AbstractPage (ap) page
+14:12:18.420 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=FRY9C v1
+14:12:18.420 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY9C v1 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+14:12:18.513 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+14:12:19.514 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+14:12:20.638 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+14:12:56.616 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='BHCAP864A1']) @ FormInstancePage (fp) page
+14:13:02.400 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking contextual (fp.contextual) WebElement by xpath (.//*[@class='circleDivClass' and span='OBIEE']/div/div/img) @ FormInstancePage (fp) page
+14:16:41.660 [main] INFO  com.lombardrisk.testCase.Contextual - setup test before starting feature id contextual, scenario id contextual
+14:16:41.663 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+14:16:41.671 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+14:16:42.023 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+14:16:42.386 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+14:16:42.390 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+14:16:42.394 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+14:16:44.748 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: bae44adbe50a6105ea217fd5ccbea321
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir8592_22631}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+14:16:44.748 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+14:16:46.775 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+14:16:47.924 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+14:16:48.829 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:16:48.870 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+14:16:48.908 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:16:48.942 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+14:16:48.982 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+14:16:58.957 [main] INFO  com.lombardrisk.testCase.Contextual - Get user format
+14:16:59.091 [main] INFO  com.lombardrisk.testCase.Contextual - Expected language is:en_GB
+14:16:59.095 [main] INFO  com.lombardrisk.testCase.Contextual - ====Verify can open a new page with the appropriate URL when click icon[case id=4015]====
+14:16:59.157 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking settingBtn (lp.settingBtn) WebButton by id (formHeader:giSetting) @ ListPage (lp) page
+14:16:59.733 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking administrationManage (lp.Admin) WebElement by linkText (Administration) @ ListPage (lp) page
+14:17:00.388 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking admin_dwIntegration (lp.dwIntegration) WebElement by id (formHeader:dataIntegation) @ ListPage (lp) page
+14:17:01.708 [main] INFO  com.lombardrisk.pages.ListPage - Enter data warehouse integration page
+14:17:01.708 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking columeName (dwi.DWName) WebElement by xpath (.//*[@id='calcEngineList_data']/tr[td[span='OFSAA_Normal']]) @ DWIntegrationPage (dwi) page
+14:17:02.863 [main] INFO  com.lombardrisk.pages.DWIntegrationPage - Begin add contextual on:OFSAA_Normal
+14:17:02.863 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking columeName (dwi.DWName) WebElement by xpath (.//*[@id='calcEngineList_data']/tr[td[span='OFSAA_Normal']]) @ DWIntegrationPage (dwi) page
+14:17:03.939 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking addContextual (dwi.dataTable.add) WebElement by id (contextualBtnDetailForm:addContextualButton) @ DWIntegrationPage (dwi) page
+14:17:05.043 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on name (dwi.edit.name) WebElement by id (addContextualBtnDlgForm:contextualBtnName) @ DWIntegrationPage (dwi) page
+14:17:05.076 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing OBIEE on name (dwi.edit.name) WebElement by id (addContextualBtnDlgForm:contextualBtnName) @ DWIntegrationPage (dwi) page
+14:17:05.417 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:05.447 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing https://www.baidu.com/ on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:05.509 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing ? on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:05.646 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing cellId= on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:05.774 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pattern (dwi.edit.pattern) WebElement by xpath (.//*[@id='addContextualBtnDlgForm:urlParaDg_content']/table/tbody/tr[td[button[span[2]='${cellId}']]]/td[button[span='${cellId}']]/button) @ DWIntegrationPage (dwi) page
+14:17:06.878 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing & on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:07.000 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing entityName= on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:07.132 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pattern (dwi.edit.pattern) WebElement by xpath (.//*[@id='addContextualBtnDlgForm:urlParaDg_content']/table/tbody/tr[td[button[span[2]='${entityName}']]]/td[button[span='${entityName}']]/button) @ DWIntegrationPage (dwi) page
+14:17:08.232 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing & on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:08.353 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing formCode= on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:08.487 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pattern (dwi.edit.pattern) WebElement by xpath (.//*[@id='addContextualBtnDlgForm:urlParaDg_content']/table/tbody/tr[td[button[span[2]='${formCode}']]]/td[button[span='${formCode}']]/button) @ DWIntegrationPage (dwi) page
+14:17:09.592 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing & on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:09.714 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing formVersion= on url (dwi.edit.url) WebElement by id (addContextualBtnDlgForm:urlTextArea) @ DWIntegrationPage (dwi) page
+14:17:09.857 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking pattern (dwi.edit.pattern) WebElement by xpath (.//*[@id='addContextualBtnDlgForm:urlParaDg_content']/table/tbody/tr[td[button[span[2]='${formVersion}']]]/td[button[span='${formVersion}']]/button) @ DWIntegrationPage (dwi) page
+14:17:10.959 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on desc (dwi.edit.desc) WebElement by id (addContextualBtnDlgForm:Description) @ DWIntegrationPage (dwi) page
+14:17:10.995 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing OBIEE on desc (dwi.edit.desc) WebElement by id (addContextualBtnDlgForm:Description) @ DWIntegrationPage (dwi) page
+14:17:11.041 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking icon (dwi.edit.icon) WebElement by xpath (.//a[starts-with(@id,'addContextualBtnDlgForm:iconSelector:8:j')]) @ DWIntegrationPage (dwi) page
+14:17:12.149 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking add (dwi.add.confirm) WebElement by id (addContextualBtnDlgForm:addNewContextualBtn) @ DWIntegrationPage (dwi) page
+14:17:21.291 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking dashboard (lp.dashboard) WebButton by id (formHeader:errorBarBtn) @ ListPage (lp) page
+14:17:29.787 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+14:17:29.787 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=US1 FED Reserve SP0
+14:17:29.927 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+14:17:30.098 [main] INFO  com.lombardrisk.pages.ListPage - Set form=All
+14:17:30.789 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+14:17:33.789 [main] INFO  com.lombardrisk.pages.ListPage - Begin create new form[FRY9C v1]
+14:17:34.310 [main] INFO  com.lombardrisk.pages.ListPage - click create new button
+14:17:34.310 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createNewButton (lp.createNewBtn) WebButton by id (FormInstImpExpMenu:createNew) @ ListPage (lp) page
+14:17:34.903 [main] INFO  com.lombardrisk.pages.ListPage - click create new form
+14:17:34.903 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createEmptyButton (lp.createNewForm) WebElement by id (FormInstImpExpMenu:createFormInstEmpty) @ ListPage (lp) page
+14:17:38.031 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set group=0001
+14:17:38.031 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 0001 on groupLocaltor (fcp.group) WebElement by id (createForm:selectGroup) @ FormInstanceCreatePage (fcp) page
+14:17:38.652 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set processDate=30/09/2016
+14:17:38.652 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+14:17:38.711 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing 30/09/2016 on processDateCalendarLocator (fcp.date) WebElement by id (createForm:processDate_input) @ FormInstanceCreatePage (fcp) page
+14:17:38.791 [main] INFO  com.lombardrisk.utils.TestTemplate - Get user format
+14:17:38.813 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Sep on calendar.month (ap.calendar.month) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[1]) @ AbstractPage (ap) page
+14:17:39.180 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 2016 on calendar.year (ap.calendar.year) WebElement by xpath (.//*[@id='ui-datepicker-div']/div/div/select[2]) @ AbstractPage (ap) page
+14:17:39.540 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking calendar.day (ap.calendar.day) WebElement by xpath (.//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=30]]/td[a=30]/a) @ AbstractPage (ap) page
+14:17:40.132 [main] INFO  com.lombardrisk.pages.FormInstanceCreatePage - set form=FRY9C v1
+14:17:40.132 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text FRY9C v1 on formLocator (fcp.form) WebElement by id (createForm:selectForm) @ FormInstanceCreatePage (fcp) page
+14:17:40.224 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 1000 milliseconds
+14:17:41.224 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createFormInstanceButton (fcp.create) WebButton by id (createForm:createformInstanceBtn) @ FormInstanceCreatePage (fcp) page
+14:17:42.452 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking createconfirmButton (fcp.createConfirm) WebButton by id (createconfirm) @ FormInstanceCreatePage (fcp) page
+14:18:03.111 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking inputCell (fp.inputCell) WebElement by xpath (//input[@id='BHCAP864A1']) @ FormInstancePage (fp) page
+14:18:06.738 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking contextual (fp.contextual) WebElement by xpath (.//*[@class='circleDivClass' and span='OBIEE']/div/div/img) @ FormInstancePage (fp) page
+14:18:07.856 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - switching to window CDwindow-bf99b3c8-91f2-4baf-9ab9-b9e28de9ce3e
+14:18:08.883 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - closing browser tab with title 
+14:18:08.938 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - switching to window CDwindow-e4d3d41c-256d-4aeb-9570-232d0b242db9
+14:18:08.985 [main] INFO  com.lombardrisk.testCase.Contextual - Case[4015,4016,6471] is passed
+14:18:09.788 [main] INFO  com.lombardrisk.testCase.Contextual - tearDown after method
+14:18:09.788 [main] INFO  com.lombardrisk.testCase.Contextual - teardown test after finishing feature id contextual, scenario id contextual
+14:18:09.788 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+14:18:09.788 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+14:18:12.104 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver

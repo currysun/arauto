@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<formInstancesExport xmlns="http://www.lombardrisk.com/message/ocelot-exp-imp">
+    <exportTime>2017-08-18T00:22:56+0800</exportTime>
+    <reportingEntities>
+        <reportingEntity id="id_1">
+            <name>0001</name>
+            <description></description>
+            <code>0001</code>
+            <extEntityCode>0001</extEntityCode>
+            <consolidationBasis>Solo</consolidationBasis>
+            <canReport>true</canReport>
+            <reportingEntityVariables>
+                <variable name="F_Accounting_Standard">
+                    <typedVariable type="TEXT"></typedVariable>
+                </variable>
+                <variable name="F_Reporting_Currency">
+                    <typedVariable type="TEXT"></typedVariable>
+                </variable>
+                <variable name="F_Group_Consolidation_Type">
+                    <typedVariable type="TEXT"></typedVariable>
+                </variable>
+                <variable name="F_Financial_Year_End">
+                    <typedVariable type="DATE"></typedVariable>
+                </variable>
+                <variable name="F_Monetary_Scale">
+                    <typedVariable type="INTEGER"></typedVariable>
+                </variable>
+            </reportingEntityVariables>
+        </reportingEntity>
+    </reportingEntities>
+    <formInstances>
+        <formInstance referenceDate="2015-10-21" reportingEntityId="id_1">
+            <exportSN>5</exportSN>
+            <formId>
+                <toolsetFormId>
+                    <returnId>60002</returnId>
+                </toolsetFormId>
+            </formId>
+            <formInstanceIds>
+                <toolsetFormInstanceId>
+                    <processDate>2015-10-21</processDate>
+                    <returnId>60002</returnId>
+                    <entityId>1</entityId>
+                </toolsetFormInstanceId>
+            </formInstanceIds>
+            <tables>
+                <table tableCode="FASMV263EX">
+                    <openYKeyColumns>
+                        <openKeyColumn>FEDFRY14ASUMP063R0010KEY</openKeyColumn>
+                    </openYKeyColumns>
+                    <rows/>
+                </table>
+                <table tableCode="FASMV274EX">
+                    <openYKeyColumns>
+                        <openKeyColumn>FEDFRY14ASUMP074R0010KEY</openKeyColumn>
+                    </openYKeyColumns>
+                    <rows/>
+                </table>
+                <table tableCode="FASMV279EX">
+                    <openYKeyColumns>
+                        <openKeyColumn>FEDFRY14ASUMP079R1060KEY</openKeyColumn>
+                    </openYKeyColumns>
+                    <rows/>
+                </table>
+                <table tableCode="FASMV285A">
+                    <openYKeyColumns>
+                        <openKeyColumn>FEDFRY14ASUMP085R0830KEY</openKeyColumn>
+                    </openYKeyColumns>
+                    <rows/>
+                </table>
+                <table tableCode="FASMV285B">
+                    <openYKeyColumns>
+                        <openKeyColumn>FEDFRY14ASUMP085R0840KEY</openKeyColumn>
+                    </openYKeyColumns>
+                    <rows/>
+                </table>
+                <table tableCode="FASMV291B">
+                    <openYKeyColumns>
+                        <openKeyColumn>FEDFRY14ASUMP091R1490KEY</openKeyColumn>
+                    </openYKeyColumns>
+                    <rows/>
+                </table>
+                <table tableCode="FASMV291C">
+                    <openYKeyColumns>
+                        <openKeyColumn>FEDFRY14ASUMP091R1500KEY</openKeyColumn>
+                    </openYKeyColumns>
+                    <rows/>
+                </table>
+            </tables>
+            <items>
+                <item itemCode="FEDFRY14ASUMP063R0020C0050" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP063R0020C0040" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP063R0020C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP063R0020C0020" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0100C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0100C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0090C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0090C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0080C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0080C0020" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0070C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0070C0020" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0070C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0060C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0060C0020" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0060C0010" decimals="0" isNull="true" isNaN="false" type="xsd:string" zOrd="1" presentationScale="0"></item>
+                <item itemCode="FEDFRY14ASUMP072R0050C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0050C0020" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0050C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0040C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0040C0020" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0040C0010" decimals="0" isNull="true" isNaN="false" type="xsd:string" zOrd="1" presentationScale="0"></item>
+                <item itemCode="FEDFRY14ASUMP072R0030C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0030C0020" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0030C0010" decimals="0" isNull="true" isNaN="false" type="xsd:date" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0020C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0020C0020" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0020C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0010C0030" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0010C0020" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP072R0010C0010" decimals="0" isNull="true" isNaN="false" type="xsd:string" zOrd="1" presentationScale="0"></item>
+                <item itemCode="FEDFRY14ASUMP072R0080C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP073R0080C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP073R0070C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP073R0060C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP073R0050C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP073R0040C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP073R0030C0010" decimals="0" isNull="true" isNaN="false" type="xsd:string" zOrd="1" presentationScale="0"></item>
+                <item itemCode="FEDFRY14ASUMP073R0020C0010" decimals="0" isNull="true" isNaN="false" type="xsd:string" zOrd="1" presentationScale="0"></item>
+                <item itemCode="FEDFRY14ASUMP073R0010C0010" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0120" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0110" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0100" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0090" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0080" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0070" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0060" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0050" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0040" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP074R0050C0130" decimals="0" isNull="true" isNaN="true" type="xsd:decimal" zOrd="1" presentationScale="0"/>
+                <item itemCode="FEDFRY14ASUMP079R1180C0010" decimals="0" isNull="true" isNaN="false" type="xsd:string" zOrd="1" presentationScale="0"></item>
+                <item itemCode="FEDFRY14ASUMP079R1170C0010" decimals="0" isNull="true" isNaN="false" type="xsd:string" zOrd="1" presentationScale="0"></item>
+                <item itemCode="FEDFRY14ASUMP091R1485C0010" decimals="0" isNull="true" isNaN="false" type="xsd:string" zOrd="1" presentationScale="0"></item>
+                <item itemCode="FEDFRY14ASUMP091R1630C0010" decimals="0" isNull="true" isNaN="false" type="xsd:string" zOrd="1" presentationScale="0"></item>
+            </items>
+            <formVariables>
+                <variable name="9C_Ref">
+                    <typedVariable type="TEXT"></typedVariable>
+                </variable>
+                <variable name="9C_Buffer">
+                    <typedVariable type="NUMBER">2000000.0000000000</typedVariable>
+                </variable>
+                <variable name="9C_Reporting_Date">
+                    <typedVariable type="DATE"></typedVariable>
+                </variable>
+                <variable name="14AS_Type">
+                    <typedVariable type="TEXT"></typedVariable>
+                </variable>
+                <variable name="14AS_Base_Currency">
+                    <typedVariable type="TEXT"></typedVariable>
+                </variable>
+            </formVariables>
+            <validationAggregates/>
+            <validationInstances/>
+        </formInstance>
+    </formInstances>
+</formInstancesExport>

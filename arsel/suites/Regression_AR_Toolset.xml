@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Test Json file is : AR_REG_TOOLSET_ORA.json/AR_REG_TOOLSET_SQL.json-->
+<suite name="regression_test_suite" verbose="1" parallel="tests" thread-count="3" preserve-order="true">
+    <test name="regression in AR with Toolset">
+        <parameter name="os" value="WINDOWS" />
+        <parameter name="os_version" value="7" />
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <!--<class name="com.lombardrisk.testCase_TS.AdjustmentsTest" />-->
+            <class name="com.lombardrisk.testCase_TS.BatchRun" />
+            <class name="com.lombardrisk.testCase_TS.Export_Format" />
+            <class name="com.lombardrisk.testCase_TS.Lookup"/>
+        </classes>
+    </test>
+</suite>

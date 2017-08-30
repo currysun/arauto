@@ -1,0 +1,489 @@
+--DateFormat[dd/mm/yyyy](dd/mm/yyyy|mm/dd/yyyy|yyyy-mm-dd),,,,,
+CellName,PageInstance,CellTag,AdjustmentValue,Comment,RowKey
+AUTHOFF,1,,,,
+CLIENT,1,,,,
+CONTACT,1,,,,
+DD,1,,,,
+EMAIL,1,,,,
+MM,1,,,,
+TELEPHONE,1,,,,
+VALTOLERANCE,1,,0,,
+YYYY,1,,,,
+CB1,1,,0,,
+EO1,1,,0,,
+OO1,1,,0,,
+TOT1,1,,0,,
+UC1,1,,0,,
+CB1AA,1,,0,,
+CB1AAA,1,,0,,
+CB1AAB,1,,0,,
+CB1AAC,1,,0,,
+CB1BA,1,,0,,
+CB1BAD,1,,0,,
+CB1BAE,1,,0,,
+CB1BAF,1,,0,,
+CB1BAG,1,,0,,
+CB1BAH,1,,0,,
+EO1AA,1,,0,,
+EO1AAA,1,,0,,
+EO1AAB,1,,0,,
+EO1AAC,1,,0,,
+EO1BA,1,,0,,
+EO1BAD,1,,0,,
+EO1BAE,1,,0,,
+EO1BAF,1,,0,,
+EO1BAG,1,,0,,
+EO1BAH,1,,0,,
+OO1AA,1,,0,,
+OO1AAA,1,,0,,
+OO1AAB,1,,0,,
+OO1AAC,1,,0,,
+OO1BA,1,,0,,
+OO1BAD,1,,0,,
+OO1BAE,1,,0,,
+OO1BAF,1,,0,,
+OO1BAG,1,,0,,
+OO1BAH,1,,0,,
+TOT1AA,1,,0,,
+TOT1AAA,1,,0,,
+TOT1AAB,1,,0,,
+TOT1AAC,1,,0,,
+TOT1BA,1,,0,,
+TOT1BAD,1,,0,,
+TOT1BAE,1,,0,,
+TOT1BAF,1,,0,,
+TOT1BAG,1,,0,,
+TOT1BAH,1,,0,,
+UC1AA,1,,0,,
+UC1AAA,1,,0,,
+UC1AAB,1,,0,,
+UC1AAC,1,,0,,
+UC1BA,1,,0,,
+UC1BAD,1,,0,,
+UC1BAE,1,,0,,
+UC1BAF,1,,0,,
+UC1BAG,1,,0,,
+UC1BAH,1,,0,,
+CB1AB,1,,0,,
+CB1ABA,1,,0,,
+CB1ABB,1,,0,,
+CB1ABC,1,,0,,
+CB1BB,1,,0,,
+CB1BBD,1,,0,,
+CB1BBE,1,,0,,
+CB1BBF,1,,0,,
+CB1BBG,1,,0,,
+CB1BBH,1,,0,,
+EO1AB,1,,0,,
+EO1ABA,1,,0,,
+EO1ABB,1,,0,,
+EO1ABC,1,,0,,
+EO1BB,1,,0,,
+EO1BBD,1,,0,,
+EO1BBE,1,,0,,
+EO1BBF,1,,0,,
+EO1BBG,1,,0,,
+EO1BBH,1,,0,,
+OO1AB,1,,0,,
+OO1ABA,1,,0,,
+OO1ABB,1,,0,,
+OO1ABC,1,,0,,
+OO1BB,1,,0,,
+OO1BBD,1,,0,,
+OO1BBE,1,,0,,
+OO1BBF,1,,0,,
+OO1BBG,1,,0,,
+OO1BBH,1,,0,,
+TOT1AB,1,,0,,
+TOT1ABA,1,,0,,
+TOT1ABB,1,,0,,
+TOT1ABC,1,,0,,
+TOT1BB,1,,0,,
+TOT1BBD,1,,0,,
+TOT1BBE,1,,0,,
+TOT1BBF,1,,0,,
+TOT1BBG,1,,0,,
+TOT1BBH,1,,0,,
+UC1AB,1,,0,,
+UC1ABA,1,,0,,
+UC1ABB,1,,0,,
+UC1ABC,1,,0,,
+UC1BB,1,,0,,
+UC1BBD,1,,0,,
+UC1BBE,1,,0,,
+UC1BBF,1,,0,,
+UC1BBG,1,,0,,
+UC1BBH,1,,0,,
+CB1AD,1,,0,,
+CB1ADA,1,,0,,
+CB1ADB,1,,0,,
+CB1ADC,1,,0,,
+CB1BD,1,,0,,
+CB1BDD,1,,0,,
+CB1BDE,1,,0,,
+CB1BDF,1,,0,,
+CB1BDG,1,,0,,
+CB1BDH,1,,0,,
+EO1AD,1,,0,,
+EO1ADA,1,,0,,
+EO1ADB,1,,0,,
+EO1ADC,1,,0,,
+EO1BD,1,,0,,
+EO1BDD,1,,0,,
+EO1BDE,1,,0,,
+EO1BDF,1,,0,,
+EO1BDG,1,,0,,
+EO1BDH,1,,0,,
+OO1AD,1,,0,,
+OO1ADA,1,,0,,
+OO1ADB,1,,0,,
+OO1ADC,1,,0,,
+OO1BD,1,,0,,
+OO1BDD,1,,0,,
+OO1BDE,1,,0,,
+OO1BDF,1,,0,,
+OO1BDG,1,,0,,
+OO1BDH,1,,0,,
+TOT1AD,1,,0,,
+TOT1ADA,1,,0,,
+TOT1ADB,1,,0,,
+TOT1ADC,1,,0,,
+TOT1BD,1,,0,,
+TOT1BDD,1,,0,,
+TOT1BDE,1,,0,,
+TOT1BDF,1,,0,,
+TOT1BDG,1,,0,,
+TOT1BDH,1,,0,,
+UC1AD,1,,0,,
+UC1ADA,1,,0,,
+UC1ADB,1,,0,,
+UC1ADC,1,,0,,
+UC1BD,1,,0,,
+UC1BDD,1,,0,,
+UC1BDE,1,,0,,
+UC1BDF,1,,0,,
+UC1BDG,1,,0,,
+UC1BDH,1,,0,,
+CB1AE,1,,0,,
+CB1AEA,1,,0,,
+CB1AEB,1,,0,,
+CB1AEC,1,,0,,
+CB1BE,1,,0,,
+CB1BED,1,,0,,
+CB1BEE,1,,0,,
+CB1BEF,1,,0,,
+CB1BEG,1,,0,,
+CB1BEH,1,,0,,
+EO1AE,1,,0,,
+EO1AEA,1,,0,,
+EO1AEB,1,,0,,
+EO1AEC,1,,0,,
+EO1BE,1,,0,,
+EO1BED,1,,0,,
+EO1BEE,1,,0,,
+EO1BEF,1,,0,,
+EO1BEG,1,,0,,
+EO1BEH,1,,0,,
+OO1AE,1,,0,,
+OO1AEA,1,,0,,
+OO1AEB,1,,0,,
+OO1AEC,1,,0,,
+OO1BE,1,,0,,
+OO1BED,1,,0,,
+OO1BEE,1,,0,,
+OO1BEF,1,,0,,
+OO1BEG,1,,0,,
+OO1BEH,1,,0,,
+TOT1AE,1,,0,,
+TOT1AEA,1,,0,,
+TOT1AEB,1,,0,,
+TOT1AEC,1,,0,,
+TOT1BE,1,,0,,
+TOT1BED,1,,0,,
+TOT1BEE,1,,0,,
+TOT1BEF,1,,0,,
+TOT1BEG,1,,0,,
+TOT1BEH,1,,0,,
+UC1AE,1,,0,,
+UC1AEA,1,,0,,
+UC1AEB,1,,0,,
+UC1AEC,1,,0,,
+UC1BE,1,,0,,
+UC1BED,1,,0,,
+UC1BEE,1,,0,,
+UC1BEF,1,,0,,
+UC1BEG,1,,0,,
+UC1BEH,1,,0,,
+CB1AL,1,,0,,
+CB1ALA,1,,0,,
+CB1ALB,1,,0,,
+CB1ALC,1,,0,,
+CB1BL,1,,0,,
+CB1BLD,1,,0,,
+CB1BLE,1,,0,,
+CB1BLF,1,,0,,
+CB1BLG,1,,0,,
+CB1BLH,1,,0,,
+EO1AL,1,,0,,
+EO1ALA,1,,0,,
+EO1ALB,1,,0,,
+EO1ALC,1,,0,,
+EO1BL,1,,0,,
+EO1BLD,1,,0,,
+EO1BLE,1,,0,,
+EO1BLF,1,,0,,
+EO1BLG,1,,0,,
+EO1BLH,1,,0,,
+OO1AL,1,,0,,
+OO1ALA,1,,0,,
+OO1ALB,1,,0,,
+OO1ALC,1,,0,,
+OO1BL,1,,0,,
+OO1BLD,1,,0,,
+OO1BLE,1,,0,,
+OO1BLF,1,,0,,
+OO1BLG,1,,0,,
+OO1BLH,1,,0,,
+TOT1AL,1,,0,,
+TOT1ALA,1,,0,,
+TOT1ALB,1,,0,,
+TOT1ALC,1,,0,,
+TOT1BL,1,,0,,
+TOT1BLD,1,,0,,
+TOT1BLE,1,,0,,
+TOT1BLF,1,,0,,
+TOT1BLG,1,,0,,
+TOT1BLH,1,,0,,
+UC1AL,1,,0,,
+UC1ALA,1,,0,,
+UC1ALB,1,,0,,
+UC1ALC,1,,0,,
+UC1BL,1,,0,,
+UC1BLD,1,,0,,
+UC1BLE,1,,0,,
+UC1BLF,1,,0,,
+UC1BLG,1,,0,,
+UC1BLH,1,,0,,
+CB1AM,1,,0,,
+CB1AMA,1,,0,,
+CB1AMB,1,,0,,
+CB1AMC,1,,0,,
+CB1BM,1,,0,,
+CB1BMD,1,,0,,
+CB1BME,1,,0,,
+CB1BMF,1,,0,,
+CB1BMG,1,,0,,
+CB1BMH,1,,0,,
+EO1AM,1,,0,,
+EO1AMA,1,,0,,
+EO1AMB,1,,0,,
+EO1AMC,1,,0,,
+EO1BM,1,,0,,
+EO1BMD,1,,0,,
+EO1BME,1,,0,,
+EO1BMF,1,,0,,
+EO1BMG,1,,0,,
+EO1BMH,1,,0,,
+OO1AM,1,,0,,
+OO1AMA,1,,0,,
+OO1AMB,1,,0,,
+OO1AMC,1,,0,,
+OO1BM,1,,0,,
+OO1BMD,1,,0,,
+OO1BME,1,,0,,
+OO1BMF,1,,0,,
+OO1BMG,1,,0,,
+OO1BMH,1,,0,,
+TOT1AM,1,,0,,
+TOT1AMA,1,,0,,
+TOT1AMB,1,,0,,
+TOT1AMC,1,,0,,
+TOT1BM,1,,0,,
+TOT1BMD,1,,0,,
+TOT1BME,1,,0,,
+TOT1BMF,1,,0,,
+TOT1BMG,1,,0,,
+TOT1BMH,1,,0,,
+UC1AM,1,,0,,
+UC1AMA,1,,0,,
+UC1AMB,1,,0,,
+UC1AMC,1,,0,,
+UC1BM,1,,0,,
+UC1BMD,1,,0,,
+UC1BME,1,,0,,
+UC1BMF,1,,0,,
+UC1BMG,1,,0,,
+UC1BMH,1,,0,,
+CB2,1,,0,,
+CB3,1,,0,,
+CB4,1,,0,,
+CB5,1,,0,,
+CBA1,1,,0,,
+CBA2,1,,0,,
+EO2,1,,0,,
+EO3,1,,0,,
+EO4,1,,0,,
+EO5,1,,0,,
+EOA1,1,,0,,
+EOA2,1,,0,,
+OO2,1,,0,,
+OO3,1,,0,,
+OO4,1,,0,,
+OO5,1,,0,,
+OOA1,1,,0,,
+OOA2,1,,0,,
+TOT2,1,,0,,
+TOT3,1,,0,,
+TOT4,1,,0,,
+TOT5,1,,0,,
+TOTA1,1,,0,,
+TOTA2,1,,0,,
+UC2,1,,0,,
+UC3,1,,0,,
+UC4,1,,0,,
+UC5,1,,0,,
+UCA1,1,,0,,
+UCA2,1,,0,,
+EC2P1,1,,0,,
+EC2P2,1,,0,,
+OC3P1,1,,0,,
+SC1P1,1,,0,,
+SC1P2,1,,0,,
+CL1,1,,0,,Abu Dhabi
+CL1AA,1,,0,,Abu Dhabi
+CL1AAA,1,,0,,Abu Dhabi
+CL1AAB,1,,0,,Abu Dhabi
+CL1AAC,1,,0,,Abu Dhabi
+CL1AB,1,,0,,Abu Dhabi
+CL1ABA,1,,0,,Abu Dhabi
+CL1ABB,1,,0,,Abu Dhabi
+CL1ABC,1,,0,,Abu Dhabi
+CL1AD,1,,0,,Abu Dhabi
+CL1ADA,1,,0,,Abu Dhabi
+CL1ADB,1,,0,,Abu Dhabi
+CL1ADC,1,,0,,Abu Dhabi
+CL1AE,1,,0,,Abu Dhabi
+CL1AEA,1,,0,,Abu Dhabi
+CL1AEB,1,,0,,Abu Dhabi
+CL1AEC,1,,0,,Abu Dhabi
+CL1AL,1,,0,,Abu Dhabi
+CL1ALA,1,,0,,Abu Dhabi
+CL1ALB,1,,0,,Abu Dhabi
+CL1ALC,1,,0,,Abu Dhabi
+CL1AM,1,,0,,Abu Dhabi
+CL1AMA,1,,0,,Abu Dhabi
+CL1AMB,1,,0,,Abu Dhabi
+CL1AMC,1,,0,,Abu Dhabi
+CL1BA,1,,0,,Abu Dhabi
+CL1BAD,1,,0,,Abu Dhabi
+CL1BAE,1,,0,,Abu Dhabi
+CL1BAF,1,,0,,Abu Dhabi
+CL1BAG,1,,0,,Abu Dhabi
+CL1BAH,1,,0,,Abu Dhabi
+CL1BB,1,,0,,Abu Dhabi
+CL1BBD,1,,0,,Abu Dhabi
+CL1BBE,1,,0,,Abu Dhabi
+CL1BBF,1,,0,,Abu Dhabi
+CL1BBG,1,,0,,Abu Dhabi
+CL1BBH,1,,0,,Abu Dhabi
+CL1BD,1,,0,,Abu Dhabi
+CL1BDD,1,,0,,Abu Dhabi
+CL1BDE,1,,0,,Abu Dhabi
+CL1BDF,1,,0,,Abu Dhabi
+CL1BDG,1,,0,,Abu Dhabi
+CL1BDH,1,,0,,Abu Dhabi
+CL1BE,1,,0,,Abu Dhabi
+CL1BED,1,,0,,Abu Dhabi
+CL1BEE,1,,0,,Abu Dhabi
+CL1BEF,1,,0,,Abu Dhabi
+CL1BEG,1,,0,,Abu Dhabi
+CL1BEH,1,,0,,Abu Dhabi
+CL1BL,1,,0,,Abu Dhabi
+CL1BLD,1,,0,,Abu Dhabi
+CL1BLE,1,,0,,Abu Dhabi
+CL1BLF,1,,0,,Abu Dhabi
+CL1BLG,1,,0,,Abu Dhabi
+CL1BLH,1,,0,,Abu Dhabi
+CL1BM,1,,0,,Abu Dhabi
+CL1BMD,1,,0,,Abu Dhabi
+CL1BME,1,,0,,Abu Dhabi
+CL1BMF,1,,0,,Abu Dhabi
+CL1BMG,1,,0,,Abu Dhabi
+CL1BMH,1,,0,,Abu Dhabi
+CL2,1,,0,,Abu Dhabi
+CL3,1,,0,,Abu Dhabi
+CL4,1,,0,,Abu Dhabi
+CL5,1,,0,,Abu Dhabi
+CLA1,1,,0,,Abu Dhabi
+CLA2,1,,0,,Abu Dhabi
+COUNTRY2,1,,AA,,Abu Dhabi
+COUNTRYNAME,1,,Abu Dhabi,,Abu Dhabi
+CL1,1,,0,,Romania
+CL1AA,1,,0,,Romania
+CL1AAA,1,,0,,Romania
+CL1AAB,1,,0,,Romania
+CL1AAC,1,,0,,Romania
+CL1AB,1,,0,,Romania
+CL1ABA,1,,0,,Romania
+CL1ABB,1,,0,,Romania
+CL1ABC,1,,0,,Romania
+CL1AD,1,,0,,Romania
+CL1ADA,1,,0,,Romania
+CL1ADB,1,,0,,Romania
+CL1ADC,1,,0,,Romania
+CL1AE,1,,0,,Romania
+CL1AEA,1,,0,,Romania
+CL1AEB,1,,0,,Romania
+CL1AEC,1,,0,,Romania
+CL1AL,1,,0,,Romania
+CL1ALA,1,,0,,Romania
+CL1ALB,1,,0,,Romania
+CL1ALC,1,,0,,Romania
+CL1AM,1,,0,,Romania
+CL1AMA,1,,0,,Romania
+CL1AMB,1,,0,,Romania
+CL1AMC,1,,0,,Romania
+CL1BA,1,,0,,Romania
+CL1BAD,1,,0,,Romania
+CL1BAE,1,,0,,Romania
+CL1BAF,1,,0,,Romania
+CL1BAG,1,,0,,Romania
+CL1BAH,1,,0,,Romania
+CL1BB,1,,0,,Romania
+CL1BBD,1,,0,,Romania
+CL1BBE,1,,0,,Romania
+CL1BBF,1,,0,,Romania
+CL1BBG,1,,0,,Romania
+CL1BBH,1,,0,,Romania
+CL1BD,1,,0,,Romania
+CL1BDD,1,,0,,Romania
+CL1BDE,1,,0,,Romania
+CL1BDF,1,,0,,Romania
+CL1BDG,1,,0,,Romania
+CL1BDH,1,,0,,Romania
+CL1BE,1,,0,,Romania
+CL1BED,1,,0,,Romania
+CL1BEE,1,,0,,Romania
+CL1BEF,1,,0,,Romania
+CL1BEG,1,,0,,Romania
+CL1BEH,1,,0,,Romania
+CL1BL,1,,0,,Romania
+CL1BLD,1,,0,,Romania
+CL1BLE,1,,0,,Romania
+CL1BLF,1,,0,,Romania
+CL1BLG,1,,0,,Romania
+CL1BLH,1,,0,,Romania
+CL1BM,1,,0,,Romania
+CL1BMD,1,,0,,Romania
+CL1BME,1,,0,,Romania
+CL1BMF,1,,0,,Romania
+CL1BMG,1,,0,,Romania
+CL1BMH,1,,0,,Romania
+CL2,1,,0,,Romania
+CL3,1,,0,,Romania
+CL4,1,,0,,Romania
+CL5,1,,0,,Romania
+CLA1,1,,0,,Romania
+CLA2,1,,0,,Romania
+COUNTRY2,1,,RO,,Romania
+COUNTRYNAME,1,,Romania,,Romania

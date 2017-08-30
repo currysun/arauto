@@ -1,0 +1,627 @@
+"--DateFormat[dd/mm/yyyy](dd/mm/yyyy|mm/dd/yyyy|yyyy-mm-dd)"
+"CellName","PageInstance","AdjustmentValue","Comment","RowKey"
+"AUTHOFF","1","",,
+"CLIENT","1","",,
+"CONTACT","1","",,
+"DD","1","",,
+"EMAIL","1","",,
+"MM","1","",,
+"TELEPHONE","1","",,
+"VALTOLERANCE","1","0",,
+"YYYY","1","",,
+"CB1","1","0",,
+"EO1","1","0",,
+"OO1","1","0",,
+"TOT1","1","0",,
+"UC1","1","0",,
+"CB1AA","1","0",,
+"CB1AAA","1","0",,
+"CB1AAB","1","0",,
+"CB1AAC","1","0",,
+"CB1BA","1","0",,
+"CB1BAD","1","0",,
+"CB1BAE","1","0",,
+"CB1BAF","1","0",,
+"CB1BAG","1","0",,
+"CB1BAH","1","0",,
+"EO1BA","1","0",,
+"EO1BAD","1","0",,
+"EO1BAE","1","0",,
+"EO1BAF","1","0",,
+"EO1BAG","1","0",,
+"EO1BAH","1","0",,
+"UC1BA","1","0",,
+"UC1BAD","1","0",,
+"UC1BAE","1","0",,
+"UC1BAF","1","0",,
+"UC1BAG","1","0",,
+"UC1BAH","1","0",,
+"EO1AA","1","0",,
+"EO1AAA","1","0",,
+"EO1AAB","1","0",,
+"EO1AAC","1","0",,
+"OO1AA","1","0",,
+"OO1AAA","1","0",,
+"OO1AAB","1","0",,
+"OO1AAC","1","0",,
+"OO1BA","1","0",,
+"OO1BAD","1","0",,
+"OO1BAE","1","0",,
+"OO1BAF","1","0",,
+"OO1BAG","1","0",,
+"OO1BAH","1","0",,
+"TOT1AA","1","0",,
+"TOT1AAA","1","0",,
+"TOT1AAB","1","0",,
+"TOT1AAC","1","0",,
+"TOT1BA","1","0",,
+"TOT1BAD","1","0",,
+"TOT1BAE","1","0",,
+"TOT1BAF","1","0",,
+"TOT1BAG","1","0",,
+"TOT1BAH","1","0",,
+"UC1AA","1","0",,
+"UC1AAA","1","0",,
+"UC1AAB","1","0",,
+"UC1AAC","1","0",,
+"CB1AB","1","0",,
+"CB1ABA","1","0",,
+"CB1ABB","1","0",,
+"CB1ABC","1","0",,
+"CB1BB","1","0",,
+"CB1BBD","1","0",,
+"CB1BBE","1","0",,
+"CB1BBF","1","0",,
+"CB1BBG","1","0",,
+"CB1BBH","1","0",,
+"EO1BB","1","0",,
+"EO1BBD","1","0",,
+"EO1BBE","1","0",,
+"EO1BBF","1","0",,
+"EO1BBG","1","0",,
+"EO1BBH","1","0",,
+"UC1BB","1","0",,
+"UC1BBD","1","0",,
+"UC1BBE","1","0",,
+"UC1BBF","1","0",,
+"UC1BBG","1","0",,
+"UC1BBH","1","0",,
+"EO1AB","1","0",,
+"EO1ABA","1","0",,
+"EO1ABB","1","0",,
+"EO1ABC","1","0",,
+"OO1AB","1","0",,
+"OO1ABA","1","0",,
+"OO1ABB","1","0",,
+"OO1ABC","1","0",,
+"OO1BB","1","0",,
+"OO1BBD","1","0",,
+"OO1BBE","1","0",,
+"OO1BBF","1","0",,
+"OO1BBG","1","0",,
+"OO1BBH","1","0",,
+"TOT1AB","1","0",,
+"TOT1ABA","1","0",,
+"TOT1ABB","1","0",,
+"TOT1ABC","1","0",,
+"TOT1BB","1","0",,
+"TOT1BBD","1","0",,
+"TOT1BBE","1","0",,
+"TOT1BBF","1","0",,
+"TOT1BBG","1","0",,
+"TOT1BBH","1","0",,
+"UC1AB","1","0",,
+"UC1ABA","1","0",,
+"UC1ABB","1","0",,
+"UC1ABC","1","0",,
+"CB1AD","1","0",,
+"CB1ADA","1","0",,
+"CB1ADB","1","0",,
+"CB1ADC","1","0",,
+"CB1BD","1","0",,
+"CB1BDD","1","0",,
+"CB1BDE","1","0",,
+"CB1BDF","1","0",,
+"CB1BDG","1","0",,
+"CB1BDH","1","0",,
+"EO1AD","1","0",,
+"EO1ADA","1","0",,
+"EO1ADB","1","0",,
+"EO1ADC","1","0",,
+"EO1BD","1","0",,
+"EO1BDD","1","0",,
+"EO1BDE","1","0",,
+"EO1BDF","1","0",,
+"EO1BDG","1","0",,
+"EO1BDH","1","0",,
+"UC1BD","1","0",,
+"UC1BDD","1","0",,
+"UC1BDE","1","0",,
+"UC1BDF","1","0",,
+"UC1BDG","1","0",,
+"UC1BDH","1","0",,
+"OO1AD","1","0",,
+"OO1ADA","1","0",,
+"OO1ADB","1","0",,
+"OO1ADC","1","0",,
+"OO1BD","1","0",,
+"OO1BDD","1","0",,
+"OO1BDE","1","0",,
+"OO1BDF","1","0",,
+"OO1BDG","1","0",,
+"OO1BDH","1","0",,
+"TOT1AD","1","0",,
+"TOT1ADA","1","0",,
+"TOT1ADB","1","0",,
+"TOT1ADC","1","0",,
+"TOT1BD","1","0",,
+"TOT1BDD","1","0",,
+"TOT1BDE","1","0",,
+"TOT1BDF","1","0",,
+"TOT1BDG","1","0",,
+"TOT1BDH","1","0",,
+"UC1AD","1","0",,
+"UC1ADA","1","0",,
+"UC1ADB","1","0",,
+"UC1ADC","1","0",,
+"UC1AEA","1","0",,
+"UC1AEB","1","0",,
+"UC1AEC","1","0",,
+"UC1BEG","1","0",,
+"UC1BEH","1","0",,
+"CB1AE","1","0",,
+"CB1AEA","1","0",,
+"CB1AEB","1","0",,
+"CB1AEC","1","0",,
+"CB1BE","1","0",,
+"CB1BED","1","0",,
+"CB1BEE","1","0",,
+"CB1BEF","1","0",,
+"CB1BEG","1","0",,
+"CB1BEH","1","0",,
+"EO1AE","1","0",,
+"EO1AEA","1","0",,
+"EO1AEB","1","0",,
+"EO1AEC","1","0",,
+"EO1BE","1","0",,
+"EO1BED","1","0",,
+"EO1BEE","1","0",,
+"EO1BEF","1","0",,
+"EO1BEG","1","0",,
+"EO1BEH","1","0",,
+"UC1BE","1","0",,
+"UC1BED","1","0",,
+"UC1BEE","1","0",,
+"UC1BEF","1","0",,
+"OO1AE","1","0",,
+"OO1AEA","1","0",,
+"OO1AEB","1","0",,
+"OO1AEC","1","0",,
+"OO1BE","1","0",,
+"OO1BED","1","0",,
+"OO1BEE","1","0",,
+"OO1BEF","1","0",,
+"OO1BEG","1","0",,
+"OO1BEH","1","0",,
+"TOT1AE","1","0",,
+"TOT1AEA","1","0",,
+"TOT1AEB","1","0",,
+"TOT1AEC","1","0",,
+"TOT1BE","1","0",,
+"TOT1BED","1","0",,
+"TOT1BEE","1","0",,
+"TOT1BEF","1","0",,
+"TOT1BEG","1","0",,
+"TOT1BEH","1","0",,
+"UC1AE","1","0",,
+"UC1AL","1","0",,
+"UC1BL","1","0",,
+"UC1BLD","1","0",,
+"UC1BLE","1","0",,
+"CB1AL","1","0",,
+"CB1ALA","1","0",,
+"CB1ALB","1","0",,
+"CB1ALC","1","0",,
+"CB1BL","1","0",,
+"CB1BLD","1","0",,
+"CB1BLE","1","0",,
+"EO1AL","1","0",,
+"EO1ALA","1","0",,
+"EO1ALB","1","0",,
+"EO1ALC","1","0",,
+"EO1BL","1","0",,
+"EO1BLD","1","0",,
+"EO1BLE","1","0",,
+"EO1BLF","1","0",,
+"EO1BLG","1","0",,
+"EO1BLH","1","0",,
+"UC1ALA","1","0",,
+"UC1ALB","1","0",,
+"UC1ALC","1","0",,
+"CB1BLF","1","0",,
+"CB1BLG","1","0",,
+"CB1BLH","1","0",,
+"OO1AL","1","0",,
+"OO1ALA","1","0",,
+"OO1ALB","1","0",,
+"OO1ALC","1","0",,
+"OO1BL","1","0",,
+"OO1BLD","1","0",,
+"OO1BLE","1","0",,
+"OO1BLF","1","0",,
+"OO1BLG","1","0",,
+"OO1BLH","1","0",,
+"TOT1AL","1","0",,
+"TOT1ALA","1","0",,
+"TOT1ALB","1","0",,
+"TOT1ALC","1","0",,
+"TOT1BL","1","0",,
+"TOT1BLD","1","0",,
+"TOT1BLE","1","0",,
+"TOT1BLF","1","0",,
+"TOT1BLG","1","0",,
+"TOT1BLH","1","0",,
+"UC1BLF","1","0",,
+"UC1BLG","1","0",,
+"UC1BLH","1","0",,
+"CB1AM","1","0",,
+"CB1AMA","1","0",,
+"CB1AMB","1","0",,
+"CB1AMC","1","0",,
+"EO1AM","1","0",,
+"EO1AMA","1","0",,
+"EO1AMB","1","0",,
+"EO1AMC","1","0",,
+"EO1BM","1","0",,
+"EO1BMD","1","0",,
+"EO1BME","1","0",,
+"EO1BMF","1","0",,
+"EO1BMG","1","0",,
+"EO1BMH","1","0",,
+"UC1AM","1","0",,
+"UC1AMA","1","0",,
+"UC1AMB","1","0",,
+"UC1AMC","1","0",,
+"CB1BM","1","0",,
+"CB1BMD","1","0",,
+"CB1BME","1","0",,
+"CB1BMF","1","0",,
+"CB1BMG","1","0",,
+"CB1BMH","1","0",,
+"OO1AM","1","0",,
+"OO1AMA","1","0",,
+"OO1AMB","1","0",,
+"OO1AMC","1","0",,
+"OO1BM","1","0",,
+"OO1BMD","1","0",,
+"OO1BME","1","0",,
+"OO1BMF","1","0",,
+"OO1BMG","1","0",,
+"OO1BMH","1","0",,
+"TOT1AM","1","0",,
+"TOT1AMA","1","0",,
+"TOT1AMB","1","0",,
+"TOT1AMC","1","0",,
+"TOT1BM","1","0",,
+"TOT1BMD","1","0",,
+"TOT1BME","1","0",,
+"TOT1BMF","1","0",,
+"TOT1BMG","1","0",,
+"TOT1BMH","1","0",,
+"UC1BM","1","0",,
+"UC1BMD","1","0",,
+"UC1BME","1","0",,
+"UC1BMF","1","0",,
+"UC1BMG","1","0",,
+"UC1BMH","1","0",,
+"EO2","1","0",,
+"EO3","1","0",,
+"EO4","1","0",,
+"EO5","1","0",,
+"EOA1","1","0",,
+"EOA2","1","0",,
+"CB2","1","0",,
+"CB3","1","0",,
+"CB4","1","0",,
+"CB5","1","0",,
+"CBA1","1","0",,
+"CBA2","1","0",,
+"OO2","1","0",,
+"OO3","1","0",,
+"OO4","1","0",,
+"OO5","1","0",,
+"OOA1","1","0",,
+"OOA2","1","0",,
+"TOT2","1","0",,
+"TOT3","1","0",,
+"TOT4","1","0",,
+"TOT5","1","0",,
+"TOTA1","1","0",,
+"TOTA2","1","0",,
+"UC2","1","0",,
+"UC3","1","0",,
+"UC4","1","0",,
+"UC5","1","0",,
+"UCA1","1","0",,
+"UCA2","1","0",,
+"EC2P1","1","0",,
+"EC2P2","1","0",,
+"OC3P1","1","0",,
+"SC1P1","1","0",,
+"SC1P2","1","0",,
+"CL1","1","03/01/2017",,"Australia"
+"CL1AA","1","0",,"Australia"
+"CL1AAA","1","0",,"Australia"
+"CL1AAB","1","0",,"Australia"
+"CL1AAC","1","0",,"Australia"
+"CL1AB","1","0",,"Australia"
+"CL1ABA","1","0",,"Australia"
+"CL1ABB","1","0",,"Australia"
+"CL1ABC","1","0",,"Australia"
+"CL1AD","1","0",,"Australia"
+"CL1ADA","1","0",,"Australia"
+"CL1ADB","1","0",,"Australia"
+"CL1ADC","1","0",,"Australia"
+"CL1AE","1","0",,"Australia"
+"CL1AEA","1","0",,"Australia"
+"CL1AEB","1","0",,"Australia"
+"CL1AEC","1","0",,"Australia"
+"CL1AL","1","0",,"Australia"
+"CL1ALA","1","0",,"Australia"
+"CL1ALB","1","0",,"Australia"
+"CL1ALC","1","0",,"Australia"
+"CL1AM","1","0",,"Australia"
+"CL1AMA","1","0",,"Australia"
+"CL1AMB","1","0",,"Australia"
+"CL1AMC","1","0",,"Australia"
+"CL1BA","1","0",,"Australia"
+"CL1BAD","1","0",,"Australia"
+"CL1BAE","1","0",,"Australia"
+"CL1BAF","1","0",,"Australia"
+"CL1BAG","1","0",,"Australia"
+"CL1BAH","1","0",,"Australia"
+"CL1BB","1","0",,"Australia"
+"CL1BBD","1","0",,"Australia"
+"CL1BBE","1","0",,"Australia"
+"CL1BBF","1","0",,"Australia"
+"CL1BBG","1","0",,"Australia"
+"CL1BBH","1","0",,"Australia"
+"CL1BD","1","0",,"Australia"
+"CL1BDD","1","0",,"Australia"
+"CL1BDE","1","0",,"Australia"
+"CL1BDF","1","0",,"Australia"
+"CL1BDG","1","0",,"Australia"
+"CL1BDH","1","0",,"Australia"
+"CL1BE","1","0",,"Australia"
+"CL1BED","1","0",,"Australia"
+"CL1BEE","1","0",,"Australia"
+"CL1BEF","1","0",,"Australia"
+"CL1BEG","1","0",,"Australia"
+"CL1BEH","1","0",,"Australia"
+"CL1BL","1","0",,"Australia"
+"CL1BLD","1","0",,"Australia"
+"CL1BLE","1","0",,"Australia"
+"CL1BLF","1","0",,"Australia"
+"CL1BLG","1","0",,"Australia"
+"CL1BLH","1","0",,"Australia"
+"CL1BM","1","0",,"Australia"
+"CL1BMD","1","0",,"Australia"
+"CL1BME","1","0",,"Australia"
+"CL1BMF","1","0",,"Australia"
+"CL1BMG","1","0",,"Australia"
+"CL1BMH","1","0",,"Australia"
+"CL2","1","0",,"Australia"
+"CL3","1","0",,"Australia"
+"CL4","1","0",,"Australia"
+"CL5","1","0",,"Australia"
+"CLA1","1","0",,"Australia"
+"CLA2","1","0",,"Australia"
+"COUNTRY2","1","AU",,"Australia"
+"COUNTRYNAME","1","Australia",,"Australia"
+"CL1","1","02/01/2017",,"Crech Republic"
+"CL1AA","1","0",,"Crech Republic"
+"CL1AAA","1","0",,"Crech Republic"
+"CL1AAB","1","0",,"Crech Republic"
+"CL1AAC","1","0",,"Crech Republic"
+"CL1AB","1","0",,"Crech Republic"
+"CL1ABA","1","0",,"Crech Republic"
+"CL1ABB","1","0",,"Crech Republic"
+"CL1ABC","1","0",,"Crech Republic"
+"CL1AD","1","0",,"Crech Republic"
+"CL1ADA","1","0",,"Crech Republic"
+"CL1ADB","1","0",,"Crech Republic"
+"CL1ADC","1","0",,"Crech Republic"
+"CL1AE","1","0",,"Crech Republic"
+"CL1AEA","1","0",,"Crech Republic"
+"CL1AEB","1","0",,"Crech Republic"
+"CL1AEC","1","0",,"Crech Republic"
+"CL1AL","1","0",,"Crech Republic"
+"CL1ALA","1","0",,"Crech Republic"
+"CL1ALB","1","0",,"Crech Republic"
+"CL1ALC","1","0",,"Crech Republic"
+"CL1AM","1","0",,"Crech Republic"
+"CL1AMA","1","0",,"Crech Republic"
+"CL1AMB","1","0",,"Crech Republic"
+"CL1AMC","1","0",,"Crech Republic"
+"CL1BA","1","0",,"Crech Republic"
+"CL1BAD","1","0",,"Crech Republic"
+"CL1BAE","1","0",,"Crech Republic"
+"CL1BAF","1","0",,"Crech Republic"
+"CL1BAG","1","0",,"Crech Republic"
+"CL1BAH","1","0",,"Crech Republic"
+"CL1BB","1","0",,"Crech Republic"
+"CL1BBD","1","0",,"Crech Republic"
+"CL1BBE","1","0",,"Crech Republic"
+"CL1BBF","1","0",,"Crech Republic"
+"CL1BBG","1","0",,"Crech Republic"
+"CL1BBH","1","0",,"Crech Republic"
+"CL1BD","1","0",,"Crech Republic"
+"CL1BDD","1","0",,"Crech Republic"
+"CL1BDE","1","0",,"Crech Republic"
+"CL1BDF","1","0",,"Crech Republic"
+"CL1BDG","1","0",,"Crech Republic"
+"CL1BDH","1","0",,"Crech Republic"
+"CL1BE","1","0",,"Crech Republic"
+"CL1BED","1","0",,"Crech Republic"
+"CL1BEE","1","0",,"Crech Republic"
+"CL1BEF","1","0",,"Crech Republic"
+"CL1BEG","1","0",,"Crech Republic"
+"CL1BEH","1","0",,"Crech Republic"
+"CL1BL","1","0",,"Crech Republic"
+"CL1BLD","1","0",,"Crech Republic"
+"CL1BLE","1","0",,"Crech Republic"
+"CL1BLF","1","0",,"Crech Republic"
+"CL1BLG","1","0",,"Crech Republic"
+"CL1BLH","1","0",,"Crech Republic"
+"CL1BM","1","0",,"Crech Republic"
+"CL1BMD","1","0",,"Crech Republic"
+"CL1BME","1","0",,"Crech Republic"
+"CL1BMF","1","0",,"Crech Republic"
+"CL1BMG","1","0",,"Crech Republic"
+"CL1BMH","1","0",,"Crech Republic"
+"CL2","1","0",,"Crech Republic"
+"CL3","1","0",,"Crech Republic"
+"CL4","1","0",,"Crech Republic"
+"CL5","1","0",,"Crech Republic"
+"CLA1","1","0",,"Crech Republic"
+"CLA2","1","0",,"Crech Republic"
+"COUNTRY2","1","CR",,"Crech Republic"
+"COUNTRYNAME","1","Crech Republic",,"Crech Republic"
+"CL1","1","01/01/2017",,"United Kingdom"
+"CL1AA","1","0",,"United Kingdom"
+"CL1AAA","1","0",,"United Kingdom"
+"CL1AAB","1","0",,"United Kingdom"
+"CL1AAC","1","0",,"United Kingdom"
+"CL1AB","1","0",,"United Kingdom"
+"CL1ABA","1","0",,"United Kingdom"
+"CL1ABB","1","0",,"United Kingdom"
+"CL1ABC","1","0",,"United Kingdom"
+"CL1AD","1","0",,"United Kingdom"
+"CL1ADA","1","0",,"United Kingdom"
+"CL1ADB","1","0",,"United Kingdom"
+"CL1ADC","1","0",,"United Kingdom"
+"CL1AE","1","0",,"United Kingdom"
+"CL1AEA","1","0",,"United Kingdom"
+"CL1AEB","1","0",,"United Kingdom"
+"CL1AEC","1","0",,"United Kingdom"
+"CL1AL","1","0",,"United Kingdom"
+"CL1ALA","1","0",,"United Kingdom"
+"CL1ALB","1","0",,"United Kingdom"
+"CL1ALC","1","0",,"United Kingdom"
+"CL1AM","1","0",,"United Kingdom"
+"CL1AMA","1","0",,"United Kingdom"
+"CL1AMB","1","0",,"United Kingdom"
+"CL1AMC","1","0",,"United Kingdom"
+"CL1BA","1","0",,"United Kingdom"
+"CL1BAD","1","0",,"United Kingdom"
+"CL1BAE","1","0",,"United Kingdom"
+"CL1BAF","1","0",,"United Kingdom"
+"CL1BAG","1","0",,"United Kingdom"
+"CL1BAH","1","0",,"United Kingdom"
+"CL1BB","1","0",,"United Kingdom"
+"CL1BBD","1","0",,"United Kingdom"
+"CL1BBE","1","0",,"United Kingdom"
+"CL1BBF","1","0",,"United Kingdom"
+"CL1BBG","1","0",,"United Kingdom"
+"CL1BBH","1","0",,"United Kingdom"
+"CL1BD","1","0",,"United Kingdom"
+"CL1BDD","1","0",,"United Kingdom"
+"CL1BDE","1","0",,"United Kingdom"
+"CL1BDF","1","0",,"United Kingdom"
+"CL1BDG","1","0",,"United Kingdom"
+"CL1BDH","1","0",,"United Kingdom"
+"CL1BE","1","0",,"United Kingdom"
+"CL1BED","1","0",,"United Kingdom"
+"CL1BEE","1","0",,"United Kingdom"
+"CL1BEF","1","0",,"United Kingdom"
+"CL1BEG","1","0",,"United Kingdom"
+"CL1BEH","1","0",,"United Kingdom"
+"CL1BL","1","0",,"United Kingdom"
+"CL1BLD","1","0",,"United Kingdom"
+"CL1BLE","1","0",,"United Kingdom"
+"CL1BLF","1","0",,"United Kingdom"
+"CL1BLG","1","0",,"United Kingdom"
+"CL1BLH","1","0",,"United Kingdom"
+"CL1BM","1","0",,"United Kingdom"
+"CL1BMD","1","0",,"United Kingdom"
+"CL1BME","1","0",,"United Kingdom"
+"CL1BMF","1","0",,"United Kingdom"
+"CL1BMG","1","0",,"United Kingdom"
+"CL1BMH","1","0",,"United Kingdom"
+"CL2","1","0",,"United Kingdom"
+"CL3","1","0",,"United Kingdom"
+"CL4","1","0",,"United Kingdom"
+"CL5","1","0",,"United Kingdom"
+"CLA1","1","0",,"United Kingdom"
+"CLA2","1","0",,"United Kingdom"
+"COUNTRY2","1","UK",,"United Kingdom"
+"COUNTRYNAME","1","United Kingdom",,"United Kingdom"
+"CL1","1","31/12/2016",,"United States of America"
+"CL1AA","1","0",,"United States of America"
+"CL1AAA","1","0",,"United States of America"
+"CL1AAB","1","0",,"United States of America"
+"CL1AAC","1","0",,"United States of America"
+"CL1AB","1","0",,"United States of America"
+"CL1ABA","1","0",,"United States of America"
+"CL1ABB","1","0",,"United States of America"
+"CL1ABC","1","0",,"United States of America"
+"CL1AD","1","0",,"United States of America"
+"CL1ADA","1","0",,"United States of America"
+"CL1ADB","1","0",,"United States of America"
+"CL1ADC","1","0",,"United States of America"
+"CL1AE","1","0",,"United States of America"
+"CL1AEA","1","0",,"United States of America"
+"CL1AEB","1","0",,"United States of America"
+"CL1AEC","1","0",,"United States of America"
+"CL1AL","1","0",,"United States of America"
+"CL1ALA","1","0",,"United States of America"
+"CL1ALB","1","0",,"United States of America"
+"CL1ALC","1","0",,"United States of America"
+"CL1AM","1","0",,"United States of America"
+"CL1AMA","1","0",,"United States of America"
+"CL1AMB","1","0",,"United States of America"
+"CL1AMC","1","0",,"United States of America"
+"CL1BA","1","0",,"United States of America"
+"CL1BAD","1","0",,"United States of America"
+"CL1BAE","1","0",,"United States of America"
+"CL1BAF","1","0",,"United States of America"
+"CL1BAG","1","0",,"United States of America"
+"CL1BAH","1","0",,"United States of America"
+"CL1BB","1","0",,"United States of America"
+"CL1BBD","1","0",,"United States of America"
+"CL1BBE","1","0",,"United States of America"
+"CL1BBF","1","0",,"United States of America"
+"CL1BBG","1","0",,"United States of America"
+"CL1BBH","1","0",,"United States of America"
+"CL1BD","1","0",,"United States of America"
+"CL1BDD","1","0",,"United States of America"
+"CL1BDE","1","0",,"United States of America"
+"CL1BDF","1","0",,"United States of America"
+"CL1BDG","1","0",,"United States of America"
+"CL1BDH","1","0",,"United States of America"
+"CL1BE","1","0",,"United States of America"
+"CL1BED","1","0",,"United States of America"
+"CL1BEE","1","0",,"United States of America"
+"CL1BEF","1","0",,"United States of America"
+"CL1BEG","1","0",,"United States of America"
+"CL1BEH","1","0",,"United States of America"
+"CL1BL","1","0",,"United States of America"
+"CL1BLD","1","0",,"United States of America"
+"CL1BLE","1","0",,"United States of America"
+"CL1BLF","1","0",,"United States of America"
+"CL1BLG","1","0",,"United States of America"
+"CL1BLH","1","0",,"United States of America"
+"CL1BM","1","0",,"United States of America"
+"CL1BMD","1","0",,"United States of America"
+"CL1BME","1","0",,"United States of America"
+"CL1BMF","1","0",,"United States of America"
+"CL1BMG","1","0",,"United States of America"
+"CL1BMH","1","0",,"United States of America"
+"CL2","1","0",,"United States of America"
+"CL3","1","0",,"United States of America"
+"CL4","1","0",,"United States of America"
+"CL5","1","0",,"United States of America"
+"CLA1","1","0",,"United States of America"
+"CLA2","1","0",,"United States of America"
+"COUNTRY2","1","USA",,"United States of America"
+"COUNTRYNAME","1","United States of America",,"United States of America"

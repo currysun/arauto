@@ -1,0 +1,71 @@
+[
+  {
+    "applicationServers": [
+      {
+        "id": 0,
+        "name": "default",
+        "url": "http://10.20.0.79:8080/",
+        "username": "admin",
+        "password": "password"
+      }
+    ],
+    "databaseServers": [
+      {
+        "id": 0,
+        "name": "ar_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "AR_AUTO_OWNERv2"
+      },
+      {
+        "id": 1,
+        "name": "toolset_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "HKMA_52103_DATA"
+      },
+      {
+        "id": 2,
+        "name": "toolset_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "HKMA_52103_SYSTEM"
+      },
+      {
+        "id": 3,
+        "name": "toolset_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "MAS_22103_2K8T55U_DATA"
+      },
+      {
+        "id": 4,
+        "name": "toolset_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "MAS_22103_2K8T55U_SYSTEM"
+      },
+      {
+        "id": 5,
+        "name": "toolset_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "ECR_HKMA_SYSTEM"
+      },
+      {
+        "id": 6,
+        "name": "toolset_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "ECR_HKMA_AUTO_SYSTEM"
+      },
+      {
+        "id": 7,
+        "name": "toolset_database",
+        "driver": "oracle",
+        "host": "172.20.20.49@ora12c",
+        "schema": "RP_AUTO_TOOLSET_SYSTEM"
+      }
+    ]
+  }
+]

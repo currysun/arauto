@@ -1,0 +1,215 @@
+10:29:10.182 [main] INFO  com.lombardrisk.testCase.DeleteReturn - setup test before starting feature id deletereturn, scenario id deletereturn
+10:29:10.186 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+10:29:10.192 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+10:29:10.572 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+10:29:11.080 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+10:29:11.085 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+10:29:11.091 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+10:29:13.512 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 3df40c8e59c4140c27ccb4bbbd4350af
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir10044_24302}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+10:29:13.513 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+10:29:15.150 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+10:29:16.292 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+10:29:17.085 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+10:29:17.126 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+10:29:17.168 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+10:29:17.201 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+10:29:17.242 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+10:29:23.792 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Get user format
+10:29:23.944 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Expected language is:en_GB
+10:29:23.947 [main] INFO  com.lombardrisk.testCase.DeleteReturn - ====Verify delete edition comments is required,case[5650]====
+10:29:23.981 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+10:29:23.981 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=Test Product
+10:29:24.133 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text Test Product on regulatorLocator (lp.REG) WebElement by id (formFilter:regulator) @ ListPage (lp) page
+10:29:33.666 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+10:29:33.958 [main] INFO  com.lombardrisk.pages.ListPage - Set form=CAGS v4
+10:29:34.754 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text CAGS v4 on formLocator (lp.Form) WebElement by id (formFilter:selectForm) @ ListPage (lp) page
+10:29:37.391 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=01/04/2016
+10:29:37.549 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 01/04/2016 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+10:29:41.167 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+10:29:44.167 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking showDeleteReturn (lp.showDeleteReturn) WebButton by id (FormInstImpExpMenu:showDeletedReturns) @ ListPage (lp) page
+10:35:44.463 [main] INFO  com.lombardrisk.testCase.DeleteReturn - setup test before starting feature id deletereturn, scenario id deletereturn
+10:35:44.469 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+10:35:44.477 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+10:35:44.940 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+10:35:45.477 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+10:35:45.486 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+10:35:45.493 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+10:35:47.929 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 84e4d06762aa057eb2c91c58dda997e7
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir12844_26477}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+10:35:47.929 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+10:35:50.030 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+10:35:51.190 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+10:35:51.936 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+10:35:51.976 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+10:35:52.019 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+10:35:52.054 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+10:35:52.102 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+10:35:59.195 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Get user format
+10:35:59.340 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Expected language is:en_GB
+10:35:59.343 [main] INFO  com.lombardrisk.testCase.DeleteReturn - ====Verify delete edition comments is required,case[5650]====
+10:35:59.373 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+10:35:59.373 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=Test Product
+10:35:59.525 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+10:35:59.906 [main] INFO  com.lombardrisk.pages.ListPage - Set form=CAGS v4
+10:36:00.857 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=01/04/2016
+10:36:01.028 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 01/04/2016 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+10:36:04.657 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+10:36:12.199 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking showDeleteReturn (lp.showDeleteReturn) WebButton by id (FormInstImpExpMenu:showDeletedReturns) @ ListPage (lp) page
+10:46:39.925 [main] INFO  com.lombardrisk.testCase.DeleteReturn - setup test before starting feature id deletereturn, scenario id deletereturn
+10:46:39.930 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+10:46:39.940 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+10:46:40.340 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+10:46:40.741 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+10:46:40.745 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+10:46:40.750 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+10:46:43.220 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: e59319027136ba74f147947bf403c9af
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir17592_21079}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+10:46:43.220 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+10:46:44.838 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+10:46:45.984 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+10:46:46.782 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+10:46:46.819 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+10:46:46.854 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+10:46:46.884 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+10:46:46.923 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+10:46:55.060 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Get user format
+10:46:55.206 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Expected language is:en_GB
+10:46:55.209 [main] INFO  com.lombardrisk.testCase.DeleteReturn - ====Verify delete edition comments is required,case[5650]====
+10:46:55.245 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+10:46:55.245 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=Test Product
+10:46:55.392 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+10:46:55.690 [main] INFO  com.lombardrisk.pages.ListPage - Set form=CAGS v4
+10:46:56.540 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=01/04/2016
+10:46:56.686 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 01/04/2016 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+10:47:28.407 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 01/04/2016 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+10:47:58.624 [main] ERROR com.lombardrisk.testCase.DeleteReturn - Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6@2db33feb (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir17592_21079}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e59319027136ba74f147947bf403c9af
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6@2db33feb (tried for 30 second(s) with 3000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir17592_21079}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e59319027136ba74f147947bf403c9af
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80) ~[selenium-support-3.0.1.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper.selectByVisibleText(WebDriverWrapper.java:716) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at com.lombardrisk.pages.ListPage.setProcessDate(ListPage.java:143) ~[classes/:na]
+	at com.lombardrisk.pages.ListPage.getProductListPage(ListPage.java:2023) ~[classes/:na]
+	at com.lombardrisk.testCase.DeleteReturn.test5650(DeleteReturn.java:317) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149) [testng-6.8.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1057) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng-6.8.8.jar:na]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng-6.8.8.jar:na]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125) [testng-plugin.jar:na]
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 01/04/2016
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'sha-lri-pc-256', ip: '10.20.0.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151) ~[selenium-support-3.0.1.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6.apply(WebDriverWrapper.java:719) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.yiwan.webcore.web.WebDriverWrapper$WebLocatorWrapper$6.apply(WebDriverWrapper.java:716) ~[webcore-2.0.0-SNAPSHOT.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238) ~[selenium-support-3.0.1.jar:na]
+	... 29 common frames omitted
+10:47:58.699 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Case[5650] is failed
+10:47:59.482 [main] INFO  com.lombardrisk.testCase.DeleteReturn - tearDown after method
+10:47:59.482 [main] INFO  com.lombardrisk.testCase.DeleteReturn - teardown test after finishing feature id deletereturn, scenario id deletereturn
+10:47:59.482 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+10:47:59.482 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+10:48:01.793 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver
+10:48:54.502 [main] INFO  com.lombardrisk.testCase.DeleteReturn - setup test before starting feature id deletereturn, scenario id deletereturn
+10:48:54.507 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available before polling
+10:48:54.516 [main] INFO  org.yiwan.webcore.test.TestCaseManager - polled test environment
+{"applicationServers":[{"id":0,"name":"default","url":"http://10.20.0.79:8080","host":null,"port":null,"version":null,"username":"rpadmin","password":"password","key":null,"hardwareInformation":null,"softwareInformations":null}],"databaseServers":[{"id":0,"name":"ar_database","driver":"sqlserver","url":null,"host":"172.20.20.230\\sql12","port":null,"version":null,"instance":null,"schema":"AR_AUTO_OWNERv2","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":1,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"SCHD1_DMP","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null},{"id":2,"name":"ofsaa_database","driver":"oracle","url":null,"host":"172.20.20.49@ora12c","port":null,"version":null,"instance":null,"schema":"FR2052A","dump":null,"username":null,"password":null,"hardwareInformation":null,"softwareInformations":null}]}
+10:48:54.880 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - starting proxy
+10:48:55.280 [main] INFO  org.yiwan.webcore.bmproxy.observer.FileDownloadObserver - setup proxy to support file download mechanism
+10:48:55.284 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing local test mode
+10:48:55.289 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - choosing browser chrome
+10:48:57.667 [main] INFO  org.yiwan.webcore.web.WebDriverWrapperFactory - created web driver with following information
+Session ID: 3c6f4ba7a5a3facc139f4ffd1fa91510
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir17012_8595}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.6, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+10:48:57.668 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - deleting all cookies
+10:49:00.489 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - maximizing browser
+10:49:01.688 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - navigating to url http://10.20.0.79:8080
+10:49:03.970 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+10:49:04.010 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing rpadmin on usernameLocator (hm.name) WebEdit by id (loginForm:inputUsername) @ HomePage (hm) page
+10:49:04.052 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+10:49:04.085 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing password on passwordLocator (hm.pwd) WebEdit by id (loginForm:inputPassword) @ HomePage (hm) page
+10:49:04.121 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking loginButtonLocator (hm.login) WebButton by id (loginForm:btnSignIn) @ HomePage (hm) page
+10:49:10.431 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Get user format
+10:49:10.589 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Expected language is:en_GB
+10:49:10.593 [main] INFO  com.lombardrisk.testCase.DeleteReturn - ====Verify delete edition comments is required,case[5650]====
+10:49:10.637 [main] INFO  com.lombardrisk.pages.ListPage - Enter list page
+10:49:10.638 [main] INFO  com.lombardrisk.pages.ListPage - Set regulator=Test Product
+10:49:10.824 [main] INFO  com.lombardrisk.pages.ListPage - Set entity=0001
+10:49:11.167 [main] INFO  com.lombardrisk.pages.ListPage - Set form=CAGS v4
+10:49:12.132 [main] INFO  com.lombardrisk.pages.ListPage - Set setProcessDate=01/04/2016
+10:49:12.304 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - selecting by visible text 01/04/2016 on processDateLocator (lp.Date) WebElement by id (formFilter:selectProcessDate) @ ListPage (lp) page
+10:49:15.927 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - wait 3000 milliseconds
+10:49:34.784 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking showDeleteReturn (lp.showDeleteReturn) WebButton by id (FormInstImpExpMenu:showDeletedReturns) @ ListPage (lp) page
+10:49:56.151 [main] INFO  com.lombardrisk.pages.ShowDeletedReturnPage - Begin restore form [CAGS v4@01/04/2016]
+10:49:56.245 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking radioButton (sdrp.radioBtn2) WebRadioGroup by xpath (//*[@id='deletedReturnsListForm:deletedReturnListTable_data']/tr[td[2]='01/04/2016' and td[3]='CAGS' and td[4]=4 and td[5]=3]/td/div/div[2]/span) @ ShowDeleteReturnPage (sdrp) page
+10:49:57.451 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking restoreBtn (sdrp.restoreBtn) WebButton by id (deletedReturnsListForm:restoreDeletedReturns) @ ShowDeleteReturnPage (sdrp) page
+10:49:58.685 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on comment (sdrp.comment) WebEdit by id (restoreReturnCommentForm:restoreReturnCommentTxt) @ ShowDeleteReturnPage (sdrp) page
+10:49:58.728 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing restore test on comment (sdrp.comment) WebEdit by id (restoreReturnCommentForm:restoreReturnCommentTxt) @ ShowDeleteReturnPage (sdrp) page
+10:49:59.335 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking restoreConfirm (sdrp.restoreConfirm) WebEdit by id (restoreReturnCommentForm:restoreReturn) @ ShowDeleteReturnPage (sdrp) page
+10:50:08.613 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking cancelBtn (sdrp.cancelBtn) WebButton by id (deletedReturnsListForm:deletedReturnsListCancel) @ ShowDeleteReturnPage (sdrp) page
+10:50:11.167 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteReturnLog (lp.deleteReturnLog) WebButton by id (FormInstImpExpMenu:deleteReturnLog) @ ListPage (lp) page
+10:50:13.350 [main] INFO  com.lombardrisk.pages.DeleteReturnLogPage - Begin get log amount in delete return log page
+10:50:13.582 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking lastPage (drlp.lastPage) WebElement by xpath (.//*[@id='deleteReturnLogListForm:deleteReturnLogListTable_paginator_bottom']/span[5]) @ DeleteReturnLogPage (drlp) page
+10:50:14.336 [main] INFO  com.lombardrisk.pages.DeleteReturnLogPage - Close delete return log page
+10:50:14.337 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeWindow (drlp.closeWindow) WebButton by id (deleteReturnLogListForm:deleteReturnLogListCancel) @ DeleteReturnLogPage (drlp) page
+10:50:14.992 [main] INFO  com.lombardrisk.pages.DeleteReturnLogPage - There are 18  logs
+10:50:16.313 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking editionMag (lp.editionMag) WebElement by id (formInstanceListForm:formInstanceListTable:0:edition) @ ListPage (lp) page
+10:50:18.679 [main] INFO  com.lombardrisk.pages.EditionManagePage - Begin delete edition 3
+10:50:18.679 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking edition.delete (edm.edition.delete) WebElement by xpath (//td[a='3']/parent::*/parent::*/parent::*/parent::*/parent::*/td/a/img) @ EditionManagePage (edm) page
+10:50:18.831 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking edition.confirm (edm.edition.confirm) WebButton by id (deleteEditionMessageForm:deleteEditionConfirm) @ EditionManagePage (edm) page
+10:50:22.572 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clearing value on edition.comment (edm.edition.comment) WebEdit by id (deleteEditionCommentForm:deleteEditionCommentTxt) @ EditionManagePage (edm) page
+10:50:22.618 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - typing test delete edition on edition.comment (edm.edition.comment) WebEdit by id (deleteEditionCommentForm:deleteEditionCommentTxt) @ EditionManagePage (edm) page
+10:50:22.691 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking edition.comment.confirm (edm.edition.comment.confirm) WebButton by id (deleteEditionCommentForm:deleteEdition) @ EditionManagePage (edm) page
+10:50:30.550 [main] INFO  com.lombardrisk.pages.EditionManagePage - Close edition manager page
+10:50:30.551 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeEdition (edm.closeEdition) WebElement by xpath (//*[@id='formInstanceEditionManagerDialog']/div[1]/a/span) @ EditionManagePage (edm) page
+10:50:34.583 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking deleteReturnLog (lp.deleteReturnLog) WebButton by id (FormInstImpExpMenu:deleteReturnLog) @ ListPage (lp) page
+10:50:35.975 [main] INFO  com.lombardrisk.pages.DeleteReturnLogPage - Begin get log amount in delete return log page
+10:50:36.041 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking firstPage (drlp.firstPage) WebElement by xpath (.//*[@id='deleteReturnLogListForm:deleteReturnLogListTable_paginator_bottom']/span[1]) @ DeleteReturnLogPage (drlp) page
+10:50:36.885 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking lastPage (drlp.lastPage) WebElement by xpath (.//*[@id='deleteReturnLogListForm:deleteReturnLogListTable_paginator_bottom']/span[5]) @ DeleteReturnLogPage (drlp) page
+10:50:37.633 [main] INFO  com.lombardrisk.pages.DeleteReturnLogPage - Close delete return log page
+10:50:37.633 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - clicking closeWindow (drlp.closeWindow) WebButton by id (deleteReturnLogListForm:deleteReturnLogListCancel) @ DeleteReturnLogPage (drlp) page
+10:50:38.295 [main] INFO  com.lombardrisk.pages.DeleteReturnLogPage - There are 19  logs
+10:50:40.959 [main] INFO  com.lombardrisk.testCase.DeleteReturn - Case[5650] is passed
+10:50:50.281 [main] INFO  com.lombardrisk.testCase.DeleteReturn - tearDown after method
+10:50:50.281 [main] INFO  com.lombardrisk.testCase.DeleteReturn - teardown test after finishing feature id deletereturn, scenario id deletereturn
+10:50:50.281 [main] INFO  org.yiwan.webcore.test.TestCaseManager - 5 test environments is available after offering
+10:50:50.281 [main] INFO  org.yiwan.webcore.bmproxy.ProxyWrapper - stopping proxy
+10:50:52.598 [main] INFO  org.yiwan.webcore.web.ChromeDriverWrapper - quiting driver

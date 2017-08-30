@@ -1,0 +1,53 @@
+﻿2017-08-11T02:49:43+0800	---------------Start----------------
+2017-08-11T02:49:43+0800	Exported file is:F:\Automation\arauto\arsel\target\result\data\download\FED_SP0_0001_FRY9C_v1_20140930.xlsx
+2017-08-11T02:49:43+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170810\Precision\CheckCellValue/FRYPC_v1_NoScale.xlsx
+2017-08-11T02:49:43+0800	Start time is:11/08/2017 02:49:43
+2017-08-11T02:49:51+0800	Verify row:2
+2017-08-11T02:49:51+0800	Verify row:3
+2017-08-11T02:49:51+0800	Verify row:4
+2017-08-11T02:49:51+0800	Verify row:5
+2017-08-11T02:49:51+0800	Complate....
+2017-08-11T02:49:51+0800	---------------End----------------
+2017-08-11T02:50:04+0800	---------------Start----------------
+2017-08-11T02:50:04+0800	Exported file is:F:\Automation\arauto\arsel\target\result\data\download\FED_SP0_0001_FRY9C_v1_20140930.xlsx
+2017-08-11T02:50:04+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170810\Precision\CheckCellValue/FRYPC_v1_WithScale.xlsx
+2017-08-11T02:50:04+0800	Start time is:11/08/2017 02:50:04
+2017-08-11T02:50:12+0800	Verify row:2
+2017-08-11T02:50:12+0800	Verify row:3
+2017-08-11T02:50:12+0800	Verify row:4
+2017-08-11T02:50:12+0800	Verify row:5
+2017-08-11T02:50:12+0800	Complate....
+2017-08-11T02:50:12+0800	---------------End----------------
+2017-08-11T05:05:38+0800	---------------Start----------------
+2017-08-11T05:05:38+0800	Exported file is:F:\Automation\arauto\arsel\target\result\data\download\RBIForAutomation_0001_RLC_v2_20160831.xlsx
+2017-08-11T05:05:38+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170810\DropDown\CheckCellValue/RLCv2_ExpectedValue.xlsx
+2017-08-11T05:05:38+0800	Start time is:11/08/2017 05:05:38
+2017-08-11T05:05:39+0800	Verify row:2
+2017-08-11T05:05:39+0800	Verify row:3
+2017-08-11T05:05:39+0800	Complate....
+2017-08-11T05:05:39+0800	---------------End----------------
+2017-08-11T05:16:01+0800	---------------Start----------------
+2017-08-11T05:16:01+0800	Exported file is:F:\Automation\arauto\arsel\target\result\data\download\FED_0001_FRY14QCNTPY_v3_20151111.xlsx
+2017-08-11T05:16:01+0800	TestData file is:F:\Automation\arauto\arsel\target\TestResult\20170810\OtherModule\C4769\FRY14QCNTPY_v3_ExpectedValue_CheckExcel.xlsx
+2017-08-11T05:16:01+0800	Start time is:11/08/2017 05:16:01
+2017-08-11T05:16:31+0800	Verify row:2
+2017-08-11T05:16:31+0800	Verify row:3
+2017-08-11T05:16:32+0800	Verify row:4
+2017-08-11T05:16:32+0800	Verify row:5
+2017-08-11T05:16:32+0800	Verify row:6
+2017-08-11T05:16:32+0800	Verify row:7
+2017-08-11T05:16:32+0800	Verify row:8
+2017-08-11T05:16:32+0800	Verify row:9
+2017-08-11T05:16:32+0800	Verify row:10
+2017-08-11T05:16:32+0800	Verify row:11
+2017-08-11T05:16:32+0800	Verify row:12
+2017-08-11T05:16:32+0800	Verify row:13
+2017-08-11T05:16:32+0800	Verify row:14
+2017-08-11T05:16:32+0800	Verify row:15
+2017-08-11T05:16:32+0800	Verify row:16
+2017-08-11T05:16:32+0800	Verify row:17
+2017-08-11T05:16:32+0800	Verify row:18
+2017-08-11T05:16:32+0800	Verify row:19
+2017-08-11T05:16:32+0800	Verify row:20
+2017-08-11T05:16:32+0800	Complate....
+2017-08-11T05:16:32+0800	---------------End----------------
